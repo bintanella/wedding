@@ -256,7 +256,7 @@
       <div class="margin-top-28 margin-x-auto width-100" style="max-width: 680px;">
         <div class="swiper swiper1">
           <div class="swiper-wrapper">
-            <div v-for="gallery in gallery1" class="swiper-slide width-50 padding-x-4">
+            <div v-for="gallery in gallery1" class="swiper-slide padding-x-4" style="width: 50%;">
               <div class="has-bg-img rounded-8" style="height: 420px;">
                 <div class="bg-img bg-img-no-repeat"
                   :style="{
@@ -270,7 +270,7 @@
         </div>
         <div class="swiper swiper2 margin-top-8">
           <div class="swiper-wrapper">
-            <div v-for="gallery in gallery2" class="swiper-slide width-1-3 padding-x-4">
+            <div v-for="gallery in gallery2" class="swiper-slide padding-x-4" style="width: 33.3%;">
               <div class="has-bg-img rounded-8" style="height: 132px;">
                 <div class="bg-img bg-img-no-repeat"
                   :style="{
