@@ -1916,7 +1916,10 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                 _vm._l(_vm.gallery1, function (gallery) {
                   return _c(
                     "div",
-                    { staticClass: "swiper-slide width-50 padding-x-4" },
+                    {
+                      staticClass: "swiper-slide padding-x-4",
+                      staticStyle: { width: "50%" },
+                    },
                     [
                       _c(
                         "div",
@@ -1949,7 +1952,10 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                 _vm._l(_vm.gallery2, function (gallery) {
                   return _c(
                     "div",
-                    { staticClass: "swiper-slide width-1-3 padding-x-4" },
+                    {
+                      staticClass: "swiper-slide padding-x-4",
+                      staticStyle: { width: "33.3%" },
+                    },
                     [
                       _c(
                         "div",
@@ -2672,7 +2678,6 @@ if (false) { var BintanElla_api; }
 BintanElla_component.options.__file = "src/pages-vue/BintanElla.vue"
 /* harmony default export */ var BintanElla = (BintanElla_component.exports);
 ;// CONCATENATED MODULE: ./src/index-vue.js
-var index_vue_dirname = "/";
 
 
 
@@ -2705,8 +2710,8 @@ vue_runtime_esm/* default.prototype.$url */.Z.prototype.$url = url; // function 
 
 var router = new vue_router_esm/* default */.Z({
   mode: 'history',
-  base: index_vue_dirname,
-  // base: '/wedding',
+  // base: __dirname,
+  base: '/wedding',
   scrollBehavior: function scrollBehavior(to, from, savedPosition) {
     return savedPosition || {
       x: 0,
@@ -2960,4 +2965,4 @@ module.exports = content.locals || {};
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.6c56d029.js.map
+//# sourceMappingURL=main.c2f7dfc8.js.map
