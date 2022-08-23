@@ -1,0 +1,69 @@
+@mixin border($breakpoint: "") {
+  .border#{$breakpoint},
+  .border-x#{$breakpoint},
+  .border-y#{$breakpoint},
+  .border-top#{$breakpoint},
+  .border-right#{$breakpoint},
+  .border-bottom#{$breakpoint},
+  .border-left#{$breakpoint} {
+    border-color: map-get($colors, "lighter");
+    border-width: 1px;
+  }
+
+  .border-none#{$breakpoint},
+  .border-x#{$breakpoint},
+  .border-y#{$breakpoint},
+  .border-top#{$breakpoint},
+  .border-right#{$breakpoint},
+  .border-bottom#{$breakpoint},
+  .border-left#{$breakpoint} {
+    border-style: none;
+  }
+  .border#{$breakpoint} {
+    border-style: solid;
+  }
+  .border-x#{$breakpoint} {
+    border-top-style: solid;
+    border-bottom-style: solid;
+  }
+  .border-y#{$breakpoint} {
+    border-right-style: solid;
+    border-left-style: solid;
+  }
+  .border-top#{$breakpoint} {
+    border-top-style: solid;
+  }
+  .border-right#{$breakpoint} {
+    border-right-style: solid;
+  }
+  .border-bottom#{$breakpoint} {
+    border-bottom-style: solid;
+  }
+  .border-left#{$breakpoint} {
+    border-left-style: solid;
+  }
+
+  .border-width-2#{$breakpoint} { border-width: 2px }
+  .border-width-3#{$breakpoint} { border-width: 3px }
+  .border-width-4#{$breakpoint} { border-width: 4px }
+
+  .outline-none#{$breakpoint} { outline: none }
+}
+@include border();
+@each $breakpoint, $value in $breakpoints {
+  @media (max-width: $value) {
+    @include border("-#{$breakpoint}");
+  }
+}
+
+@mixin border-color($breakpoint: "") {
+  @each $color, $value in $colors {
+    .border-#{$color}#{$breakpoint}, .hover-border-#{$color}#{$breakpoint}:hover { border-color: $value }
+  }
+}
+@include border-color();
+@each $breakpoint, $value in $breakpoints {
+  @media (max-width: $value) {
+    @include border-color("-#{$breakpoint}");
+  }
+}

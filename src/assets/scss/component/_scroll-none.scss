@@ -1,0 +1,18 @@
+@mixin scroll-none($breakpoint: "") {
+  html.scroll-none#{$breakpoint} {
+    overflow: hidden;
+
+    body {
+      position: fixed;
+      width: 100%;
+      // ios patch: stop body scrolling
+      touch-action: none;
+    }
+  }
+}
+@include scroll-none();
+@each $breakpoint, $value in $breakpoints {
+  @media (max-width: $value) {
+    @include scroll-none("-#{$breakpoint}");
+  }
+}

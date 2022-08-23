@@ -1,0 +1,19 @@
+@mixin overflow($breakpoint: "") {
+  .overflow-auto#{$breakpoint} { overflow: auto }
+  .overflow-x-auto#{$breakpoint} { overflow-x: auto }
+  .overflow-y-auto#{$breakpoint} { overflow-y: auto }
+
+  .overflow-visible#{$breakpoint} { overflow: visible }
+  .overflow-x-visible#{$breakpoint} { overflow-x: visible }
+  .overflow-y-visible#{$breakpoint} { overflow-y: visible }
+
+  .overflow-hidden#{$breakpoint} { overflow: hidden }
+  .overflow-x-hidden#{$breakpoint} { overflow-x: hidden }
+  .overflow-y-hidden#{$breakpoint} { overflow-y: hidden }
+}
+@include overflow();
+@each $breakpoint, $value in $breakpoints {
+  @media (max-width: $value) {
+    @include overflow("-#{$breakpoint}");
+  }
+}

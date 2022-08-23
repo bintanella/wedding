@@ -1,0 +1,131 @@
+body { @include text-body(); }
+
+h1, h2, h3, h4, h5, h6,
+p,
+ul, ol,
+pre, code {
+  @include text-wrap();
+  margin: 0;
+}
+
+pre, code {
+  white-space: pre-wrap;
+}
+
+ul, ol {
+  padding-left: 16px;
+}
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+
+  & > li {
+    display: inline-block;
+  }
+}
+
+hr {
+  border-top: 1px solid map-get($colors, "light");
+  border-bottom-style: none;
+  box-sizing: content-box;
+  height: 0;
+  margin: 0;
+}
+
+.a {
+  color: map-get($colors, "primary");
+  text-decoration: none;
+
+  @media(hover: hover) and (pointer: fine) {
+    &:hover {
+      color: map-get($colors, "darkest");
+    }
+  }
+
+}
+.a-nocolor {
+  color: inherit;
+}
+
+@mixin typography($breakpoint: "") {
+  .h1#{$breakpoint} {
+    font-size: 40px;
+    line-height: 44px;
+  }
+  .h2#{$breakpoint} {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .h3#{$breakpoint} {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .h4#{$breakpoint} {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .h5#{$breakpoint} {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .h6#{$breakpoint} {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .text-left#{$breakpoint} { text-align: left }
+  .text-center#{$breakpoint} { text-align: center }
+  .text-right#{$breakpoint} { text-align: right }
+  .text-justify#{$breakpoint} { text-align: justify }
+
+  .text-top#{$breakpoint} { vertical-align: top }
+  .text-middle#{$breakpoint} { vertical-align: middle }
+  .text-bottom#{$breakpoint} { vertical-align: bottom }
+
+  .text-uppercase#{$breakpoint} { text-transform: uppercase }
+  .text-lowercase#{$breakpoint} { text-transform: lowercase }
+  .text-capitalize#{$breakpoint} { text-transform: capitalize }
+
+  .text-wrap#{$breakpoint} { @include text-wrap() }
+  .text-nowrap#{$breakpoint} { white-space: nowrap }
+  .text-ellipsis#{$breakpoint} {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .text-line-none#{$breakpoint}, .hover-text-line-none#{$breakpoint}:hover { text-decoration: none }
+  .text-strike#{$breakpoint}, .hover-text-strike#{$breakpoint}:hover { text-decoration: line-through }
+  .text-underline#{$breakpoint}, .hover-text-underline#{$breakpoint}:hover { text-decoration: underline }
+  .text-underline-primary#{$breakpoint}, .hover-text-underline-primary#{$breakpoint}:hover {
+    text-decoration: underline;
+    text-decoration-color: map-get($colors, "primary");
+  }
+
+  .fs-italic#{$breakpoint} { font-style: italic }
+  .fs-normal#{$breakpoint} { font-style: normal }
+
+  .fw-100#{$breakpoint}, .fw-normal#{$breakpoint} { font-weight: 100 }
+  .fw-200#{$breakpoint}, .fw-normal#{$breakpoint} { font-weight: 200 }
+  .fw-300#{$breakpoint}, .fw-normal#{$breakpoint} { font-weight: 300 }
+  .fw-400#{$breakpoint}, .fw-normal#{$breakpoint} { font-weight: 400 }
+  .fw-500#{$breakpoint} { font-weight: 500 }
+  .fw-600#{$breakpoint} { font-weight: 600 }
+  .fw-700#{$breakpoint}, .fw-bold#{$breakpoint} { font-weight: 700 }
+  .fw-800#{$breakpoint} { font-weight: 800 }
+
+  .cursor-pointer#{$breakpoint} { cursor: pointer }
+  .cursor-default#{$breakpoint} { cursor: default }
+  .cursor-progress#{$breakpoint} { cursor: progress }
+  .cursor-not-allowed#{$breakpoint} { cursor: not-allowed }
+}
+@include typography();
+@each $breakpoint, $value in $breakpoints {
+  @media (max-width: $value) {
+    @include typography("-#{$breakpoint}");
+  }
+}

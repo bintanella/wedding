@@ -1,0 +1,17 @@
+@mixin text-body() {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@mixin text-wrap() {
+  max-width: 100%;
+  word-break: normal;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+@mixin disabled-common() {
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8vwkAArYBs3xK2c8AAAAASUVORK5CYII=);
+  border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8vwkAArYBs3xK2c8AAAAASUVORK5CYII=);
+  cursor: not-allowed;
+}

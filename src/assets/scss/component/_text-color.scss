@@ -1,0 +1,16 @@
+@mixin text-color($breakpoint: "") {
+  @each $color, $value in $colors {
+    .text-#{$color}#{$breakpoint} { color: $value }
+    .active-text-#{$color}#{$breakpoint}:active { color: $value }
+
+    @media(hover: hover) and (pointer: fine) {
+      .hover-text-#{$color}#{$breakpoint}:hover { color: $value }
+    }
+  }
+}
+@include text-color();
+@each $breakpoint, $value in $breakpoints {
+  @media (max-width: $value) {
+    @include text-color("-#{$breakpoint}");
+  }
+}

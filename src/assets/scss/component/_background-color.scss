@@ -1,0 +1,34 @@
+@mixin bg-color($breakpoint: "") {
+  @each $color, $value in $colors {
+    .bg-#{$color}#{$breakpoint} {
+      background-color: $value;
+    }
+  }
+  .bg-transparent#{$breakpoint} {
+    background-color: transparent;
+  }
+
+  @each $color, $value in $colors {
+    .hover-bg-#{$color}#{$breakpoint}:hover {
+      background-color: $value;
+    }
+  }
+  .hover-bg-transparent#{$breakpoint}:hover {
+    background-color: transparent;
+  }
+
+  @each $color, $value in $colors {
+    .active-bg-#{$color}#{$breakpoint}:active {
+      background-color: $value;
+    }
+  }
+  .hover-bg-transparent#{$breakpoint}:hover {
+    background-color: transparent;
+  }
+}
+@include bg-color();
+@each $breakpoint, $value in $breakpoints {
+  @media (max-width: $value) {
+    @include bg-color("-#{$breakpoint}");
+  }
+}

@@ -1,0 +1,47 @@
+$skeleton-background-color: #E7E7E7 !default;
+$skeleton-moving-color: #FFFFFF !default;
+$skeleton-animation-duration: 3s !default;
+
+@keyframes skeletonAnimation {
+  0% { transform: translate3d(-30%, 0, 0) }
+  100% { transform: translate3d(30%, 0, 0) }
+}
+
+.skeleton {
+  &, *, ::after, ::before {
+    box-sizing: border-box;
+  }
+
+  direction: ltr;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+  background-color: $skeleton-background-color;
+
+  &::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    z-index: 1;
+    width: 500%;
+    margin-left: -250%;
+    animation: skeletonAnimation $skeleton-animation-duration linear infinite;
+    background:
+      linear-gradient(
+        to right,
+        rgba($skeleton-moving-color, 0) 46%,
+        rgba($skeleton-moving-color, .35) 50%,
+        rgba($skeleton-moving-color, 0) 54%
+      ) 50% 50%;
+  }
+
+  > * {
+    flex: 1 1 auto;
+    display: flex;
+    flex-flow: column;
+  }
+}

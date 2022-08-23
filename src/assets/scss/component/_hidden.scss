@@ -1,0 +1,18 @@
+@mixin hidden($breakpoint: "") {
+  .hidden#{$breakpoint} { display: none }
+}
+@include hidden();
+@each $breakpoint, $value in $breakpoints {
+  @media (max-width: $value) {
+    @include hidden("-#{$breakpoint}")
+  }
+}
+
+@mixin hidden-greater($breakpoint: "") {
+  .hidden#{$breakpoint}-greater { display: none }
+}
+@each $breakpoint, $value in $breakpoints {
+  @media (min-width: $value + 1px) {
+    @include hidden-greater("-#{$breakpoint}")
+  }
+}

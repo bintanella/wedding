@@ -1,0 +1,64 @@
+.pagination {
+  display: flex;
+  align-items: center;
+
+  .page-item {
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    color: map-get($colors, "dark");
+    padding: 4px 11px;
+    cursor: pointer;
+
+    &.previous {
+      margin-right: 15px;
+    }
+    &.next {
+      margin-left: 15px;
+    }
+
+    &.previous,
+    &.next {
+      color: map-get($colors, "black");
+      padding: 4px 0;
+
+      &.disabled {
+        color: map-get($colors, "grayer");
+      }
+    }
+
+    &.disabled {
+      color: map-get($colors, "grayer");
+      cursor: not-allowed;
+    }
+
+    &.active {
+      color: map-get($colors, "black");
+      background-color: map-get($colors, "lighter");
+      border: 1px solid map-get($colors, "grayer");
+      border-radius: 4px;
+    }
+  }
+
+  span {
+    .page-item {
+      &:not(:last-child) {
+        margin-right: 4px;
+
+        @media(max-width: 767px) {
+          margin-right: 32px;
+        }
+      }
+    }
+
+    .ellipsis {
+      padding: 0 !important;
+      margin-right: 4px;
+
+      @media(max-width: 767px) {
+        margin-right: 32px;
+      }
+    }
+  }
+}

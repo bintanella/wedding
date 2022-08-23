@@ -1,0 +1,6 @@
+*,
+*::before,
+*::after { box-sizing: border-box }
+html, body, #app { height: 100% }
+body { touch-action: pan-x pan-y }
+img { vertical-align: middle }

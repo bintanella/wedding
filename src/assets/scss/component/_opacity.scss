@@ -1,0 +1,11 @@
+@mixin opacity($breakpoint: "") {
+  @each $percentage in $percentages {
+    .opacity-#{$percentage}#{$breakpoint} { opacity: calc($percentage / 100) }
+  }
+}
+@include opacity();
+@each $breakpoint, $value in $breakpoints {
+  @media (max-width: $value) {
+    @include opacity("-#{$breakpoint}");
+  }
+}

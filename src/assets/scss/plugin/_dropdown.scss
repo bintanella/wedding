@@ -1,0 +1,26 @@
+.dropdown {
+  background-color: #FFF;
+  border-radius: 4px;
+  min-width: 160px;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  box-shadow: map-get($shadows, 4);
+
+  &.dropdown-top {
+    bottom: calc(100% + 4px);
+    left: 0;
+  }
+  &.dropdown-bottom {
+    top: calc(100% + 4px);
+    left: 0;
+  }
+  &.dropdown-left {
+    right: calc(100% + 4px);
+    top: 0;
+  }
+  &.dropdown-right {
+    left: calc(100% + 4px);
+    top: 0;
+  }
+}

@@ -1,0 +1,40 @@
+@mixin rounded($breakpoint: "") {
+  $sizes: 4, 8, 12, 16;
+  @each $size in $sizes {
+    .rounded-#{$size}#{$breakpoint} {
+      border-radius: #{$size}px;
+      overflow: hidden;
+    }
+  }
+}
+@include rounded();
+@each $breakpoint, $value in $breakpoints {
+  @media (max-width: $value) {
+    @include rounded("-#{$breakpoint}");
+  }
+}
+
+@mixin circle($breakpoint: "") {
+  .circle#{$breakpoint} {
+    border-radius: 50%;
+    overflow: hidden;
+  }
+}
+@include circle();
+@each $breakpoint, $value in $breakpoints {
+  @media (max-width: $value) {
+    @include circle("-#{$breakpoint}");
+  }
+}
+
+@mixin square($breakpoint: "") {
+  .square#{$breakpoint} {
+    border-radius: 0;
+  }
+}
+@include square();
+@each $breakpoint, $value in $breakpoints {
+  @media (max-width: $value) {
+    @include square("-#{$breakpoint}");
+  }
+}

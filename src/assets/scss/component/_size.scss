@@ -1,0 +1,29 @@
+@mixin size($breakpoint: "") {
+  @each $size in $sizes {
+    .width-#{$size}px#{$breakpoint} { width: #{$size}px }
+    .height-#{$size}px#{$breakpoint} { height: #{$size}px }
+  }
+
+  @each $percentage in $percentages {
+    .width-#{$percentage}#{$breakpoint} { width: $percentage * 1% }
+    .height-#{$percentage}#{$breakpoint} { height: $percentage * 1% }
+  }
+
+  .width-1-3#{$breakpoint} { width: calc(100% / 3) }
+  .width-2-3#{$breakpoint} { width: calc(100% / 1.5) }
+  .width-100vw#{$breakpoint} { width: 100vw }
+  .width-auto#{$breakpoint} { width: auto }
+  .max-width-100#{$breakpoint} { max-width: 100% }
+
+  .height-1-3#{$breakpoint} { height: calc(100% / 3) }
+  .height-2-3#{$breakpoint} { height: calc(100% / 1.5) }
+  .height-100vh#{$breakpoint} { height: 100vh }
+  .height-auto#{$breakpoint} { height: auto }
+  .max-height-100#{$breakpoint} { max-height: 100% }
+}
+@include size();
+@each $breakpoint, $value in $breakpoints {
+  @media (max-width: $value) {
+    @include size("-#{$breakpoint}");
+  }
+}

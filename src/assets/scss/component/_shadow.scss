@@ -1,0 +1,12 @@
+@mixin shadow($breakpoint: "") {
+  .shadow-none { box-shadow: none }
+  @each $shadow, $value in $shadows {
+    .shadow-#{$shadow}#{$breakpoint} { box-shadow: $value }
+  }
+}
+@include shadow();
+@each $breakpoint, $value in $breakpoints {
+  @media (max-width: $value) {
+    @include shadow("-#{$breakpoint}");
+  }
+}

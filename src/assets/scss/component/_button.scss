@@ -1,0 +1,105 @@
+.button {
+  display: inline-block;
+  text-align: center;
+  user-select: none;
+
+  color: #000000;
+  background-color: transparent;
+  border: 1px solid #000000;
+  
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 8px 20px;
+
+  &:not(.disabled),
+  &:not(:disabled),
+  &:not([disabled]){
+    cursor: pointer;
+  }
+
+  &.disabled,
+  &:disabled,
+  &[disabled] {
+    // fix ios problem
+    opacity: 1 !important;
+
+    @include disabled-common();
+  }
+}
+
+@mixin button-color($breakpoint: "") {
+  @each $color, $value in $colors {
+    .button-#{$color}#{$breakpoint} {
+      color: map-get($colors-foreground-text, $color);
+      background-color: $value;
+      border-color: $value;
+    }
+    .button-stroke-#{$color}#{$breakpoint} {
+      color: $value;
+      background-color: map-get($colors-foreground-text, $color);
+      border-color: $value;
+    }
+  }
+}
+@include button-color();
+@each $breakpoint, $value in $breakpoints {
+  @media (max-width: $value) {
+    @include button-color("-#{$breakpoint}");
+  }
+}
+
+@media(hover: hover) and (pointer: fine) {
+  @mixin hover-button-color($breakpoint: "") {
+    @each $color, $value in $colors {
+      .hover-button-#{$color}#{$breakpoint}:hover {
+        color: map-get($colors-foreground-text, $color);
+        background-color: $value;
+        border-color: $value;
+      }
+      .hover-button-stroke-#{$color}#{$breakpoint}:hover {
+        color: $value;
+        background-color: map-get($colors-foreground-text, $color);
+        border-color: $value;
+      }
+    }
+  }
+  @include hover-button-color();
+  @each $breakpoint, $value in $breakpoints {
+    @media (max-width: $value) {
+      @include hover-button-color("-#{$breakpoint}")
+    }
+  }
+}
+
+.button-block {
+  display: block;
+  width: 100%;
+}
+.button-lg {
+  padding: 16px 24px;
+  font-size: 20px;
+  line-height: 26px;
+}
+.button-md {
+  padding: 12px 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.button-sm {
+  padding: 8px 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.button-xs {
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.button-xxs {
+  padding: 4px 12px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+}

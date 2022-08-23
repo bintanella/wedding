@@ -1,0 +1,291 @@
+.form-label {
+  display: block;
+  
+  margin-bottom: 12px;
+  color: map-get($colors, "grayer");
+}
+
+.form-text,
+.form-textarea,
+.form-dropdown {
+  display: block;
+  width: 100%;
+  vertical-align: top;
+  background-clip: padding-box;
+
+  padding: 8px 16px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: map-get($colors, "darkest");
+  background-color: map-get($colors, "white");
+  border: 1px solid map-get($colors, "light");
+  border-radius: 4px;
+
+  &::placeholder {
+    // fix ios problem
+    opacity: 1;
+
+    color: map-get($colors, "grayer");
+    font-weight: 400;
+  }
+
+  &:focus,
+  &:focus + .form-blend {
+    outline: 0;
+    
+    border-color: map-get($colors, "primary");
+  }
+
+  &:disabled:not([class^="bg-"]):not([class*=" bg-"]),
+  &:disabled:not([class^="bg-"]):not([class*=" bg-"]) + .form-blend,
+  &[disabled]:not([class^="bg-"]):not([class*=" bg-"]),
+  &[disabled]:not([class^="bg-"]):not([class*=" bg-"]) + .form-blend,
+  &[readonly]:not([class^="bg-"]):not([class*=" bg-"]),
+  &[readonly]:not([class^="bg-"]):not([class*=" bg-"]) + .form-blend {
+    // fix ios problem
+    opacity: 1;
+    
+    background-color: map-get($colors, "lighter");
+  }
+}
+.resize-none { resize: none }
+
+// specific dropdown styling
+.form-dropdown {
+  appearance: none;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQgNkw4IDEwTDEyIDYiIHN0cm9rZT0iIzY2Njg2QiIgc3Ryb2tlLXdpZHRoPSIxLjMzMzMzIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg==");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  padding-right: 28px; // original padding 16px + 12px of arrow img
+}
+
+.form-group {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+
+  & > * {
+    border-radius: 0;
+    border-style: solid;
+    border-width: 1px 0;
+  }
+  & > *:first-child {
+    border-left-width: 1px;
+
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  & > *:last-child {
+    border-right-width: 1px;
+
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  .form-text,
+  .form-textarea,
+  .form-dropdown {
+    flex: 1 1 auto;
+    width: 1%;
+    min-width: 0;
+    z-index: 1;
+  }
+
+  .form-prepend,
+  .form-append {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    white-space: nowrap;
+
+    padding: 8px 16px;
+
+    &.form-blend {
+      background-color: map-get($colors, "white");
+      border-color: map-get($colors, "light");
+    }
+  }
+}
+
+// other form types
+.form-checkbox,
+.form-radio {
+  label {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    color: map-get($colors, "darkest");
+  }
+}
+.form-checkbox {
+  [type="checkbox"] {
+    margin-right: 8px;
+  }
+
+  &.form-checkbox-inline {
+    display: flex;
+    flex-direction: row;
+
+    label {
+      margin-right: 16px;
+      margin-bottom: 0;
+    }
+  }
+}
+.form-radio {
+  [type="radio"] {
+    margin-right: 8px;
+  }
+
+  &.form-radio-inline {
+    display: flex;
+    flex-direction: row;
+
+    label {
+      margin-right: 16px;
+      margin-bottom: 0;
+    }
+  }
+}
+
+// stroke/fill checkbox & radio
+// hide the default
+.form-checkbox-stroke [type="checkbox"],
+.form-checkbox-fill [type="checkbox"],
+.form-radio-stroke [type="radio"],
+.form-radio-fill [type="radio"] {
+  display: none;
+}
+
+// container
+.form-checkbox-stroke input + i,
+.form-checkbox-fill input + i,
+.form-radio-stroke input + i,
+.form-radio-fill input + i {
+  background: #FFFFFF;
+  flex: 0 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+  border: 1px solid map-get($colors, "light");
+}
+.form-checkbox-stroke input:disabled + i,
+.form-checkbox-fill input:disabled + i,
+.form-radio-stroke input:disabled + i,
+.form-radio-fill input:disabled + i {
+  background: map-get($colors, "lighter");
+}
+.form-checkbox-stroke input + i,
+.form-checkbox-fill input + i {
+  border-radius: 4px;
+}
+.form-radio-stroke input + i,
+.form-radio-fill input + i {
+  border-radius: 50%;
+}
+// container checked
+.form-checkbox-stroke label input:checked + i,
+.form-radio-stroke label input:checked + i {
+  border-color: map-get($colors, "light");
+  background-color: transparent;
+}
+.form-checkbox-fill label input:checked + i {
+  border-color: map-get($colors, "primary");
+  background-color: map-get($colors, "primary");
+}
+.form-radio-fill label input:checked + i {
+  border-color: map-get($colors, "primary");
+  background-color: map-get($colors, "white");
+  border-width: 4px;
+}
+// container checked
+.form-checkbox-stroke input:checked + i {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEzLjMzMzQgNEw2LjAwMDAyIDExLjMzMzNMMi42NjY2OSA4IiBzdHJva2U9IiMyNkNGRDgiIHN0cm9rZS13aWR0aD0iMS4zMzMzMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+Cjwvc3ZnPgo=");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.form-checkbox-fill input:checked + i {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEzLjMzMzQgNEw2LjAwMDAyIDExLjMzMzNMMi42NjY2OSA4IiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuMzMzMzMiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.form-radio-stroke input:checked + i {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjEyIiBoZWlnaHQ9IjEyIiByeD0iNiIgZmlsbD0iIzI2Q0ZEOCIvPgo8L3N2Zz4K");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.form-radio-fill input:checked + i {
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjEyIiBoZWlnaHQ9IjEyIiByeD0iNiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+// form size
+.form-lg {
+  padding: 16px 24px;
+  font-size: 20px;
+  line-height: 26px;
+}
+.form-md {
+  padding: 12px 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.form-sm {
+  padding: 8px 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.form-xs {
+  padding: 8px 12px;
+  font-size: 14px;
+  line-height: 24px;
+}
+.form-xxs {
+  padding: 4px 12px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.form-lg.form-dropdown {
+  padding-right: 24px; // will be added by 12px more
+}
+.form-md.form-dropdown {
+  padding-right: 20px; // will be added by 12px more
+}
+.form-sm.form-dropdown {
+  padding-right: 20px; // will be added by 12px more
+}
+.form-xs.form-dropdown {
+  padding-right: 12px; // will be added by 12px more
+}
+.form-xxs.form-dropdown {
+  padding-right: 12px; // will be added by 12px more
+}
+
+// validation
+.has-error {
+  & .form-label {
+    color: map-get($colors, "red");
+  }
+
+  & .form-text,
+  & .form-textarea,
+  & .form-dropdown {
+    border-color: map-get($colors, "red");
+
+    & + .form-blend,
+    &:focus:not([class^="bg-"]):not([class*=" bg-"]),
+    &:focus:not([class^="bg-"]):not([class*=" bg-"]) + .form-blend {
+      border-color: map-get($colors, "red");
+    }
+  }
+}

@@ -1,0 +1,186 @@
+.tooltip {
+  display: block !important;
+  z-index: 10000;
+
+  .tooltip-inner {
+    background: black;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    max-width: 320px;
+    padding: 4px 8px;
+  }
+
+  .tooltip-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    position: absolute;
+    margin: 5px;
+    border-color: black;
+    z-index: 1;
+  }
+
+  &[x-placement^="top"] {
+    margin-bottom: 5px;
+
+    .tooltip-arrow {
+      border-width: 5px 5px 0 5px;
+      border-left-color: transparent !important;
+      border-right-color: transparent !important;
+      border-bottom-color: transparent !important;
+      bottom: -5px;
+      left: calc(50% - 5px);
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  &[x-placement^="bottom"] {
+    margin-top: 5px;
+
+    .tooltip-arrow {
+      border-width: 0 5px 5px 5px;
+      border-left-color: transparent !important;
+      border-right-color: transparent !important;
+      border-top-color: transparent !important;
+      top: -5px;
+      left: calc(50% - 5px);
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+
+  &[x-placement^="right"] {
+    margin-left: 5px;
+
+    .tooltip-arrow {
+      border-width: 5px 5px 5px 0;
+      border-left-color: transparent !important;
+      border-top-color: transparent !important;
+      border-bottom-color: transparent !important;
+      left: -5px;
+      top: calc(50% - 5px);
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &[x-placement^="left"] {
+    margin-right: 5px;
+
+    .tooltip-arrow {
+      border-width: 5px 0 5px 5px;
+      border-top-color: transparent !important;
+      border-right-color: transparent !important;
+      border-bottom-color: transparent !important;
+      right: -5px;
+      top: calc(50% - 5px);
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  &.popover {
+    .popover-inner {
+      background: $color-lighter-teal;
+      border-radius: 4px;
+      color: $color-black;
+      padding: 12px;
+      text-align: left;
+      @extend .shadow-4;
+
+    }
+    .popover-arrow { border-color: $color-lighter-teal }
+
+    &.popover-to-manager {
+      .popover-inner { background: $color-charcoal; padding: 0; }
+      .popover-arrow { border-color: $color-charcoal }
+    }
+
+    &[x-placement^="top"] {
+      margin-bottom: 12px;
+
+      .popover-arrow {
+        border-width: 12px 6px 0 6px;
+        bottom: -12px;
+        left: calc(50% - 6px);
+      }
+    }
+    &[x-placement^="bottom"] {
+      margin-top: 12px;
+
+      .popover-arrow {
+        border-width: 0 6px 12px 6px;
+        top: -12px;
+        left: calc(50% - 6px);
+      }
+    }
+    &[x-placement^="right"] {
+      margin-left: 12px;
+
+      .popover-arrow {
+        border-width: 6px 12px 6px 0;
+        left: -12px;
+        top: calc(50% - 6px);
+      }
+    }
+    &[x-placement^="left"] {
+      margin-right: 12px;
+
+      .popover-arrow {
+        border-width: 6px 0 6px 12px;
+        right: -12px;
+        top: calc(50% - 6px);
+      }
+    }
+  }
+
+  &[aria-hidden='true'] {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .15s, visibility .15s;
+  }
+
+  &[aria-hidden='false'] {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity .15s;
+  }
+}
+
+.tip-dialog {
+  width: 252px;
+
+  .arrow {
+    position: absolute;
+    @extend .triangle;
+    @extend .triangle-12;
+  }
+
+  // top
+  &.align-top-right .arrow, &.align-top-left .arrow {
+    bottom: 100%;
+    @extend .triangle-up;
+  }
+  &.align-top-right .arrow { right: 40px }
+  &.align-top-left .arrow { left: 40px }
+
+  // left
+  &.align-left-top .arrow, &.align-left-bottom .arrow {
+    right: 100%;
+    @extend .triangle-left;
+  }
+  &.align-left-top .arrow { top: 12px }
+  &.align-left-bottom .arrow { bottom: 12px }
+
+  @media (max-width: 1200px) {
+    &.align-top-right .arrow { right: 22px }
+    &.align-top-left .arrow { left: 22px }
+  }
+}
+
+.sidebar-collapsed {
+  .tip-dialog.align-top-left .arrow { left: 8px }
+}

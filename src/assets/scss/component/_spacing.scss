@@ -1,0 +1,47 @@
+@mixin spacing($spacing, $breakpoint: "") {
+  $sides: "", "-x", "-y", "-top", "-right", "-bottom", "-left";
+
+  @each $side in $sides {
+    @each $size in $sizes {
+      $sizePx: $size * 1px;
+
+      .#{$spacing}#{$side}-#{$size}#{$breakpoint} {
+        @if $side == "-x" {
+          #{$spacing}-left: $sizePx; #{$spacing}-right: $sizePx;
+        }
+        @else if $side == "-y" {
+          #{$spacing}-top: $sizePx; #{$spacing}-bottom: $sizePx;
+        }
+        @else {
+          #{$spacing}#{$side}: $sizePx;
+        }
+      }
+    }
+
+    @if $spacing == "margin" {
+      .margin#{$side}-auto#{$breakpoint} {
+        @if $side == "-x" {
+          margin-left: auto; margin-right: auto;
+        }
+        @else if $side == "-y" {
+          margin-top: auto; margin-bottom: auto;
+        }
+        @else {
+          margin#{$side}: auto;
+        }
+      }
+    }
+  }
+}
+@include spacing("margin");
+@each $breakpoint, $value in $breakpoints {
+  @media (max-width: $value) {
+    @include spacing("margin", "-#{$breakpoint}");
+  }
+}
+@include spacing("padding");
+@each $breakpoint, $value in $breakpoints {
+  @media (max-width: $value) {
+    @include spacing("padding", "-#{$breakpoint}");
+  }
+}
