@@ -1426,7 +1426,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                       [
                         _vm._v(
                           "\n            " +
-                            _vm._s(_vm.$t("resepsi.mempelai.mempelai2")) +
+                            _vm._s(_vm.$t("resepsi.mempelai.mempelai1")) +
                             "\n          "
                         ),
                       ]
@@ -1549,7 +1549,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                       [
                         _vm._v(
                           "\n            " +
-                            _vm._s(_vm.$t("resepsi.mempelai.mempelai2")) +
+                            _vm._s(_vm.$t("resepsi.mempelai.mempelai1")) +
                             "\n          "
                         ),
                       ]
@@ -3155,4 +3155,4 @@ module.exports = content.locals || {};
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.8c9de0a7.js.map
+//# sourceMappingURL=main.fc3d9f36.js.map

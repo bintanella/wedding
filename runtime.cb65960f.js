@@ -119,7 +119,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	!function() {
-/******/ 		__webpack_require__.p = "/wedding/";
+/******/ 		__webpack_require__.p = "/";
 /******/ 	}();
 /******/ 	
 /******/ 	/* webpack/runtime/jsonp chunk loading */
@@ -187,4 +187,4 @@
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=runtime.58a97a56.js.map
+//# sourceMappingURL=runtime.5f26b7f7.js.map
