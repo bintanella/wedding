@@ -80,7 +80,7 @@
         <div class="flex block-sm margin-top-80 margin-top-60-sm padding-top-80 padding-top-60-sm">
           <div class="width-50 width-100-sm text-center hidden-sm-greater">
             <div class="fw-300 padding-bottom-20 text-dark" style="letter-spacing: 10px;">
-              {{ $t(`resepsi.mempelai.mempelai1`) }}
+              {{ $t(`resepsi.mempelai.mempelai2`) }}
             </div>
             <div>
               <img class="margin-x-auto width-100 shadow-1 circle" style="max-width: 400px;" 
@@ -113,7 +113,7 @@
           </div>
           <div class="width-50 width-100-sm text-center hidden-sm">
             <div class="fw-300 padding-bottom-20 text-dark" style="letter-spacing: 10px;">
-              {{ $t(`resepsi.mempelai.mempelai1`) }}
+              {{ $t(`resepsi.mempelai.mempelai2`) }}
             </div>
             <div>
               <img class="margin-x-auto width-100 shadow-1 circle" style="max-width: 400px;" 
