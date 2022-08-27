@@ -1,6 +1,6 @@
 (self["webpackChunkhello_world"] = self["webpackChunkhello_world"] || []).push([[179],{
 
-/***/ 6065:
+/***/ 4274:
 /***/ (function(__unused_webpack_module, __unused_webpack___webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -282,111 +282,113 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
         resepsi: {
           cover: {
             judul: "THE WEDDING OF",
-            tanggal: "07.10.2023",
+            tanggal: "11.12.2022",
             pria: "Bintan",
             dan: "dan",
             wanita: "Ella"
           },
           alquran: {
             judul: "Qs Ar-rum 21",
-            deskripsi: "Maha Suci Allah yang telah menciptakan manusia dengan berpasang-pasangan. Dengan memohon Rahmat dan Ridho Allah SWT, kami bermaksud mengundang Saudara/i dalam acara resepsi pernikahan kami."
+            deskripsi: "Glory be to God who created spouses for you from yourselves for you to gain rest from them, and kept love and mercy between yourselves. By asking for the Grace of Allah SWT, we intend to invite you to our wedding reception."
           },
           mempelai: {
             mempelai1: "THE BRIDE",
             mempelai1Nama: "Bintan<br>Pradika",
-            mempelai1Ortu: "Ratna Alaska & Ratna Alaska",
-            mempelai1Linkedin: "http://linkedin.com",
+            mempelai1Anak: "Second son of:",
+            mempelai1Ortu: "Mr. Suratno & Mrs. Yanti",
+            mempelai1Linkedin: "https://www.linkedin.com/in/bintanpradika/",
             mempelai2: "THE GROOM",
             mempelai2Nama: "Nabila Nur<br>Harindrastuti",
-            mempelai2Ortu: "Ratna Alaska & Ratna Alaska",
-            mempelai2Linkedin: "linkedin.com"
+            mempelai2Anak: "Third daughter of:",
+            mempelai2Ortu: "Mr. Haryanto WS & Mrs. Emmy Indrati",
+            mempelai2Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/"
           },
           resepsi: {
-            judul: "RESEPSI",
-            tanggal: "MINGGU 26 MARET 2022",
-            jam: "12:00-01:00 WIB",
-            alamat: "Pantai Lepang<br>Jl. Subak Lepang No.16, Takmung,<br>Kec. Banjarangkan, Kabupaten Klungkung, Bali",
-            google: "http://gmaps.com"
+            judul: "WEDDING RECEPTION",
+            tanggal: "SUNDAY, 11 DECEMBER 2022",
+            jam: "14:00-16:00 WIB",
+            alamat: "Shangri-La Hotel<br>Jl. Jenderal Sudirman No.Kav. 1, Tanah Abang<br>Jakarta",
+            google: "https://goo.gl/maps/FcpCyjUg3NavE7ak6"
           },
           reservasi: {
-            judul: "Reservasi Kehadiran",
-            deskripsi: "Diharapkan kepada tamu undangan untuk<br>mengisi formulir kehadiran dibawah ini",
-            nama: "Nama",
-            kehadiran: "Kehadiran",
-            jumlah: "Jumlah"
+            judul: "RSVP",
+            deskripsi: "Invited guests are welocomed to<br>fill out the attendance confirmation below",
+            nama: "Name",
+            kehadiran: "Attendance",
+            jumlah: "Number of guests"
           },
           streaming: {
             judul: "Live Streaming",
-            deskripsi: "Kami akan mempublikasikan pernikahan secara virtual<br>melalui zoom dan live instagram melalui link berikut",
-            link: "http://link.com"
+            deskripsi: "Our special occasion will also available virtually<br>via zoom through the following link",
+            link: "https://zoom.us/"
           },
           gallery: {
             judul: "Our Gallery"
           },
           gift: {
             judul: "Wedding Love Gift",
-            deskripsi: "Apabila tamu ingin mengirimkan hadiah ke pada kedua mempelai<br>dapat melalui virtual account atau e-wallet",
+            deskripsi: "If guests want to send gifts to the bride and groom,<br>we would be very thankful",
             link: "http://link.com",
-            aksi: "Klik disini"
+            aksi: "Click here"
           },
           terimaKasih: {
-            judul: "Terima Kasih",
-            deskripsi: "Merupakan suatu kebahagiaan dan kehormatan bagi kami,<br>apabila Bapak/Ibu/Saudara/i berkenan hadir dan<br>memberikan do’a restu kepada Kami."
+            judul: "Thank you",
+            deskripsi: "We wish you all the very best,<br>We would be honored if you could attend our wedding"
           }
         },
         unduhMantu: {
           cover: {
             judul: "THE WEDDING OF",
-            tanggal: "07.10.2023",
+            tanggal: "17.12.2022",
             pria: "Bintan",
             dan: "dan",
             wanita: "Ella"
           },
           alquran: {
             judul: "Qs Ar-rum 21",
-            deskripsi: "Maha Suci Allah yang telah menciptakan manusia dengan berpasang-pasangan. Dengan memohon Rahmat dan Ridho Allah SWT, kami bermaksud mengundang Saudara/i dalam acara resepsi pernikahan kami."
+            deskripsi: "Glory be to God who created spouses for you from yourselves for you to gain rest from them, and kept love and mercy between yourselves. By asking for the Grace of Allah SWT, we intend to invite you to our wedding reception."
           },
           mempelai: {
             mempelai1: "THE BRIDE",
             mempelai1Nama: "Bintan<br>Pradika",
-            mempelai1Ortu: "Ratna Alaska & Ratna Alaska",
-            mempelai1Linkedin: "http://linkedin.com",
+            mempelai1Ortu: "Mr. Suratno & Mrs. Yanti",
+            mempelai1Linkedin: "https://www.linkedin.com/in/bintanpradika/",
             mempelai2: "THE GROOM",
             mempelai2Nama: "Nabila Nur<br>Harindrastuti",
-            mempelai2Ortu: "Ratna Alaska & Ratna Alaska",
-            mempelai2Linkedin: "linkedin.com"
+            mempelai2Ortu: "Mr. Haryanto WS & Mrs. Emmy Indrati",
+            mempelai2Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/"
           },
           resepsi: {
-            judul: "UNDUH MANTU",
-            tanggal: "MINGGU 26 MARET 2023",
-            jam: "12:00-01:00 WIB",
-            alamat: "Pantai Lepang<br>Jl. Subak Lepang No.16, Takmung,<br>Kec. Banjarangkan, Kabupaten Klungkung, Batam",
-            google: "http://gmaps.com"
+            judul: "NGUNDUH MANTU",
+            tanggal: "SATURDAY, 17 DECEMBER 2023",
+            jam: "12:30-17:00 WIB",
+            alamat: "Planet Holiday Hotel<br>Jl. Raja Ali H., Sei Jodoh,<br>Batam",
+            google: "https://maps.app.goo.gl/P6pggUdoGgHs9WCG6"
           },
           reservasi: {
-            judul: "Reservasi Kehadiran",
-            deskripsi: "Diharapkan kepada tamu undangan untuk<br>mengisi formulir kehadiran dibawah ini",
-            nama: "Nama",
-            kehadiran: "Kehadiran",
-            jumlah: "Jumlah"
+            judul: "RSVP",
+            deskripsi: "Invited guests are welocomed to<br>fill out the attendance confirmation below",
+            nama: "Name",
+            kehadiran: "Attendance",
+            jumlah: "Number of guests"
           },
           streaming: {
             judul: "Live Streaming",
-            deskripsi: "Kami akan mempublikasikan pernikahan secara virtual<br>melalui zoom dan live instagram melalui link berikut",
-            link: "http://link.com"
+            deskripsi: "Our special occasion will also available virtually<br>via zoom through the following link",
+            link: "https://zoom.us/"
           },
           gallery: {
             judul: "Our Gallery"
           },
           gift: {
             judul: "Wedding Love Gift",
-            deskripsi: "Apabila tamu ingin mengirimkan hadiah ke pada kedua mempelai<br>dapat melalui virtual account atau e-wallet",
+            deskripsi: "If guests want to send gifts to the bride and groom,<br>we would be very thankful",
             link: "http://link.com",
-            aksi: "Klik disini"
+            aksi: "Click here"
           },
           terimaKasih: {
-            judul: "Terima Kasih",
-            deskripsi: "Merupakan suatu kebahagiaan dan kehormatan bagi kami,<br>apabila Bapak/Ibu/Saudara/i berkenan hadir dan<br>memberikan do’a restu kepada Kami."
+            judul: "Thank you",
+            deskripsi: "We wish you all the very best,<br>We would be honored if you could attend our wedding"
           }
         }
       }
@@ -414,7 +416,7 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
         resepsi: {
           cover: {
             judul: "THE WEDDING OF",
-            tanggal: "07.10.2023",
+            tanggal: "11.12.2022",
             pria: "Bintan",
             dan: "dan",
             wanita: "Ella"
@@ -426,19 +428,19 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           mempelai: {
             mempelai1: "THE BRIDE",
             mempelai1Nama: "Bintan<br>Pradika",
-            mempelai1Ortu: "Ratna Alaska & Ratna Alaska",
-            mempelai1Linkedin: "http://linkedin.com",
+            mempelai1Ortu: "Bapak Suratno & Ibu Yanti",
+            mempelai1Linkedin: "https://www.linkedin.com/in/bintanpradika/",
             mempelai2: "THE GROOM",
             mempelai2Nama: "Nabila Nur<br>Harindrastuti",
-            mempelai2Ortu: "Ratna Alaska & Ratna Alaska",
-            mempelai2Linkedin: "linkedin.com"
+            mempelai2Ortu: "Bapak Haryanto WS & Ibu Emmy Indrati",
+            mempelai2Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/"
           },
           resepsi: {
             judul: "RESEPSI",
-            tanggal: "MINGGU 26 MARET 2022",
-            jam: "12:00-01:00 WIB",
-            alamat: "Pantai Lepang<br>Jl. Subak Lepang No.16, Takmung,<br>Kec. Banjarangkan, Kabupaten Klungkung, Bali",
-            google: "http://gmaps.com"
+            tanggal: "MINGGU, 11 DESEMBER 2022",
+            jam: "14:00-16:00 WIB",
+            alamat: "Shangri-La Hotel<br>Jl. Jenderal Sudirman No.Kav. 1, Tanah Abang<br>Jakarta",
+            google: "https://goo.gl/maps/FcpCyjUg3NavE7ak6"
           },
           reservasi: {
             judul: "Reservasi Kehadiran",
@@ -449,15 +451,15 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           },
           streaming: {
             judul: "Live Streaming",
-            deskripsi: "Kami akan mempublikasikan pernikahan secara virtual<br>melalui zoom dan live instagram melalui link berikut",
-            link: "http://link.com"
+            deskripsi: "Kami juga akan mempublikasikan pernikahan secara virtual<br>melalui zoom link berikut",
+            link: "https://zoom.us/"
           },
           gallery: {
             judul: "Our Gallery"
           },
           gift: {
             judul: "Wedding Love Gift",
-            deskripsi: "Apabila tamu ingin mengirimkan hadiah ke pada kedua mempelai<br>dapat melalui virtual account atau e-wallet",
+            deskripsi: "Apabila tamu ingin mengirimkan hadiah ke pada kedua mempelai,<br>kami akan sangat berterima kasih",
             link: "http://link.com",
             aksi: "Klik disini"
           },
@@ -469,7 +471,7 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
         unduhMantu: {
           cover: {
             judul: "THE WEDDING OF",
-            tanggal: "07.10.2023",
+            tanggal: "17.12.2022",
             pria: "Bintan",
             dan: "dan",
             wanita: "Ella"
@@ -481,19 +483,21 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           mempelai: {
             mempelai1: "THE BRIDE",
             mempelai1Nama: "Bintan<br>Pradika",
-            mempelai1Ortu: "Ratna Alaska & Ratna Alaska",
-            mempelai1Linkedin: "http://linkedin.com",
+            mempelai1Anak: "Putra kedua dari:",
+            mempelai1Ortu: "Bapak Suratno & Ibu Yanti",
+            mempelai1Linkedin: "https://www.linkedin.com/in/bintanpradika/",
             mempelai2: "THE GROOM",
             mempelai2Nama: "Nabila Nur<br>Harindrastuti",
-            mempelai2Ortu: "Ratna Alaska & Ratna Alaska",
-            mempelai2Linkedin: "linkedin.com"
+            mempelai2Anak: "Putri ketiga dari:",
+            mempelai2Ortu: "Bapak Haryanto WS & Ibu Emmy Indrati",
+            mempelai2Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/"
           },
           resepsi: {
-            judul: "UNDUH MANTU",
-            tanggal: "MINGGU 26 MARET 2023",
-            jam: "12:00-01:00 WIB",
-            alamat: "Pantai Lepang<br>Jl. Subak Lepang No.16, Takmung,<br>Kec. Banjarangkan, Kabupaten Klungkung, Batam",
-            google: "http://gmaps.com"
+            judul: "NGUNDUH MANTU",
+            tanggal: "SABTU, 17 DESEMBER 2022",
+            jam: "12:30-17:00 WIB",
+            alamat: "Planet Holiday Hotel<br>Jl. Raja Ali H., Sei Jodoh,<br>Batam",
+            google: "https://maps.app.goo.gl/P6pggUdoGgHs9WCG6"
           },
           reservasi: {
             judul: "Reservasi Kehadiran",
@@ -504,15 +508,15 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           },
           streaming: {
             judul: "Live Streaming",
-            deskripsi: "Kami akan mempublikasikan pernikahan secara virtual<br>melalui zoom dan live instagram melalui link berikut",
-            link: "http://link.com"
+            deskripsi: "Kami juga akan mempublikasikan pernikahan secara virtual<br>melalui zoom link berikut",
+            link: "https://zoom.us/"
           },
           gallery: {
             judul: "Our Gallery"
           },
           gift: {
             judul: "Wedding Love Gift",
-            deskripsi: "Apabila tamu ingin mengirimkan hadiah ke pada kedua mempelai<br>dapat melalui virtual account atau e-wallet",
+            deskripsi: "Apabila tamu ingin mengirimkan hadiah ke pada kedua mempelai,<br>kami akan sangat berterima kasih",
             link: "http://link.com",
             aksi: "Klik disini"
           },
@@ -1122,88 +1126,109 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", [
-    _c("div", { staticClass: "has-bg-img height-100vh" }, [
-      _c("div", {
-        staticClass: "bg-img bg-img-no-repeat",
-        staticStyle: { transition: "background-image 0.4s ease-in-out" },
-        style: {
-          backgroundImage: "url('" + _vm.usedCover + "')",
-        },
-      }),
-      _vm._v(" "),
-      _c("div", {
-        staticClass: "bg-img bg-black",
-        staticStyle: { opacity: "0.2" },
-      }),
-      _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass:
-            "flex flex-column flex-items-center flex-justify-center height-100 text-white",
-        },
-        [
-          _c("div", { staticClass: "h5 fw-400 padding-bottom-20" }, [
-            _vm._v(
-              "\n        " + _vm._s(_vm.$t("resepsi.cover.judul")) + "\n      "
+    _c(
+      "div",
+      {
+        staticClass:
+          "has-bg-img height-100vh height-auto-sm padding-y-96-sm padding-x-24",
+      },
+      [
+        _c("div", {
+          staticClass: "bg-img bg-img-no-repeat",
+          staticStyle: { transition: "background-image 0.4s ease-in-out" },
+          style: {
+            backgroundImage: "url('" + _vm.usedCover + "')",
+          },
+        }),
+        _vm._v(" "),
+        _c("div", {
+          staticClass: "bg-img bg-black",
+          staticStyle: { opacity: "0.2" },
+        }),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass:
+              "flex flex-column flex-items-center flex-justify-center text-center height-100 text-white padding-y-96-sm",
+          },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "h5 fw-400",
+                staticStyle: { "letter-spacing": "4px" },
+              },
+              [
+                _vm._v(
+                  "\n        " +
+                    _vm._s(_vm.$t("resepsi.cover.judul")) +
+                    "\n      "
+                ),
+              ]
             ),
-          ]),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "h1 fw-200 padding-bottom-32",
-              staticStyle: { "font-size": "50px", "letter-spacing": "1px" },
-            },
-            [
-              _vm._v(
-                "\n        " +
-                  _vm._s(_vm.$t("resepsi.cover.pria")) +
-                  "\n        "
-              ),
-              _c(
-                "span",
-                {
-                  staticClass: "ff-vibes margin-x-20",
-                  staticStyle: { "font-size": "80px" },
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass:
+                  "h1 fw-200 margin-top-40 margin-bottom-24-sm ff-vibes fs-cover-mempelai",
+                staticStyle: {
+                  "font-size": "120px",
+                  "line-height": "120px",
+                  "letter-spacing": "1px",
                 },
-                [
-                  _vm._v(
-                    "\n          " +
-                      _vm._s(_vm.$t("resepsi.cover.dan")) +
-                      "\n        "
-                  ),
-                ]
-              ),
-              _vm._v(
-                "\n        " +
-                  _vm._s(_vm.$t("resepsi.cover.wanita")) +
-                  "\n      "
-              ),
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "fw-300",
-              staticStyle: { "letter-spacing": "4.7px" },
-            },
-            [
-              _vm._v(
-                "\n        " +
-                  _vm._s(_vm.$t("resepsi.cover.tanggal")) +
-                  "\n      "
-              ),
-            ]
-          ),
-        ]
-      ),
-    ]),
+              },
+              [
+                _vm._v(
+                  "\n        " +
+                    _vm._s(_vm.$t("resepsi.cover.pria")) +
+                    "\n        "
+                ),
+                _c(
+                  "span",
+                  {
+                    staticClass: "ff-vibes margin-x-12 fs-cover-dan",
+                    staticStyle: { "font-size": "52px" },
+                  },
+                  [_vm._v("&")]
+                ),
+                _vm._v(
+                  "\n        " +
+                    _vm._s(_vm.$t("resepsi.cover.wanita")) +
+                    "\n      "
+                ),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "div",
+              {
+                staticClass: "fw-300 padding-x-8 padding-y-4 rounded-4",
+                staticStyle: {
+                  "letter-spacing": "4.7px",
+                  background: "rgb(0, 0, 0, .5)",
+                },
+              },
+              [
+                _c("span", {
+                  domProps: {
+                    innerHTML: _vm._s(_vm.$t("resepsi.cover.tanggal")),
+                  },
+                }),
+              ]
+            ),
+          ]
+        ),
+      ]
+    ),
     _vm._v(" "),
     _c(
       "div",
-      { staticClass: "has-bg-img padding-y-92 text-center text-grayer" },
+      {
+        staticClass:
+          "has-bg-img padding-y-92 padding-y-60-sm text-center text-grayer",
+      },
       [
         _c("div", {
           staticClass: "bg-img bg-img-no-repeat",
@@ -1217,28 +1242,32 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
         _c(
           "div",
           {
-            staticClass: "ff-vibes fw-500",
-            staticStyle: { "font-size": "44px", "letter-spacing": "2px" },
+            staticClass: "padding-x-24 margin-x-auto width-100",
+            staticStyle: { "max-width": "546px" },
           },
           [
-            _vm._v(
-              "\n      " + _vm._s(_vm.$t("resepsi.alquran.judul")) + "\n    "
+            _c(
+              "div",
+              {
+                staticClass: "ff-vibes fw-500",
+                staticStyle: { "font-size": "44px", "letter-spacing": "2px" },
+              },
+              [
+                _vm._v(
+                  "\n        " +
+                    _vm._s(_vm.$t("resepsi.alquran.judul")) +
+                    "\n      "
+                ),
+              ]
             ),
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "margin-top-28 margin-x-auto width-100",
-            staticStyle: { "font-size": "13px", "max-width": "546px" },
-          },
-          [
-            _vm._v(
-              "\n      " +
-                _vm._s(_vm.$t("resepsi.alquran.deskripsi")) +
-                "\n    "
-            ),
+            _vm._v(" "),
+            _c("div", { staticClass: "margin-top-36 fw-300" }, [
+              _vm._v(
+                "\n        " +
+                  _vm._s(_vm.$t("resepsi.alquran.deskripsi")) +
+                  "\n      "
+              ),
+            ]),
           ]
         ),
       ]
@@ -1254,20 +1283,17 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
         _c(
           "div",
           {
-            staticClass: "width-100 margin-x-auto",
+            staticClass: "padding-x-24 margin-x-auto width-100",
             staticStyle: { "max-width": "900px" },
           },
           [
-            _c("div", { staticClass: "flex" }, [
-              _c("div", { staticClass: "width-50 text-center" }, [
+            _c("div", { staticClass: "flex block-sm" }, [
+              _c("div", { staticClass: "width-50 width-100-sm text-center" }, [
                 _c(
                   "div",
                   {
                     staticClass: "fw-300 padding-bottom-20 text-dark",
-                    staticStyle: {
-                      "font-size": "15px",
-                      "letter-spacing": "10px",
-                    },
+                    staticStyle: { "letter-spacing": "10px" },
                   },
                   [
                     _vm._v(
@@ -1285,22 +1311,22 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                 "div",
                 {
                   staticClass:
-                    "width-50 text-center flex flex-column flex-justify-center",
+                    "width-50 width-100-sm text-center flex flex-column flex-justify-center",
                 },
                 [
                   _c(
                     "div",
                     {
-                      staticClass: "margin-x-auto margin-top-100 width-100",
+                      staticClass:
+                        "margin-top-100 margin-top-36-sm margin-x-auto width-100",
                       staticStyle: { "max-width": "384px" },
                     },
                     [
                       _c(
                         "div",
                         {
-                          staticClass: "ff-plex fw-100",
+                          staticClass: "ff-vibes fw-100 text-wrap text-grayest",
                           staticStyle: {
-                            color: "rgb(72 41 41)",
                             "font-size": "52px",
                             "line-height": "60px",
                           },
@@ -1318,22 +1344,19 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                       _vm._v(" "),
                       _c("hr", { staticClass: "border-light margin-y-24" }),
                       _vm._v(" "),
-                      _c("div", {}, [
-                        _c(
-                          "span",
-                          {
-                            staticClass: "fw-500 text-grayer",
-                            staticStyle: { "font-size": "12px" },
-                          },
-                          [
-                            _vm._v(
-                              "\n                Putri pertama dari:\n              "
-                            ),
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
+                      _c("div", [
+                        _c("span", { staticClass: "fw-300 text-grayer" }, [
+                          _c("span", {
+                            domProps: {
+                              innerHTML: _vm._s(
+                                _vm.$t("resepsi.mempelai.mempelai1Anak")
+                              ),
+                            },
+                          }),
+                        ]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "margin-top-4" }, [
                         _c(
                           "span",
                           {
@@ -1380,127 +1403,163 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
               ),
             ]),
             _vm._v(" "),
-            _c("div", { staticClass: "flex margin-top-80 padding-top-80 " }, [
-              _c(
-                "div",
-                {
-                  staticClass:
-                    "width-50 text-center flex flex-column flex-justify-center",
-                },
-                [
-                  _c(
-                    "div",
-                    {
-                      staticClass: "margin-x-auto margin-top-100 width-100",
-                      staticStyle: { "max-width": "384px" },
-                    },
-                    [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "ff-plex fw-100",
-                          staticStyle: {
-                            color: "rgb(72 41 41)",
-                            "font-size": "52px",
-                            "line-height": "60px",
-                          },
-                        },
-                        [
-                          _c("span", {
-                            domProps: {
-                              innerHTML: _vm._s(
-                                _vm.$t("resepsi.mempelai.mempelai2Nama")
-                              ),
-                            },
-                          }),
-                        ]
-                      ),
-                      _vm._v(" "),
-                      _c("hr", { staticClass: "border-light margin-y-24" }),
-                      _vm._v(" "),
-                      _c("div", {}, [
-                        _c(
-                          "span",
-                          {
-                            staticClass: "fw-500 text-grayer",
-                            staticStyle: { "font-size": "12px" },
-                          },
-                          [
-                            _vm._v(
-                              "\n                Putri pertama dari:\n              "
-                            ),
-                          ]
+            _c(
+              "div",
+              {
+                staticClass:
+                  "flex block-sm margin-top-80 margin-top-60-sm padding-top-80 padding-top-60-sm",
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "width-50 width-100-sm text-center hidden-sm-greater",
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "fw-300 padding-bottom-20 text-dark",
+                        staticStyle: { "letter-spacing": "10px" },
+                      },
+                      [
+                        _vm._v(
+                          "\n            " +
+                            _vm._s(_vm.$t("resepsi.mempelai.mempelai1")) +
+                            "\n          "
                         ),
-                        _vm._v(" "),
-                        _c("br"),
-                        _vm._v(" "),
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _vm._m(1),
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "width-50 width-100-sm text-center flex flex-column flex-justify-center",
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "margin-top-100 margin-top-36-sm margin-x-auto width-100",
+                        staticStyle: { "max-width": "384px" },
+                      },
+                      [
                         _c(
-                          "span",
+                          "div",
                           {
-                            staticClass: "h4 fw-300 text-grayest",
-                            staticStyle: { "letter-spacing": "1.2px" },
+                            staticClass:
+                              "ff-vibes fw-100 text-wrap text-grayest",
+                            staticStyle: {
+                              "font-size": "52px",
+                              "line-height": "60px",
+                            },
                           },
                           [
                             _c("span", {
                               domProps: {
                                 innerHTML: _vm._s(
-                                  _vm.$t("resepsi.mempelai.mempelai2Ortu")
+                                  _vm.$t("resepsi.mempelai.mempelai2Nama")
                                 ),
                               },
                             }),
                           ]
                         ),
-                      ]),
-                      _vm._v(" "),
-                      _c("hr", { staticClass: "border-light margin-y-24" }),
-                      _vm._v(" "),
-                      _c(
-                        "a",
-                        {
-                          staticClass: "a a-nocolor block text-grayer",
-                          staticStyle: { "font-size": "12px" },
-                          attrs: {
-                            href: _vm.$t("resepsi.mempelai.mempelai2Linkedin"),
-                          },
-                        },
-                        [
-                          _c("img", {
-                            staticClass: "margin-right-4",
-                            staticStyle: { width: "16px" },
-                            attrs: {
-                              src: "https://www.clipartmax.com/png/middle/30-308556_joshua-fink-linkedin-grey-linkedin-logo-png.png",
+                        _vm._v(" "),
+                        _c("hr", { staticClass: "border-light margin-y-24" }),
+                        _vm._v(" "),
+                        _c("div", [
+                          _c("span", { staticClass: "fw-300 text-grayer" }, [
+                            _c("span", {
+                              domProps: {
+                                innerHTML: _vm._s(
+                                  _vm.$t("resepsi.mempelai.mempelai2Anak")
+                                ),
+                              },
+                            }),
+                          ]),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "margin-top-4" }, [
+                          _c(
+                            "span",
+                            {
+                              staticClass: "h4 fw-300 text-grayest",
+                              staticStyle: { "letter-spacing": "1.2px" },
                             },
-                          }),
-                          _vm._v("\n              linkedin\n            "),
-                        ]
-                      ),
-                    ]
-                  ),
-                ]
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "width-50 text-center" }, [
-                _c(
-                  "div",
-                  {
-                    staticClass: "fw-300 padding-bottom-20 text-dark",
-                    staticStyle: {
-                      "font-size": "15px",
-                      "letter-spacing": "10px",
-                    },
-                  },
-                  [
-                    _vm._v(
-                      "\n            " +
-                        _vm._s(_vm.$t("resepsi.mempelai.mempelai1")) +
-                        "\n          "
+                            [
+                              _c("span", {
+                                domProps: {
+                                  innerHTML: _vm._s(
+                                    _vm.$t("resepsi.mempelai.mempelai2Ortu")
+                                  ),
+                                },
+                              }),
+                            ]
+                          ),
+                        ]),
+                        _vm._v(" "),
+                        _c("hr", { staticClass: "border-light margin-y-24" }),
+                        _vm._v(" "),
+                        _c(
+                          "a",
+                          {
+                            staticClass: "a a-nocolor block text-grayer",
+                            staticStyle: { "font-size": "12px" },
+                            attrs: {
+                              href: _vm.$t(
+                                "resepsi.mempelai.mempelai2Linkedin"
+                              ),
+                            },
+                          },
+                          [
+                            _c("img", {
+                              staticClass: "margin-right-4",
+                              staticStyle: { width: "16px" },
+                              attrs: {
+                                src: "https://www.clipartmax.com/png/middle/30-308556_joshua-fink-linkedin-grey-linkedin-logo-png.png",
+                              },
+                            }),
+                            _vm._v("\n              linkedin\n            "),
+                          ]
+                        ),
+                      ]
                     ),
                   ]
                 ),
                 _vm._v(" "),
-                _vm._m(1),
-              ]),
-            ]),
+                _c(
+                  "div",
+                  {
+                    staticClass: "width-50 width-100-sm text-center hidden-sm",
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass: "fw-300 padding-bottom-20 text-dark",
+                        staticStyle: { "letter-spacing": "10px" },
+                      },
+                      [
+                        _vm._v(
+                          "\n            " +
+                            _vm._s(_vm.$t("resepsi.mempelai.mempelai1")) +
+                            "\n          "
+                        ),
+                      ]
+                    ),
+                    _vm._v(" "),
+                    _vm._m(2),
+                  ]
+                ),
+              ]
+            ),
           ]
         ),
         _vm._v(" "),
@@ -1508,37 +1567,14 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
       ]
     ),
     _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "has-bg-img padding-y-92 text-center text-grayer" },
-      [
-        _c(
-          "video",
-          {
-            staticClass: "absolute width-100 height-100 top-0 left-0",
-            staticStyle: { "object-fit": "cover" },
-            attrs: { autoplay: "", muted: "", loop: "", id: "myVideo" },
-            domProps: { muted: true },
-          },
-          [
-            _c("source", {
-              attrs: { src: __webpack_require__(1493), type: "video/mp4" },
-            }),
-          ]
-        ),
-        _vm._v(" "),
-        _c("div", {
-          staticClass: "bg-img bg-black z-1",
-          staticStyle: { opacity: "0.4" },
-        }),
-        _vm._v(" "),
-        _c("div", { staticStyle: { height: "400px" } }),
-      ]
-    ),
+    _vm._m(3),
     _vm._v(" "),
     _c(
       "div",
-      { staticClass: "has-bg-img padding-y-92 text-center text-grayer" },
+      {
+        staticClass:
+          "has-bg-img padding-y-92 padding-y-60-sm text-center text-grayer",
+      },
       [
         _c("div", {
           staticClass: "bg-img bg-img-no-repeat",
@@ -1552,335 +1588,93 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
         _c(
           "div",
           {
-            staticClass: "h2 fw-300 fs-italic",
-            staticStyle: { "letter-spacing": "1.2px" },
-          },
-          [
-            _c("span", {
-              domProps: { innerHTML: _vm._s(_vm.$t("resepsi.resepsi.judul")) },
-            }),
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "fw-700 margin-top-24",
-            staticStyle: { "letter-spacing": "2px" },
+            staticClass: "padding-x-24 margin-x-auto width-100",
+            staticStyle: { "max-width": "900px" },
           },
           [
             _c(
-              "span",
-              { staticClass: "h4", staticStyle: { color: "rgb(72 41 41)" } },
+              "div",
+              {
+                staticClass: "h2 fw-300 fs-italic",
+                staticStyle: { "letter-spacing": "1.2px" },
+              },
               [
                 _c("span", {
                   domProps: {
-                    innerHTML: _vm._s(_vm.$t("resepsi.resepsi.tanggal")),
+                    innerHTML: _vm._s(_vm.$t("resepsi.resepsi.judul")),
                   },
                 }),
               ]
             ),
             _vm._v(" "),
-            _c("br"),
+            _c(
+              "div",
+              {
+                staticClass: "fw-700 margin-top-24",
+                staticStyle: { "letter-spacing": "2px" },
+              },
+              [
+                _c(
+                  "span",
+                  { staticClass: "h4", staticStyle: { color: "#66686b" } },
+                  [
+                    _c("span", {
+                      domProps: {
+                        innerHTML: _vm._s(_vm.$t("resepsi.resepsi.tanggal")),
+                      },
+                    }),
+                  ]
+                ),
+                _vm._v(" "),
+                _c("br"),
+                _vm._v(" "),
+                _c("span", { staticClass: "h5" }, [
+                  _c("span", {
+                    domProps: {
+                      innerHTML: _vm._s(_vm.$t("resepsi.resepsi.jam")),
+                    },
+                  }),
+                ]),
+              ]
+            ),
             _vm._v(" "),
-            _c("span", { staticClass: "h5" }, [
-              _c("span", {
-                domProps: { innerHTML: _vm._s(_vm.$t("resepsi.resepsi.jam")) },
-              }),
-            ]),
+            _c(
+              "div",
+              {
+                staticClass: "margin-top-28 margin-x-auto width-100",
+                staticStyle: { "max-width": "546px" },
+              },
+              [
+                _c("span", {
+                  domProps: {
+                    innerHTML: _vm._s(_vm.$t("resepsi.resepsi.alamat")),
+                  },
+                }),
+              ]
+            ),
+            _vm._v(" "),
+            _c(
+              "a",
+              {
+                staticClass: "a block margin-top-8",
+                attrs: { href: _vm.$t("resepsi.resepsi.google") },
+              },
+              [_vm._v("\n        Google maps\n      ")]
+            ),
           ]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "margin-top-28 margin-x-auto width-100",
-            staticStyle: { "font-size": "13px", "max-width": "546px" },
-          },
-          [
-            _c("span", {
-              domProps: { innerHTML: _vm._s(_vm.$t("resepsi.resepsi.alamat")) },
-            }),
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "a",
-          {
-            staticClass: "a block margin-top-8",
-            attrs: { href: _vm.$t("resepsi.resepsi.google") },
-          },
-          [_vm._v("\n      Google maps\n    ")]
         ),
       ]
     ),
     _vm._v(" "),
-    _c("div", { staticClass: "has-bg-img padding-y-92 text-grayer" }, [
-      _c("div", {
-        staticClass: "bg-img bg-img-no-repeat",
-        staticStyle: {
-          "background-image":
-            "url('https://groovepublic.com/wp-content/uploads/2022/03/shadow.png')",
-          opacity: "0.07",
-        },
-      }),
-      _vm._v(" "),
-      _c("div", {
-        staticClass: "bg-img bg-gray",
-        staticStyle: { opacity: "0.1" },
-      }),
-      _vm._v(" "),
-      _c("div", { staticClass: "flex" }, [
-        _vm._m(2),
-        _vm._v(" "),
-        _c("div", { staticClass: "width-50 padding-left-24" }, [
-          _c(
-            "div",
-            {
-              staticClass: "h2 fw-300 fs-italic",
-              staticStyle: { "letter-spacing": "1.2px" },
-            },
-            [
-              _c("span", {
-                domProps: {
-                  innerHTML: _vm._s(_vm.$t("resepsi.reservasi.judul")),
-                },
-              }),
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "margin-top-28",
-              staticStyle: { "font-size": "13px" },
-            },
-            [
-              _c("span", {
-                domProps: {
-                  innerHTML: _vm._s(_vm.$t("resepsi.reservasi.deskripsi")),
-                },
-              }),
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "margin-top-28 width-100",
-              staticStyle: { "max-width": "400px" },
-            },
-            [
-              _c("div", { staticClass: "margin-bottom-24", class: {} }, [
-                _c("label", { staticClass: "form-label" }, [
-                  _c("span", {
-                    domProps: {
-                      innerHTML: _vm._s(_vm.$t("resepsi.reservasi.nama")),
-                    },
-                  }),
-                ]),
-                _vm._v(" "),
-                _c("input", {
-                  directives: [
-                    {
-                      name: "model",
-                      rawName: "v-model",
-                      value: _vm.tamu.name,
-                      expression: "tamu.name",
-                    },
-                  ],
-                  staticClass: "form-text",
-                  attrs: { type: "text", required: "" },
-                  domProps: { value: _vm.tamu.name },
-                  on: {
-                    input: function ($event) {
-                      if ($event.target.composing) {
-                        return
-                      }
-                      _vm.$set(_vm.tamu, "name", $event.target.value)
-                    },
-                  },
-                }),
-              ]),
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "flex width-100",
-              staticStyle: { "max-width": "400px" },
-            },
-            [
-              _c(
-                "div",
-                {
-                  staticClass: "width-50 padding-right-4 margin-bottom-24",
-                  class: {},
-                },
-                [
-                  _c("label", { staticClass: "form-label" }, [
-                    _c("span", {
-                      domProps: {
-                        innerHTML: _vm._s(
-                          _vm.$t("resepsi.reservasi.kehadiran")
-                        ),
-                      },
-                    }),
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    directives: [
-                      {
-                        name: "model",
-                        rawName: "v-model",
-                        value: _vm.tamu.kehadiran,
-                        expression: "tamu.kehadiran",
-                      },
-                    ],
-                    staticClass: "form-text",
-                    attrs: { type: "text", required: "" },
-                    domProps: { value: _vm.tamu.kehadiran },
-                    on: {
-                      input: function ($event) {
-                        if ($event.target.composing) {
-                          return
-                        }
-                        _vm.$set(_vm.tamu, "kehadiran", $event.target.value)
-                      },
-                    },
-                  }),
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "width-50 padding-left-4 margin-bottom-24",
-                  class: {},
-                },
-                [
-                  _c("label", { staticClass: "form-label" }, [
-                    _c("span", {
-                      domProps: {
-                        innerHTML: _vm._s(_vm.$t("resepsi.reservasi.jumlah")),
-                      },
-                    }),
-                  ]),
-                  _vm._v(" "),
-                  _c("input", {
-                    directives: [
-                      {
-                        name: "model",
-                        rawName: "v-model",
-                        value: _vm.tamu.jumlah,
-                        expression: "tamu.jumlah",
-                      },
-                    ],
-                    staticClass: "form-text",
-                    attrs: { type: "text", required: "" },
-                    domProps: { value: _vm.tamu.jumlah },
-                    on: {
-                      input: function ($event) {
-                        if ($event.target.composing) {
-                          return
-                        }
-                        _vm.$set(_vm.tamu, "jumlah", $event.target.value)
-                      },
-                    },
-                  }),
-                ]
-              ),
-            ]
-          ),
-          _vm._v(" "),
-          _c("div", [
-            _c(
-              "button",
-              {
-                staticClass: "button button-primary",
-                attrs: { disabled:  false && 0 },
-                on: {
-                  click: function ($event) {
-                     false && 0
-                  },
-                },
-              },
-              [_vm._v("\n            Submit\n          ")]
-            ),
-          ]),
-        ]),
-      ]),
-    ]),
-    _vm._v(" "),
-    _c("div", { staticClass: "has-bg-img padding-y-92 text-grayer" }, [
-      _c("div", {
-        staticClass: "bg-img bg-img-no-repeat",
-        staticStyle: {
-          "background-image":
-            "url('https://groovepublic.com/wp-content/uploads/2022/03/shadow.png')",
-          opacity: "0.07",
-        },
-      }),
-      _vm._v(" "),
-      _c("div", { staticClass: "flex" }, [
-        _c("div", { staticClass: "width-50 padding-right-24 text-right" }, [
-          _c(
-            "div",
-            {
-              staticClass: "h2 fw-300 fs-italic",
-              staticStyle: { "letter-spacing": "1.2px" },
-            },
-            [
-              _c("span", {
-                domProps: {
-                  innerHTML: _vm._s(_vm.$t("resepsi.streaming.judul")),
-                },
-              }),
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "margin-top-28",
-              staticStyle: { "font-size": "13px" },
-            },
-            [
-              _c("span", {
-                domProps: {
-                  innerHTML: _vm._s(_vm.$t("resepsi.streaming.deskripsi")),
-                },
-              }),
-            ]
-          ),
-          _vm._v(" "),
-          _c("div", { staticClass: "margin-top-28" }, [
-            _c(
-              "a",
-              {
-                staticClass: "button button-primary",
-                attrs: { href: _vm.$t("resepsi.streaming.deskripsi") },
-              },
-              [_vm._v("\n            Streaming\n          ")]
-            ),
-          ]),
-        ]),
-        _vm._v(" "),
-        _vm._m(3),
-      ]),
-    ]),
-    _vm._v(" "),
     _c(
       "div",
-      { staticClass: "has-bg-img padding-y-92 text-center text-grayer" },
+      { staticClass: "has-bg-img padding-y-92 padding-y-60-sm text-grayest" },
       [
         _c("div", {
           staticClass: "bg-img bg-img-no-repeat",
-          staticStyle: {
-            "background-image":
-              "url('https://groovepublic.com/wp-content/uploads/2022/03/shadow.png')",
-            opacity: "0.07",
+          style: {
+            backgroundImage: "url('" + _vm.cover[0] + "')",
+            opacity: 0.3,
           },
         }),
         _vm._v(" "),
@@ -1892,160 +1686,460 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
         _c(
           "div",
           {
-            staticClass: "h2 fw-300 fs-italic",
-            staticStyle: { "letter-spacing": "1.2px" },
+            staticClass: "flex padding-x-24 margin-x-auto width-100",
+            staticStyle: { "max-width": "900px" },
           },
           [
-            _c("span", {
-              domProps: { innerHTML: _vm._s(_vm.$t("resepsi.gallery.judul")) },
-            }),
-          ]
-        ),
-        _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "margin-top-28 margin-x-auto width-100",
-            staticStyle: { "max-width": "680px" },
-          },
-          [
-            _c("div", { staticClass: "swiper swiper1" }, [
-              _c(
-                "div",
-                { staticClass: "swiper-wrapper" },
-                _vm._l(_vm.gallery1, function (gallery) {
-                  return _c(
-                    "div",
-                    {
-                      staticClass: "swiper-slide padding-x-4",
-                      staticStyle: { width: "50%" },
-                    },
-                    [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "has-bg-img rounded-8",
-                          staticStyle: { height: "420px" },
-                        },
-                        [
-                          _c("div", {
-                            staticClass: "bg-img bg-img-no-repeat",
-                            style: {
-                              backgroundImage: "url('" + gallery + "')",
-                            },
-                          }),
-                        ]
-                      ),
-                    ]
-                  )
-                }),
-                0
-              ),
-              _vm._v(" "),
-              _c("div", { staticClass: "swiper-pagination" }),
-            ]),
+            _vm._m(4),
             _vm._v(" "),
-            _c("div", { staticClass: "swiper swiper2 margin-top-8" }, [
-              _c(
-                "div",
-                { staticClass: "swiper-wrapper" },
-                _vm._l(_vm.gallery2, function (gallery) {
-                  return _c(
+            _c(
+              "div",
+              {
+                staticClass: "width-50 width-100-sm padding-24 rounded-8",
+                staticStyle: { "background-color": "rgba(255, 255, 255, .7)" },
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass: "h2 fw-300 fs-italic",
+                    staticStyle: { "letter-spacing": "1.2px" },
+                  },
+                  [
+                    _c("span", {
+                      domProps: {
+                        innerHTML: _vm._s(_vm.$t("resepsi.reservasi.judul")),
+                      },
+                    }),
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "margin-top-36 fw-300" }, [
+                  _c("span", {
+                    domProps: {
+                      innerHTML: _vm._s(_vm.$t("resepsi.reservasi.deskripsi")),
+                    },
+                  }),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "margin-top-28" }, [
+                  _c("div", { staticClass: "margin-bottom-24", class: {} }, [
+                    _c("label", { staticClass: "form-label" }, [
+                      _c("span", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.$t("resepsi.reservasi.nama")),
+                        },
+                      }),
+                    ]),
+                    _vm._v(" "),
+                    _c("input", {
+                      directives: [
+                        {
+                          name: "model",
+                          rawName: "v-model",
+                          value: _vm.tamu.name,
+                          expression: "tamu.name",
+                        },
+                      ],
+                      staticClass: "form-text",
+                      attrs: { type: "text", required: "" },
+                      domProps: { value: _vm.tamu.name },
+                      on: {
+                        input: function ($event) {
+                          if ($event.target.composing) {
+                            return
+                          }
+                          _vm.$set(_vm.tamu, "name", $event.target.value)
+                        },
+                      },
+                    }),
+                  ]),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "flex block-sm" }, [
+                  _c(
                     "div",
                     {
-                      staticClass: "swiper-slide padding-x-4",
-                      staticStyle: { width: "33.3%" },
+                      staticClass:
+                        "width-50 width-100-sm padding-right-4 padding-right-0-sm margin-bottom-24",
+                      class: {},
                     },
                     [
-                      _c(
-                        "div",
-                        {
-                          staticClass: "has-bg-img rounded-8",
-                          staticStyle: { height: "132px" },
+                      _c("label", { staticClass: "form-label" }, [
+                        _c("span", {
+                          domProps: {
+                            innerHTML: _vm._s(
+                              _vm.$t("resepsi.reservasi.kehadiran")
+                            ),
+                          },
+                        }),
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.tamu.kehadiran,
+                            expression: "tamu.kehadiran",
+                          },
+                        ],
+                        staticClass: "form-text",
+                        attrs: { type: "text", required: "" },
+                        domProps: { value: _vm.tamu.kehadiran },
+                        on: {
+                          input: function ($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.tamu, "kehadiran", $event.target.value)
+                          },
                         },
-                        [
-                          _c("div", {
-                            staticClass: "bg-img bg-img-no-repeat",
-                            style: {
-                              backgroundImage: "url('" + gallery + "')",
-                            },
-                          }),
-                        ]
-                      ),
+                      }),
                     ]
-                  )
-                }),
-                0
-              ),
-            ]),
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "width-50 width-100-sm padding-left-4 padding-left-0-sm margin-bottom-24",
+                      class: {},
+                    },
+                    [
+                      _c("label", { staticClass: "form-label" }, [
+                        _c("span", {
+                          domProps: {
+                            innerHTML: _vm._s(
+                              _vm.$t("resepsi.reservasi.jumlah")
+                            ),
+                          },
+                        }),
+                      ]),
+                      _vm._v(" "),
+                      _c("input", {
+                        directives: [
+                          {
+                            name: "model",
+                            rawName: "v-model",
+                            value: _vm.tamu.jumlah,
+                            expression: "tamu.jumlah",
+                          },
+                        ],
+                        staticClass: "form-text",
+                        attrs: { type: "text", required: "" },
+                        domProps: { value: _vm.tamu.jumlah },
+                        on: {
+                          input: function ($event) {
+                            if ($event.target.composing) {
+                              return
+                            }
+                            _vm.$set(_vm.tamu, "jumlah", $event.target.value)
+                          },
+                        },
+                      }),
+                    ]
+                  ),
+                ]),
+                _vm._v(" "),
+                _c("div", [
+                  _c(
+                    "button",
+                    {
+                      staticClass: "button",
+                      attrs: { disabled:  false && 0 },
+                      on: {
+                        click: function ($event) {
+                           false && 0
+                        },
+                      },
+                    },
+                    [_vm._v("\n            Submit\n          ")]
+                  ),
+                ]),
+              ]
+            ),
           ]
         ),
       ]
     ),
     _vm._v(" "),
-    _c("div", { staticClass: "has-bg-img padding-y-92 text-grayer" }, [
-      _c("div", {
-        staticClass: "bg-img bg-img-no-repeat",
-        staticStyle: {
-          "background-image":
-            "url('https://groovepublic.com/wp-content/uploads/2022/03/shadow.png')",
-          opacity: "0.07",
-        },
-      }),
-      _vm._v(" "),
-      _c("div", { staticClass: "flex" }, [
-        _c("div", { staticClass: "width-50 padding-right-24 text-right" }, [
-          _c(
-            "div",
-            {
-              staticClass: "h2 fw-300 fs-italic",
-              staticStyle: { "letter-spacing": "1.2px" },
-            },
-            [
-              _c("span", {
-                domProps: { innerHTML: _vm._s(_vm.$t("resepsi.gift.judul")) },
-              }),
-            ]
-          ),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "margin-top-28",
-              staticStyle: { "font-size": "13px" },
-            },
-            [
-              _c("span", {
-                domProps: {
-                  innerHTML: _vm._s(_vm.$t("resepsi.gift.deskripsi")),
-                },
-              }),
-            ]
-          ),
-          _vm._v(" "),
-          _c("div", { staticClass: "margin-top-28" }, [
+    _c(
+      "div",
+      { staticClass: "has-bg-img padding-y-92 padding-y-60-sm text-grayest" },
+      [
+        _c("div", {
+          staticClass: "bg-img bg-img-no-repeat",
+          staticStyle: {
+            "background-image":
+              "url('https://groovepublic.com/wp-content/uploads/2022/03/shadow.png')",
+            opacity: "0.07",
+          },
+        }),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "flex padding-x-24 margin-x-auto width-100",
+            staticStyle: { "max-width": "900px" },
+          },
+          [
             _c(
-              "a",
+              "div",
               {
-                staticClass: "button button-primary",
-                attrs: { href: _vm.$t("resepsi.gift.deskripsi") },
+                staticClass:
+                  "width-50 width-100-sm padding-right-24 padding-right-0-sm text-right text-center-sm",
               },
               [
-                _c("span", {
-                  domProps: { innerHTML: _vm._s(_vm.$t("resepsi.gift.aksi")) },
-                }),
+                _c(
+                  "div",
+                  {
+                    staticClass: "h2 fw-300 fs-italic",
+                    staticStyle: { "letter-spacing": "1.2px" },
+                  },
+                  [
+                    _c("span", {
+                      domProps: {
+                        innerHTML: _vm._s(_vm.$t("resepsi.streaming.judul")),
+                      },
+                    }),
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "margin-top-36 fw-300" }, [
+                  _c("span", {
+                    domProps: {
+                      innerHTML: _vm._s(_vm.$t("resepsi.streaming.deskripsi")),
+                    },
+                  }),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "margin-top-28" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "button",
+                      attrs: { href: _vm.$t("resepsi.streaming.deskripsi") },
+                    },
+                    [_vm._v("\n            Streaming\n          ")]
+                  ),
+                ]),
               ]
             ),
-          ]),
-        ]),
-        _vm._v(" "),
-        _vm._m(4),
-      ]),
-    ]),
+            _vm._v(" "),
+            _vm._m(5),
+          ]
+        ),
+      ]
+    ),
     _vm._v(" "),
     _c(
       "div",
-      { staticClass: "has-bg-img text-center text-white padding-y-96" },
+      {
+        staticClass:
+          "has-bg-img padding-y-92 padding-y-60-sm text-center text-grayer",
+      },
+      [
+        _c("div", {
+          staticClass: "bg-img bg-img-no-repeat",
+          style: {
+            backgroundImage: "url('" + _vm.cover[0] + "')",
+            opacity: 0.3,
+          },
+        }),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "padding-x-24 margin-x-auto width-100",
+            staticStyle: { "max-width": "900px" },
+          },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "padding-12 padding-top-24 rounded-8",
+                staticStyle: { "background-color": "rgba(255, 255, 255, .7)" },
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass: "h2 fw-300 fs-italic",
+                    staticStyle: { "letter-spacing": "1.2px" },
+                  },
+                  [
+                    _c("span", {
+                      domProps: {
+                        innerHTML: _vm._s(_vm.$t("resepsi.gallery.judul")),
+                      },
+                    }),
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "margin-top-28" }, [
+                  _c("div", { staticClass: "swiper swiper1" }, [
+                    _c(
+                      "div",
+                      { staticClass: "swiper-wrapper" },
+                      _vm._l(_vm.gallery1, function (gallery) {
+                        return _c(
+                          "div",
+                          {
+                            staticClass:
+                              "swiper-slide padding-x-4 width-gallery-1",
+                            staticStyle: { width: "50%" },
+                          },
+                          [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "has-bg-img rounded-8 height-gallery-1",
+                                staticStyle: { height: "420px" },
+                              },
+                              [
+                                _c("div", {
+                                  staticClass: "bg-img bg-img-no-repeat",
+                                  style: {
+                                    backgroundImage: "url('" + gallery + "')",
+                                  },
+                                }),
+                              ]
+                            ),
+                          ]
+                        )
+                      }),
+                      0
+                    ),
+                    _vm._v(" "),
+                    _c("div", { staticClass: "swiper-pagination" }),
+                  ]),
+                  _vm._v(" "),
+                  _c("div", { staticClass: "swiper swiper2 margin-top-8" }, [
+                    _c(
+                      "div",
+                      { staticClass: "swiper-wrapper" },
+                      _vm._l(_vm.gallery2, function (gallery) {
+                        return _c(
+                          "div",
+                          {
+                            staticClass:
+                              "swiper-slide padding-x-4 width-gallery-2",
+                            staticStyle: { width: "33.3%" },
+                          },
+                          [
+                            _c(
+                              "div",
+                              {
+                                staticClass:
+                                  "has-bg-img rounded-8 height-gallery-2",
+                                staticStyle: { height: "132px" },
+                              },
+                              [
+                                _c("div", {
+                                  staticClass: "bg-img bg-img-no-repeat",
+                                  style: {
+                                    backgroundImage: "url('" + gallery + "')",
+                                  },
+                                }),
+                              ]
+                            ),
+                          ]
+                        )
+                      }),
+                      0
+                    ),
+                  ]),
+                ]),
+              ]
+            ),
+          ]
+        ),
+      ]
+    ),
+    _vm._v(" "),
+    _c(
+      "div",
+      { staticClass: "has-bg-img padding-y-92 padding-y-60-sm text-grayest" },
+      [
+        _c("div", {
+          staticClass: "bg-img bg-img-no-repeat",
+          staticStyle: {
+            "background-image":
+              "url('https://groovepublic.com/wp-content/uploads/2022/03/shadow.png')",
+            opacity: "0.07",
+          },
+        }),
+        _vm._v(" "),
+        _c(
+          "div",
+          {
+            staticClass: "flex block-sm padding-x-24 margin-x-auto width-100",
+            staticStyle: { "max-width": "900px" },
+          },
+          [
+            _c(
+              "div",
+              {
+                staticClass:
+                  "width-50 width-100-sm padding-right-24 padding-right-0-sm text-right text-center-sm",
+              },
+              [
+                _c(
+                  "div",
+                  {
+                    staticClass: "h2 fw-300 fs-italic",
+                    staticStyle: { "letter-spacing": "1.2px" },
+                  },
+                  [
+                    _c("span", {
+                      domProps: {
+                        innerHTML: _vm._s(_vm.$t("resepsi.gift.judul")),
+                      },
+                    }),
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "margin-top-36 fw-300" }, [
+                  _c("span", {
+                    domProps: {
+                      innerHTML: _vm._s(_vm.$t("resepsi.gift.deskripsi")),
+                    },
+                  }),
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "margin-top-28" }, [
+                  _c(
+                    "a",
+                    {
+                      staticClass: "button",
+                      attrs: { href: _vm.$t("resepsi.gift.deskripsi") },
+                    },
+                    [
+                      _c("span", {
+                        domProps: {
+                          innerHTML: _vm._s(_vm.$t("resepsi.gift.aksi")),
+                        },
+                      }),
+                    ]
+                  ),
+                ]),
+              ]
+            ),
+            _vm._v(" "),
+            _vm._m(6),
+          ]
+        ),
+      ]
+    ),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        staticClass:
+          "has-bg-img text-center text-white padding-y-96 padding-x-24",
+      },
       [
         _c("div", {
           staticClass: "bg-img bg-img-no-repeat",
@@ -2075,20 +2169,13 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
           ]
         ),
         _vm._v(" "),
-        _c(
-          "div",
-          {
-            staticClass: "margin-top-28",
-            staticStyle: { "font-size": "13px" },
-          },
-          [
-            _c("span", {
-              domProps: {
-                innerHTML: _vm._s(_vm.$t("resepsi.terimaKasih.deskripsi")),
-              },
-            }),
-          ]
-        ),
+        _c("div", { staticClass: "margin-top-36 fw-300" }, [
+          _c("span", {
+            domProps: {
+              innerHTML: _vm._s(_vm.$t("resepsi.terimaKasih.deskripsi")),
+            },
+          }),
+        ]),
         _vm._v(" "),
         _c(
           "div",
@@ -2118,34 +2205,28 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
             _c(
               "div",
               {
-                staticClass: "h1 fw-200 margin-top-32",
-                staticStyle: { "font-size": "30px", "letter-spacing": "1px" },
+                staticClass: "h1 fw-200 margin-top-32 ff-vibes fs-tk-mempelai",
+                staticStyle: { "font-size": "80px", "letter-spacing": "1px" },
               },
               [
-                _c("span", {
-                  domProps: { innerHTML: _vm._s(_vm.$t("resepsi.cover.pria")) },
-                }),
-                _vm._v(" "),
+                _vm._v(
+                  "\n        " +
+                    _vm._s(_vm.$t("resepsi.cover.pria")) +
+                    "\n        "
+                ),
                 _c(
                   "span",
                   {
-                    staticClass: "ff-vibes margin-x-12",
-                    staticStyle: { "font-size": "60px" },
+                    staticClass: "ff-vibes margin-x-12 fs-tk-dan",
+                    staticStyle: { "font-size": "32px" },
                   },
-                  [
-                    _c("span", {
-                      domProps: {
-                        innerHTML: _vm._s(_vm.$t("resepsi.cover.dan")),
-                      },
-                    }),
-                  ]
+                  [_vm._v("&")]
                 ),
-                _vm._v(" "),
-                _c("span", {
-                  domProps: {
-                    innerHTML: _vm._s(_vm.$t("resepsi.cover.wanita")),
-                  },
-                }),
+                _vm._v(
+                  "\n        " +
+                    _vm._s(_vm.$t("resepsi.cover.wanita")) +
+                    "\n      "
+                ),
               ]
             ),
           ]
@@ -2161,8 +2242,8 @@ var BintanEllavue_type_template_id_17e87cfe_staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", [
       _c("img", {
-        staticClass: "margin-x-auto shadow-1 circle",
-        staticStyle: { width: "400px" },
+        staticClass: "margin-x-auto width-100 shadow-1 circle",
+        staticStyle: { "max-width": "400px" },
         attrs: { src: __webpack_require__(6056) },
       }),
     ])
@@ -2173,8 +2254,8 @@ var BintanEllavue_type_template_id_17e87cfe_staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("div", [
       _c("img", {
-        staticClass: "margin-x-auto shadow-1 circle",
-        staticStyle: { width: "400px" },
+        staticClass: "margin-x-auto width-100 shadow-1 circle",
+        staticStyle: { "max-width": "400px" },
         attrs: { src: __webpack_require__(5045) },
       }),
     ])
@@ -2183,11 +2264,11 @@ var BintanEllavue_type_template_id_17e87cfe_staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "width-50 padding-right-24 text-right" }, [
+    return _c("div", [
       _c("img", {
-        staticClass: "margin-x-auto rounded-8",
-        staticStyle: { width: "400px" },
-        attrs: { src: __webpack_require__(2666) },
+        staticClass: "margin-x-auto width-100 shadow-1 circle",
+        staticStyle: { "max-width": "400px" },
+        attrs: { src: __webpack_require__(5045) },
       }),
     ])
   },
@@ -2195,25 +2276,92 @@ var BintanEllavue_type_template_id_17e87cfe_staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "width-50 padding-left-24 text-left" }, [
-      _c("img", {
-        staticClass: "margin-x-auto rounded-8",
-        staticStyle: { width: "400px" },
-        attrs: { src: __webpack_require__(7691) },
-      }),
-    ])
+    return _c(
+      "div",
+      {
+        staticClass:
+          "has-bg-img padding-y-92 padding-y-60-sm text-center text-grayer",
+      },
+      [
+        _c(
+          "video",
+          {
+            staticClass: "absolute width-100 height-100 top-0 left-0",
+            staticStyle: { "object-fit": "cover" },
+            attrs: { autoplay: "", loop: "", id: "myVideo" },
+          },
+          [
+            _c("source", {
+              attrs: { src: __webpack_require__(1493), type: "video/mp4" },
+            }),
+          ]
+        ),
+        _vm._v(" "),
+        _c("div", {
+          staticClass: "bg-img bg-black z-1",
+          staticStyle: { opacity: "0.4" },
+        }),
+        _vm._v(" "),
+        _c("div", { staticStyle: { height: "400px" } }),
+      ]
+    )
   },
   function () {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "width-50 padding-left-24 text-left" }, [
-      _c("img", {
-        staticClass: "margin-x-auto rounded-8",
-        staticStyle: { height: "360px" },
-        attrs: { src: __webpack_require__(9112) },
-      }),
-    ])
+    return _c(
+      "div",
+      {
+        staticClass:
+          "width-50 width-100-sm hidden-sm padding-right-24 text-right text-center-sm",
+      },
+      [
+        _c("img", {
+          staticClass: "margin-x-auto rounded-8 width-100",
+          staticStyle: { "max-width": "460px" },
+          attrs: { src: __webpack_require__(2666) },
+        }),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "width-50 width-100-sm hidden-sm padding-left-24 text-left text-center-sm",
+      },
+      [
+        _c("img", {
+          staticClass: "margin-x-auto rounded-8 width-100",
+          staticStyle: { "max-width": "460px" },
+          attrs: { src: __webpack_require__(2666) },
+        }),
+      ]
+    )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass:
+          "width-50 width-100-sm hidden-sm padding-left-24 text-left text-center-sm",
+      },
+      [
+        _c("img", {
+          staticClass: "margin-x-auto rounded-8 width-100",
+          staticStyle: { "max-width": "460px" },
+          attrs: { src: __webpack_require__(2666) },
+        }),
+      ]
+    )
   },
 ]
 BintanEllavue_type_template_id_17e87cfe_render._withStripped = true
@@ -2237,6 +2385,24 @@ function BintanEllavue_type_script_lang_js_asyncGeneratorStep(gen, resolve, reje
 
 function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { BintanEllavue_type_script_lang_js_asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { BintanEllavue_type_script_lang_js_asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2654,14 +2820,19 @@ function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return functio
 });
 ;// CONCATENATED MODULE: ./src/pages-vue/BintanElla.vue?vue&type=script&lang=js&
  /* harmony default export */ var pages_vue_BintanEllavue_type_script_lang_js_ = (BintanEllavue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./node_modules/style-loader/dist/cjs.js!./node_modules/mini-css-extract-plugin/dist/loader.js!./node_modules/css-loader/dist/cjs.js??clonedRuleSet-2[0].rules[0].use[2]!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/dist/cjs.js??clonedRuleSet-2[0].rules[0].use[3]!./node_modules/sass-loader/dist/cjs.js!./node_modules/vue-loader/lib/index.js??vue-loader-options!./src/pages-vue/BintanElla.vue?vue&type=style&index=0&lang=css&
+var BintanEllavue_type_style_index_0_lang_css_ = __webpack_require__(716);
+;// CONCATENATED MODULE: ./src/pages-vue/BintanElla.vue?vue&type=style&index=0&lang=css&
+
 ;// CONCATENATED MODULE: ./src/pages-vue/BintanElla.vue
 
 
 
+;
 
 
 /* normalize component */
-;
+
 var BintanElla_component = (0,componentNormalizer/* default */.Z)(
   pages_vue_BintanEllavue_type_script_lang_js_,
   BintanEllavue_type_template_id_17e87cfe_render,
@@ -2678,6 +2849,7 @@ if (false) { var BintanElla_api; }
 BintanElla_component.options.__file = "src/pages-vue/BintanElla.vue"
 /* harmony default export */ var BintanElla = (BintanElla_component.exports);
 ;// CONCATENATED MODULE: ./src/index-vue.js
+var index_vue_dirname = "/";
 
 
 
@@ -2710,8 +2882,8 @@ vue_runtime_esm/* default.prototype.$url */.Z.prototype.$url = url; // function 
 
 var router = new vue_router_esm/* default */.Z({
   mode: 'history',
-  // base: __dirname,
-  base: '/wedding',
+  base: index_vue_dirname,
+  // base: '/wedding',
   scrollBehavior: function scrollBehavior(to, from, savedPosition) {
     return savedPosition || {
       x: 0,
@@ -2891,13 +3063,6 @@ module.exports = __webpack_require__.p + "assets/img/gallery_5246e7474.jpg";
 
 /***/ }),
 
-/***/ 9112:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "assets/img/gift343367ff.jpg";
-
-/***/ }),
-
 /***/ 6056:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
@@ -2919,14 +3084,14 @@ module.exports = __webpack_require__.p + "assets/img/reservasib181f2dc.jpg";
 
 /***/ }),
 
-/***/ 7691:
-/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+/***/ 5119:
+/***/ (function() {
 
-module.exports = __webpack_require__.p + "assets/img/streaming9e72115b.jpg";
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
-/***/ 5119:
+/***/ 676:
 /***/ (function() {
 
 // extracted by mini-css-extract-plugin
@@ -2956,13 +3121,38 @@ var update = api(content, options);
 
 module.exports = content.locals || {};
 
+/***/ }),
+
+/***/ 716:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+var api = __webpack_require__(3379);
+            var content = __webpack_require__(676);
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.id, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
+
 /***/ })
 
 },
 /******/ function(__webpack_require__) { // webpackRuntimeModules
 /******/ var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-/******/ __webpack_require__.O(0, [216], function() { return __webpack_exec__(6065); });
+/******/ __webpack_require__.O(0, [216], function() { return __webpack_exec__(4274); });
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.c2f7dfc8.js.map
+//# sourceMappingURL=main.fc3d9f36.js.map
