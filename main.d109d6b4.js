@@ -351,10 +351,12 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           mempelai: {
             mempelai1: "THE BRIDE",
             mempelai1Nama: "Bintan<br>Pradika",
+            mempelai1Anak: "Second son of:",
             mempelai1Ortu: "Mr. Suratno & Mrs. Yanti",
             mempelai1Linkedin: "https://www.linkedin.com/in/bintanpradika/",
             mempelai2: "THE GROOM",
             mempelai2Nama: "Nabila Nur<br>Harindrastuti",
+            mempelai2Anak: "Third daughter of:",
             mempelai2Ortu: "Mr. Haryanto WS & Mrs. Emmy Indrati",
             mempelai2Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/"
           },
@@ -428,10 +430,12 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           mempelai: {
             mempelai1: "THE BRIDE",
             mempelai1Nama: "Bintan<br>Pradika",
+            mempelai1Anak: "Putra kedua dari:",
             mempelai1Ortu: "Bapak Suratno & Ibu Yanti",
             mempelai1Linkedin: "https://www.linkedin.com/in/bintanpradika/",
             mempelai2: "THE GROOM",
             mempelai2Nama: "Nabila Nur<br>Harindrastuti",
+            mempelai2Anak: "Putri ketiga dari:",
             mempelai2Ortu: "Bapak Haryanto WS & Ibu Emmy Indrati",
             mempelai2Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/"
           },
@@ -2883,7 +2887,6 @@ vue_runtime_esm/* default.prototype.$url */.Z.prototype.$url = url; // function 
 var router = new vue_router_esm/* default */.Z({
   mode: 'history',
   base: index_vue_dirname,
-  // base: '/wedding',
   scrollBehavior: function scrollBehavior(to, from, savedPosition) {
     return savedPosition || {
       x: 0,
@@ -3155,4 +3158,4 @@ module.exports = content.locals || {};
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.fc3d9f36.js.map
+//# sourceMappingURL=main.b7558357.js.map
