@@ -1,12 +1,10 @@
 // font family
-// @import url(https://use.typekit.net/nfw0nok.css);
-// body { font-family: "lato", sans-serif }
-@import url(https://use.typekit.net/hhx8xfj.css);
-body { font-family: poppins, sans-serif }
-.ff-vibes { font-family: great-vibes, sans-serif }
+@import url(https://use.typekit.net/nfw0nok.css);
+.ff-lato { font-family: lato, sans-serif }
+body { font-family: lato, sans-serif }
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100;200;300;400&display=swap');
-.ff-plex { font-family: 'IBM Plex Serif', serif }
+@import url(https://use.typekit.net/hhx8xfj.css);
+.ff-vibes { font-family: great-vibes, sans-serif }
 
 // font icon
 @import url(https://cdn.jsdelivr.net/gh/hung1001/font-awesome-pro@4cac1a6/css/all.css);
