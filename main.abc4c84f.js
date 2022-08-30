@@ -1907,18 +1907,14 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
           _c("iframe", {
             ref: "iframe",
             staticClass: "absolute width-100 left-0",
-            staticStyle: {
-              "pointer-events": "none",
-              top: "-60px",
-              height: "120%",
-            },
+            staticStyle: { top: "-60px", height: "140%" },
+            style: { "pointer-events": _vm.video.play && "none" },
             attrs: {
               frameborder: "0",
               allowfullscreen: "1",
-              allow:
-                "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture",
+              allow: "autoplay",
               title: "Bintan Ella",
-              src: "https://www.youtube.com/embed/kH7wlLOQMNM?autoplay=1&controls=0&rel=0&playsinline=1&enablejsapi=1",
+              src: "https://www.youtube.com/embed/kH7wlLOQMNM?&autoplay=1&controls=0&rel=0&playsinline=1&enablejsapi=1",
             },
           }),
           _vm._v(" "),
@@ -3304,6 +3300,7 @@ function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return functio
 //
 //
 //
+//
 
 
 
@@ -3326,6 +3323,9 @@ function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return functio
         nama: "",
         kehadiran: "Ya",
         jumlah: 1
+      },
+      video: {
+        play: false
       }
     };
   },
@@ -3366,7 +3366,10 @@ function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return functio
               swiper2 = new swiper_esm/* Swiper */.tq(".swiper2", config);
               setInterval(_this.updateCover, 3000);
 
-            case 5:
+              _this.$refs["iframe"].click(); // this.video.play = true;
+
+
+            case 6:
             case "end":
               return _context2.stop();
           }
@@ -3406,7 +3409,14 @@ function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return functio
 
       if (this.tamu.nama) {
         utils_toast.success(this.$t("".concat(this.$route.meta.type, ".reservasi.submitted")), this.$t("".concat(this.$route.meta.type, ".reservasi.submittedDescription")));
-         false && 0;
+        axios_default()({
+          method: "post",
+          url: "https://script.google.com/macros/s/AKfycbyf0K4OkmFYbalzmKW2EcF96xQZSoTtegu05XQuTUqUgPVm8tO91I7HyXYrjnYdFvVw/exec",
+          data: bodyFormData,
+          headers: {
+            "Content-Type": "multipart/form-data"
+          }
+        }).then(function (response) {}).catch(function (response) {});
       } else {
         utils_toast.error(this.$t("".concat(this.$route.meta.type, ".reservasi.notSubmitted")), this.$t("".concat(this.$route.meta.type, ".reservasi.notSubmittedDescription")));
       }
@@ -3527,7 +3537,7 @@ var router = new vue_router_esm/* default */.Z({
   }, {
     path: '',
     beforeEnter: function beforeEnter(to, from, next) {
-      next(url('/resepsi'));
+      next(url('/resepsi/Beloved-Guest'));
     }
   }]
 });
@@ -3742,4 +3752,4 @@ module.exports = content.locals || {};
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.b2e18f3d.js.map
+//# sourceMappingURL=main.3fb123cb.js.map
