@@ -281,19 +281,19 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
         },
         resepsi: {
           sambutan: {
-            kepada: "Kepada:",
-            buka: "Buka undangan"
+            kepada: "Dear",
+            buka: "Open invitation"
           },
           cover: {
             judul: "THE WEDDING OF",
             tanggal: "11.12.2022",
-            pria: "Bintan",
+            pria: "Ella",
             dan: "dan",
-            wanita: "Ella"
+            wanita: "Bintan"
           },
           alquran: {
             judul: "Qs Ar-rum 21",
-            deskripsi: "Glory be to God who created spouses for you from yourselves for you to gain rest from them, and kept love and mercy between yourselves. By asking for the Grace of Allah SWT, we intend to invite you to our wedding reception."
+            deskripsi: "Glory be to God who created spouses for you from yourselves for you to gain rest from them, and kept love and mercy between yourselves. By the Grace of Allah SWT, we intend to invite you to our wedding reception."
           },
           mempelai: {
             mempelai1: "THE BRIDE",
@@ -310,8 +310,8 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           resepsi: {
             judul: "WEDDING RECEPTION",
             tanggal: "SUNDAY, 11 DECEMBER 2022",
-            jam: "14:00-16:00 WIB",
-            alamat: "Shangri-La Hotel<br>Jl. Jenderal Sudirman No.Kav. 1, Tanah Abang<br>Jakarta",
+            jam: "12:00-14:00 WIB",
+            alamat: "Shangri-La Hotel<br>Jl. Jenderal Sudirman No.Kav. 1,<br>Tanah Abang, Jakarta",
             google: "https://goo.gl/maps/FcpCyjUg3NavE7ak6"
           },
           reservasi: {
@@ -329,7 +329,74 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           },
           streaming: {
             judul: "Live Streaming",
-            deskripsi: "Our special occasion will also available virtually<br>via zoom through the following link",
+            deskripsi: "Our special occasion will also available virtually via zoom through the following link",
+            link: "https://zoom.us/"
+          },
+          gallery: {
+            judul: "Our Gallery"
+          },
+          gift: {
+            judul: "Wedding Love Gift",
+            deskripsi: "If guests want to send gifts to the bride and groom,<br>we would be very thankful",
+            link: "http://link.com",
+            aksi: "Click here"
+          },
+          terimaKasih: {
+            judul: "Thank you",
+            deskripsi: "We wish you all the very best,<br>We would be honored if you could attend our wedding"
+          }
+        },
+        resepsiOnline: {
+          sambutan: {
+            kepada: "Dear",
+            buka: "Open invitation"
+          },
+          cover: {
+            judul: "THE WEDDING OF",
+            tanggal: "11.12.2022",
+            pria: "Ella",
+            dan: "dan",
+            wanita: "Bintan"
+          },
+          alquran: {
+            judul: "Qs Ar-rum 21",
+            deskripsi: "Glory be to God who created spouses for you from yourselves for you to gain rest from them, and kept love and mercy between yourselves. By the Grace of Allah SWT, we intend to invite you to our wedding reception."
+          },
+          mempelai: {
+            mempelai1: "THE BRIDE",
+            mempelai1Nama: "Bintan<br>Pradika",
+            mempelai1Anak: "Second son of:",
+            mempelai1Ortu: "Mr. Suratno & Mrs. Yanti",
+            mempelai1Linkedin: "https://www.linkedin.com/in/bintanpradika/",
+            mempelai2: "THE GROOM",
+            mempelai2Nama: "Nabila Nur<br>Harindrastuti",
+            mempelai2Anak: "Third daughter of:",
+            mempelai2Ortu: "Mr. Haryanto WS & Mrs. Emmy Indrati",
+            mempelai2Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/"
+          },
+          resepsi: {
+            judul: "WEDDING RECEPTION",
+            tanggal: "SUNDAY, 11 DECEMBER 2022",
+            jam: "",
+            alamat: "",
+            google: ""
+          },
+          reservasi: {
+            judul: "RSVP",
+            deskripsi: "Invited guests are welocomed to<br>fill out the attendance confirmation below",
+            nama: "Name",
+            kehadiran: "Attendance",
+            jumlah: "Number of guests",
+            ya: "Yes",
+            tidak: "No",
+            submitted: "Data berhasil disubmit",
+            submittedDescription: "Terima kasih atas reservasinya, kami menantikan kehadirannya",
+            notSubmitted: "Data gagal disubmit",
+            notSubmittedDescription: "Harap lengkapi formulir terlebih dahulu"
+          },
+          streaming: {
+            judul: "Live Streaming",
+            deskripsi: "Our special occasion will also available on Sunday, 18th of December 2022 starting at 8 a.m. virtually via zoom through the following link",
             link: "https://zoom.us/"
           },
           gallery: {
@@ -348,19 +415,19 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
         },
         unduhMantu: {
           sambutan: {
-            kepada: "Kepada:",
-            buka: "Buka undangan"
+            kepada: "Dear",
+            buka: "Open invitation"
           },
           cover: {
             judul: "THE WEDDING OF",
             tanggal: "17.12.2022",
-            pria: "Bintan",
+            pria: "Ella",
             dan: "dan",
-            wanita: "Ella"
+            wanita: "Bintan"
           },
           alquran: {
             judul: "Qs Ar-rum 21",
-            deskripsi: "Glory be to God who created spouses for you from yourselves for you to gain rest from them, and kept love and mercy between yourselves. By asking for the Grace of Allah SWT, we intend to invite you to our wedding reception."
+            deskripsi: "Glory be to God who created spouses for you from yourselves for you to gain rest from them, and kept love and mercy between yourselves. By the Grace of Allah SWT, we intend to invite you to our wedding reception."
           },
           mempelai: {
             mempelai1: "THE BRIDE",
@@ -396,7 +463,7 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           },
           streaming: {
             judul: "Live Streaming",
-            deskripsi: "Our special occasion will also available virtually<br>via zoom through the following link",
+            deskripsi: "Our special occasion will also available virtually via zoom through the following link",
             link: "https://zoom.us/"
           },
           gallery: {
@@ -437,27 +504,27 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
         },
         resepsi: {
           sambutan: {
-            kepada: "Kepada:",
+            kepada: "Kepada Yth.",
             buka: "Buka undangan"
           },
           cover: {
             judul: "THE WEDDING OF",
             tanggal: "11.12.2022",
-            pria: "Bintan",
+            pria: "Ella",
             dan: "dan",
-            wanita: "Ella"
+            wanita: "Bintan"
           },
           alquran: {
             judul: "Qs Ar-rum 21",
             deskripsi: "Maha Suci Allah yang telah menciptakan manusia dengan berpasang-pasangan. Dengan memohon Rahmat dan Ridho Allah SWT, kami bermaksud mengundang Saudara/i dalam acara resepsi pernikahan kami."
           },
           mempelai: {
-            mempelai1: "THE BRIDE",
+            mempelai1: "MEMPELAI PRIA",
             mempelai1Nama: "Bintan<br>Pradika",
             mempelai1Anak: "Putra kedua dari:",
             mempelai1Ortu: "Bapak Suratno & Ibu Yanti",
             mempelai1Linkedin: "https://www.linkedin.com/in/bintanpradika/",
-            mempelai2: "THE GROOM",
+            mempelai2: "MEMPELAI WANITA",
             mempelai2Nama: "Nabila Nur<br>Harindrastuti",
             mempelai2Anak: "Putri ketiga dari:",
             mempelai2Ortu: "Bapak Haryanto WS & Ibu Emmy Indrati",
@@ -467,7 +534,7 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
             judul: "RESEPSI",
             tanggal: "MINGGU, 11 DESEMBER 2022",
             jam: "14:00-16:00 WIB",
-            alamat: "Shangri-La Hotel<br>Jl. Jenderal Sudirman No.Kav. 1, Tanah Abang<br>Jakarta",
+            alamat: "Shangri-La Hotel<br>Jl. Jenderal Sudirman No.Kav. 1,<br>Tanah Abang, Jakarta",
             google: "https://goo.gl/maps/FcpCyjUg3NavE7ak6"
           },
           reservasi: {
@@ -485,7 +552,7 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           },
           streaming: {
             judul: "Live Streaming",
-            deskripsi: "Kami juga akan mempublikasikan pernikahan secara virtual<br>melalui zoom link berikut",
+            deskripsi: "Kami juga akan mempublikasikan pernikahan secara virtual melalui zoom link berikut",
             link: "https://zoom.us/"
           },
           gallery: {
@@ -493,26 +560,93 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           },
           gift: {
             judul: "Wedding Love Gift",
-            deskripsi: "Apabila tamu ingin mengirimkan hadiah ke pada kedua mempelai,<br>kami akan sangat berterima kasih",
+            deskripsi: "Apabila tamu ingin mengirimkan hadiah ke pada kedua mempelai, kami akan sangat berterima kasih",
             link: "http://link.com",
             aksi: "Klik disini"
           },
           terimaKasih: {
             judul: "Terima Kasih",
-            deskripsi: "Merupakan suatu kebahagiaan dan kehormatan bagi kami,<br>apabila Bapak/Ibu/Saudara/i berkenan hadir dan<br>memberikan do’a restu kepada Kami."
+            deskripsi: "Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan do’a restu kepada Kami."
+          }
+        },
+        resepsiOnline: {
+          sambutan: {
+            kepada: "Kepada Yth.",
+            buka: "Buka undangan"
+          },
+          cover: {
+            judul: "THE WEDDING OF",
+            tanggal: "11.12.2022",
+            pria: "Ella",
+            dan: "dan",
+            wanita: "Bintan"
+          },
+          alquran: {
+            judul: "Qs Ar-rum 21",
+            deskripsi: "Maha Suci Allah yang telah menciptakan manusia dengan berpasang-pasangan. Dengan memohon Rahmat dan Ridho Allah SWT, kami bermaksud mengundang Saudara/i dalam acara resepsi pernikahan kami."
+          },
+          mempelai: {
+            mempelai1: "MEMPELAI PRIA",
+            mempelai1Nama: "Bintan<br>Pradika",
+            mempelai1Anak: "Putra kedua dari:",
+            mempelai1Ortu: "Bapak Suratno & Ibu Yanti",
+            mempelai1Linkedin: "https://www.linkedin.com/in/bintanpradika/",
+            mempelai2: "MEMPELAI WANITA",
+            mempelai2Nama: "Nabila Nur<br>Harindrastuti",
+            mempelai2Anak: "Putri ketiga dari:",
+            mempelai2Ortu: "Bapak Haryanto WS & Ibu Emmy Indrati",
+            mempelai2Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/"
+          },
+          resepsi: {
+            judul: "RESEPSI",
+            tanggal: "MINGGU, 11 DESEMBER 2022",
+            jam: "",
+            alamat: "",
+            google: ""
+          },
+          reservasi: {
+            judul: "Reservasi Kehadiran",
+            deskripsi: "Diharapkan kepada tamu undangan untuk<br>mengisi formulir kehadiran dibawah ini",
+            nama: "Nama",
+            kehadiran: "Kehadiran",
+            jumlah: "Jumlah",
+            ya: "Ya",
+            tidak: "Tidak",
+            submitted: "Data berhasil disubmit",
+            submittedDescription: "Terima kasih atas reservasinya, kami menantikan kehadirannya",
+            notSubmitted: "Data gagal disubmit",
+            notSubmittedDescription: "Harap lengkapi formulir terlebih dahulu"
+          },
+          streaming: {
+            judul: "Live Streaming",
+            deskripsi: "Kami juga akan mempublikasikan pernikahan pada hari Minggu, 11 Desember 2022 mulai pukul 8 pagi secara virtual melalui zoom link berikut",
+            link: "https://zoom.us/"
+          },
+          gallery: {
+            judul: "Our Gallery"
+          },
+          gift: {
+            judul: "Wedding Love Gift",
+            deskripsi: "Apabila tamu ingin mengirimkan hadiah ke pada kedua mempelai, kami akan sangat berterima kasih",
+            link: "http://link.com",
+            aksi: "Klik disini"
+          },
+          terimaKasih: {
+            judul: "Terima Kasih",
+            deskripsi: "Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan do’a restu kepada Kami."
           }
         },
         unduhMantu: {
           sambutan: {
-            kepada: "Kepada:",
+            kepada: "Kepada Yth.",
             buka: "Buka undangan"
           },
           cover: {
             judul: "THE WEDDING OF",
             tanggal: "17.12.2022",
-            pria: "Bintan",
+            pria: "Ella",
             dan: "dan",
-            wanita: "Ella"
+            wanita: "Bintan"
           },
           alquran: {
             judul: "Qs Ar-rum 21",
@@ -552,7 +686,7 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           },
           streaming: {
             judul: "Live Streaming",
-            deskripsi: "Kami juga akan mempublikasikan pernikahan secara virtual<br>melalui zoom link berikut",
+            deskripsi: "Kami juga akan mempublikasikan pernikahan secara virtual melalui zoom link berikut",
             link: "https://zoom.us/"
           },
           gallery: {
@@ -560,13 +694,13 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           },
           gift: {
             judul: "Wedding Love Gift",
-            deskripsi: "Apabila tamu ingin mengirimkan hadiah ke pada kedua mempelai,<br>kami akan sangat berterima kasih",
+            deskripsi: "Apabila tamu ingin mengirimkan hadiah ke pada kedua mempelai, kami akan sangat berterima kasih",
             link: "http://link.com",
             aksi: "Klik disini"
           },
           terimaKasih: {
             judul: "Terima Kasih",
-            deskripsi: "Merupakan suatu kebahagiaan dan kehormatan bagi kami,<br>apabila Bapak/Ibu/Saudara/i berkenan hadir dan<br>memberikan do’a restu kepada Kami."
+            deskripsi: "Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan do’a restu kepada Kami."
           }
         }
       }
@@ -1173,7 +1307,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
     "div",
     [
       _c("transition", { attrs: { name: "fade" } }, [
-        _vm.modal.sambutan
+        _vm.modal.sambutan && _vm.pengunjung
           ? _c("div", {
               staticClass: "fixed width-100 height-100 z-2",
               staticStyle: { "background-color": "rgba(0, 0, 0, 0.8)" },
@@ -1182,7 +1316,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
       ]),
       _vm._v(" "),
       _c("transition", { attrs: { name: "fade" } }, [
-        _vm.modal.sambutan
+        _vm.modal.sambutan && _vm.pengunjung
           ? _c(
               "div",
               {
@@ -1695,6 +1829,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                                 _vm.$route.meta.type +
                                   ".mempelai.mempelai1Linkedin"
                               ),
+                              target: "_blank",
                             },
                           },
                           [
@@ -1841,6 +1976,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                                   _vm.$route.meta.type +
                                     ".mempelai.mempelai2Linkedin"
                                 ),
+                                target: "_blank",
                               },
                             },
                             [
@@ -1897,171 +2033,46 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
         ]
       ),
       _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass:
-            "has-bg-img padding-y-92 padding-y-60-sm text-center text-grayer",
-        },
-        [
-          _c("iframe", {
-            ref: "iframe",
-            staticClass: "absolute width-100 left-0",
-            staticStyle: { top: "-60px", height: "140%" },
-            style: { "pointer-events": _vm.video.play && "none" },
-            attrs: {
-              frameborder: "0",
-              allowfullscreen: "1",
-              allow: "autoplay",
-              title: "Bintan Ella",
-              src: "https://www.youtube.com/embed/kH7wlLOQMNM?&autoplay=1&controls=0&rel=0&playsinline=1&enablejsapi=1",
-            },
-          }),
-          _vm._v(" "),
-          _c("div", { staticStyle: { height: "400px" } }),
-        ]
-      ),
+      _c("div", { staticClass: "has-bg-img text-center text-grayer" }, [
+        _c("iframe", {
+          ref: "iframe",
+          staticClass: "absolute width-100 left-0",
+          staticStyle: { top: "-80px", height: "140%" },
+          style: { "pointer-events": _vm.video.play && "none" },
+          attrs: {
+            frameborder: "0",
+            allowfullscreen: "1",
+            allow: "autoplay",
+            title: "Bintan Ella",
+            src: "https://www.youtube.com/embed/kH7wlLOQMNM?&autoplay=1&controls=0&rel=0&playsinline=1&enablejsapi=1",
+          },
+        }),
+        _vm._v(" "),
+        _c("div", { staticStyle: { height: "400px" } }),
+      ]),
       _vm._v(" "),
-      _c(
-        "div",
-        {
-          staticClass:
-            "has-bg-img padding-y-92 padding-y-60-sm text-center text-grayer",
-        },
-        [
-          _c("div", {
-            staticClass: "bg-img bg-img-no-repeat",
-            staticStyle: {
-              "background-image":
-                "url('https://groovepublic.com/wp-content/uploads/2022/03/shadow.png')",
-              opacity: "0.07",
-            },
-          }),
-          _vm._v(" "),
-          _c(
+      _vm.$route.meta.type !== "resepsiOnline"
+        ? _c(
             "div",
             {
-              staticClass: "padding-x-24 margin-x-auto width-100",
-              staticStyle: { "max-width": "900px" },
+              staticClass:
+                "has-bg-img padding-y-92 padding-y-60-sm text-center text-grayer",
             },
             [
-              _c(
-                "div",
-                {
-                  staticClass: "h2 fw-300 fs-italic",
-                  staticStyle: { "letter-spacing": "1.2px" },
+              _c("div", {
+                staticClass: "bg-img bg-img-no-repeat",
+                staticStyle: {
+                  "background-image":
+                    "url('https://groovepublic.com/wp-content/uploads/2022/03/shadow.png')",
+                  opacity: "0.07",
                 },
-                [
-                  _c("span", {
-                    domProps: {
-                      innerHTML: _vm._s(
-                        _vm.$t(_vm.$route.meta.type + ".resepsi.judul")
-                      ),
-                    },
-                  }),
-                ]
-              ),
+              }),
               _vm._v(" "),
               _c(
                 "div",
                 {
-                  staticClass: "fw-700 margin-top-24",
-                  staticStyle: { "letter-spacing": "2px" },
-                },
-                [
-                  _c(
-                    "span",
-                    { staticClass: "h4", staticStyle: { color: "#66686b" } },
-                    [
-                      _c("span", {
-                        domProps: {
-                          innerHTML: _vm._s(
-                            _vm.$t(_vm.$route.meta.type + ".resepsi.tanggal")
-                          ),
-                        },
-                      }),
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("br"),
-                  _vm._v(" "),
-                  _c("span", { staticClass: "h5" }, [
-                    _c("span", {
-                      domProps: {
-                        innerHTML: _vm._s(
-                          _vm.$t(_vm.$route.meta.type + ".resepsi.jam")
-                        ),
-                      },
-                    }),
-                  ]),
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "margin-top-28 margin-x-auto width-100",
-                  staticStyle: { "max-width": "546px" },
-                },
-                [
-                  _c("span", {
-                    domProps: {
-                      innerHTML: _vm._s(
-                        _vm.$t(_vm.$route.meta.type + ".resepsi.alamat")
-                      ),
-                    },
-                  }),
-                ]
-              ),
-              _vm._v(" "),
-              _c(
-                "a",
-                {
-                  staticClass: "a block margin-top-8",
-                  attrs: {
-                    href: _vm.$t(_vm.$route.meta.type + ".resepsi.google"),
-                  },
-                },
-                [_vm._v("\n        Google maps\n      ")]
-              ),
-            ]
-          ),
-        ]
-      ),
-      _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "has-bg-img padding-y-92 padding-y-60-sm text-grayest" },
-        [
-          _c("div", {
-            staticClass: "bg-img bg-img-no-repeat",
-            style: {
-              backgroundImage: "url('" + _vm.cover[0] + "')",
-              opacity: 0.3,
-            },
-          }),
-          _vm._v(" "),
-          _c("div", {
-            staticClass: "bg-img bg-gray",
-            staticStyle: { opacity: "0.1" },
-          }),
-          _vm._v(" "),
-          _c(
-            "div",
-            {
-              staticClass: "flex padding-x-24 margin-x-auto width-100",
-              staticStyle: { "max-width": "900px" },
-            },
-            [
-              _vm._m(3),
-              _vm._v(" "),
-              _c(
-                "div",
-                {
-                  staticClass: "width-50 width-100-sm padding-24 rounded-8",
-                  staticStyle: {
-                    "background-color": "rgba(255, 255, 255, .7)",
-                  },
+                  staticClass: "padding-x-24 margin-x-auto width-100",
+                  staticStyle: { "max-width": "900px" },
                 },
                 [
                   _c(
@@ -2074,230 +2085,404 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                       _c("span", {
                         domProps: {
                           innerHTML: _vm._s(
-                            _vm.$t(_vm.$route.meta.type + ".reservasi.judul")
+                            _vm.$t(_vm.$route.meta.type + ".resepsi.judul")
                           ),
                         },
                       }),
                     ]
                   ),
                   _vm._v(" "),
-                  _c("div", { staticClass: "margin-top-36 fw-300" }, [
-                    _c("span", {
-                      domProps: {
-                        innerHTML: _vm._s(
-                          _vm.$t(_vm.$route.meta.type + ".reservasi.deskripsi")
-                        ),
-                      },
-                    }),
-                  ]),
+                  _c(
+                    "div",
+                    {
+                      staticClass: "fw-700 margin-top-24",
+                      staticStyle: { "letter-spacing": "2px" },
+                    },
+                    [
+                      _c(
+                        "span",
+                        {
+                          staticClass: "h4",
+                          staticStyle: { color: "#66686b" },
+                        },
+                        [
+                          _c("span", {
+                            domProps: {
+                              innerHTML: _vm._s(
+                                _vm.$t(
+                                  _vm.$route.meta.type + ".resepsi.tanggal"
+                                )
+                              ),
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("br"),
+                      _vm._v(" "),
+                      _vm.$t(_vm.$route.meta.type + ".resepsi.jam")
+                        ? _c("span", { staticClass: "h5" }, [
+                            _vm.$route.meta.custom &&
+                            _vm.$route.meta.custom.waktu
+                              ? _c("span", {
+                                  domProps: {
+                                    innerHTML: _vm._s(
+                                      _vm.$route.meta.custom.waktu
+                                    ),
+                                  },
+                                })
+                              : _c("span", {
+                                  domProps: {
+                                    innerHTML: _vm._s(
+                                      _vm.$t(
+                                        _vm.$route.meta.type + ".resepsi.jam"
+                                      )
+                                    ),
+                                  },
+                                }),
+                          ])
+                        : _vm._e(),
+                    ]
+                  ),
                   _vm._v(" "),
-                  _c("div", { staticClass: "margin-top-28" }, [
-                    _c("div", { staticClass: "margin-bottom-24", class: {} }, [
-                      _c("label", { staticClass: "form-label" }, [
+                  _vm.$t(_vm.$route.meta.type + ".resepsi.alamat")
+                    ? _c(
+                        "div",
+                        {
+                          staticClass: "margin-top-28 margin-x-auto width-100",
+                          staticStyle: { "max-width": "546px" },
+                        },
+                        [
+                          _c("span", {
+                            domProps: {
+                              innerHTML: _vm._s(
+                                _vm.$t(_vm.$route.meta.type + ".resepsi.alamat")
+                              ),
+                            },
+                          }),
+                        ]
+                      )
+                    : _vm._e(),
+                  _vm._v(" "),
+                  _vm.$t(_vm.$route.meta.type + ".resepsi.google")
+                    ? _c(
+                        "a",
+                        {
+                          staticClass: "a block margin-top-8",
+                          attrs: {
+                            href: _vm.$t(
+                              _vm.$route.meta.type + ".resepsi.google"
+                            ),
+                            target: "_blank",
+                          },
+                        },
+                        [_vm._v("\n        Google maps\n      ")]
+                      )
+                    : _vm._e(),
+                ]
+              ),
+            ]
+          )
+        : _vm._e(),
+      _vm._v(" "),
+      _vm.$route.meta.type !== "resepsiOnline"
+        ? _c(
+            "div",
+            {
+              staticClass:
+                "has-bg-img padding-y-92 padding-y-60-sm text-grayest",
+            },
+            [
+              _c("div", {
+                staticClass: "bg-img bg-img-no-repeat",
+                style: {
+                  backgroundImage: "url('" + _vm.cover[0] + "')",
+                  opacity: 0.3,
+                },
+              }),
+              _vm._v(" "),
+              _c("div", {
+                staticClass: "bg-img bg-gray",
+                staticStyle: { opacity: "0.1" },
+              }),
+              _vm._v(" "),
+              _c(
+                "div",
+                {
+                  staticClass: "flex padding-x-24 margin-x-auto width-100",
+                  staticStyle: { "max-width": "900px" },
+                },
+                [
+                  _vm._m(3),
+                  _vm._v(" "),
+                  _c(
+                    "div",
+                    {
+                      staticClass: "width-50 width-100-sm padding-24 rounded-8",
+                      staticStyle: {
+                        "background-color": "rgba(255, 255, 255, .7)",
+                      },
+                    },
+                    [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "h2 fw-300 fs-italic",
+                          staticStyle: { "letter-spacing": "1.2px" },
+                        },
+                        [
+                          _c("span", {
+                            domProps: {
+                              innerHTML: _vm._s(
+                                _vm.$t(
+                                  _vm.$route.meta.type + ".reservasi.judul"
+                                )
+                              ),
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "margin-top-36 fw-300" }, [
                         _c("span", {
                           domProps: {
                             innerHTML: _vm._s(
-                              _vm.$t(_vm.$route.meta.type + ".reservasi.nama")
+                              _vm.$t(
+                                _vm.$route.meta.type + ".reservasi.deskripsi"
+                              )
                             ),
                           },
                         }),
                       ]),
                       _vm._v(" "),
-                      _c("input", {
-                        directives: [
-                          {
-                            name: "model",
-                            rawName: "v-model",
-                            value: _vm.tamu.nama,
-                            expression: "tamu.nama",
-                          },
-                        ],
-                        staticClass: "form-text",
-                        attrs: { type: "text", required: "" },
-                        domProps: { value: _vm.tamu.nama },
-                        on: {
-                          input: function ($event) {
-                            if ($event.target.composing) {
-                              return
-                            }
-                            _vm.$set(_vm.tamu, "nama", $event.target.value)
-                          },
-                        },
-                      }),
-                    ]),
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "flex block-sm" }, [
-                    _c(
-                      "div",
-                      {
-                        staticClass:
-                          "width-50 width-100-sm padding-right-4 padding-right-0-sm margin-bottom-24",
-                        class: {},
-                      },
-                      [
-                        _c("label", { staticClass: "form-label" }, [
-                          _c("span", {
-                            domProps: {
-                              innerHTML: _vm._s(
-                                _vm.$t(
-                                  _vm.$route.meta.type + ".reservasi.kehadiran"
-                                )
-                              ),
-                            },
-                          }),
-                        ]),
-                        _vm._v(" "),
+                      _c("div", { staticClass: "margin-top-28" }, [
                         _c(
-                          "select",
-                          {
-                            directives: [
-                              {
-                                name: "model",
-                                rawName: "v-model",
-                                value: _vm.tamu.kehadiran,
-                                expression: "tamu.kehadiran",
-                              },
-                            ],
-                            staticClass: "form-dropdown",
-                            attrs: { required: "" },
-                            on: {
-                              change: function ($event) {
-                                var $$selectedVal = Array.prototype.filter
-                                  .call($event.target.options, function (o) {
-                                    return o.selected
-                                  })
-                                  .map(function (o) {
-                                    var val = "_value" in o ? o._value : o.value
-                                    return val
-                                  })
-                                _vm.$set(
-                                  _vm.tamu,
-                                  "kehadiran",
-                                  $event.target.multiple
-                                    ? $$selectedVal
-                                    : $$selectedVal[0]
-                                )
-                              },
-                            },
-                          },
+                          "div",
+                          { staticClass: "margin-bottom-24", class: {} },
                           [
-                            _c("option", { attrs: { value: "Ya" } }, [
+                            _c("label", { staticClass: "form-label" }, [
                               _c("span", {
                                 domProps: {
                                   innerHTML: _vm._s(
                                     _vm.$t(
-                                      _vm.$route.meta.type + ".reservasi.ya"
+                                      _vm.$route.meta.type + ".reservasi.nama"
                                     )
                                   ),
                                 },
                               }),
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "Tidak" } }, [
+                            _c("input", {
+                              directives: [
+                                {
+                                  name: "model",
+                                  rawName: "v-model",
+                                  value: _vm.tamu.nama,
+                                  expression: "tamu.nama",
+                                },
+                              ],
+                              staticClass: "form-text",
+                              attrs: { type: "text", required: "" },
+                              domProps: { value: _vm.tamu.nama },
+                              on: {
+                                input: function ($event) {
+                                  if ($event.target.composing) {
+                                    return
+                                  }
+                                  _vm.$set(
+                                    _vm.tamu,
+                                    "nama",
+                                    $event.target.value
+                                  )
+                                },
+                              },
+                            }),
+                          ]
+                        ),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "flex block-sm" }, [
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "width-50 width-100-sm padding-right-4 padding-right-0-sm margin-bottom-24",
+                            class: {},
+                          },
+                          [
+                            _c("label", { staticClass: "form-label" }, [
                               _c("span", {
                                 domProps: {
                                   innerHTML: _vm._s(
                                     _vm.$t(
-                                      _vm.$route.meta.type + ".reservasi.tidak"
+                                      _vm.$route.meta.type +
+                                        ".reservasi.kehadiran"
                                     )
                                   ),
                                 },
                               }),
                             ]),
+                            _vm._v(" "),
+                            _c(
+                              "select",
+                              {
+                                directives: [
+                                  {
+                                    name: "model",
+                                    rawName: "v-model",
+                                    value: _vm.tamu.kehadiran,
+                                    expression: "tamu.kehadiran",
+                                  },
+                                ],
+                                staticClass: "form-dropdown",
+                                attrs: { required: "" },
+                                on: {
+                                  change: function ($event) {
+                                    var $$selectedVal = Array.prototype.filter
+                                      .call(
+                                        $event.target.options,
+                                        function (o) {
+                                          return o.selected
+                                        }
+                                      )
+                                      .map(function (o) {
+                                        var val =
+                                          "_value" in o ? o._value : o.value
+                                        return val
+                                      })
+                                    _vm.$set(
+                                      _vm.tamu,
+                                      "kehadiran",
+                                      $event.target.multiple
+                                        ? $$selectedVal
+                                        : $$selectedVal[0]
+                                    )
+                                  },
+                                },
+                              },
+                              [
+                                _c("option", { attrs: { value: "Ya" } }, [
+                                  _c("span", {
+                                    domProps: {
+                                      innerHTML: _vm._s(
+                                        _vm.$t(
+                                          _vm.$route.meta.type + ".reservasi.ya"
+                                        )
+                                      ),
+                                    },
+                                  }),
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "Tidak" } }, [
+                                  _c("span", {
+                                    domProps: {
+                                      innerHTML: _vm._s(
+                                        _vm.$t(
+                                          _vm.$route.meta.type +
+                                            ".reservasi.tidak"
+                                        )
+                                      ),
+                                    },
+                                  }),
+                                ]),
+                              ]
+                            ),
                           ]
                         ),
-                      ]
-                    ),
-                    _vm._v(" "),
-                    _c(
-                      "div",
-                      {
-                        staticClass:
-                          "width-50 width-100-sm padding-left-4 padding-left-0-sm margin-bottom-24",
-                        class: {},
-                      },
-                      [
-                        _c("label", { staticClass: "form-label" }, [
-                          _c("span", {
-                            domProps: {
-                              innerHTML: _vm._s(
-                                _vm.$t(
-                                  _vm.$route.meta.type + ".reservasi.jumlah"
-                                )
-                              ),
-                            },
-                          }),
-                        ]),
                         _vm._v(" "),
                         _c(
-                          "select",
+                          "div",
                           {
-                            directives: [
-                              {
-                                name: "model",
-                                rawName: "v-model",
-                                value: _vm.tamu.jumlah,
-                                expression: "tamu.jumlah",
-                              },
-                            ],
-                            staticClass: "form-dropdown",
-                            attrs: { required: "" },
-                            on: {
-                              change: function ($event) {
-                                var $$selectedVal = Array.prototype.filter
-                                  .call($event.target.options, function (o) {
-                                    return o.selected
-                                  })
-                                  .map(function (o) {
-                                    var val = "_value" in o ? o._value : o.value
-                                    return val
-                                  })
-                                _vm.$set(
-                                  _vm.tamu,
-                                  "jumlah",
-                                  $event.target.multiple
-                                    ? $$selectedVal
-                                    : $$selectedVal[0]
-                                )
-                              },
-                            },
+                            staticClass:
+                              "width-50 width-100-sm padding-left-4 padding-left-0-sm margin-bottom-24",
+                            class: {},
                           },
                           [
-                            _c("option", { attrs: { value: "1" } }, [
-                              _vm._v("1"),
+                            _c("label", { staticClass: "form-label" }, [
+                              _c("span", {
+                                domProps: {
+                                  innerHTML: _vm._s(
+                                    _vm.$t(
+                                      _vm.$route.meta.type + ".reservasi.jumlah"
+                                    )
+                                  ),
+                                },
+                              }),
                             ]),
                             _vm._v(" "),
-                            _c("option", { attrs: { value: "2" } }, [
-                              _vm._v("2"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "3" } }, [
-                              _vm._v("3"),
-                            ]),
-                            _vm._v(" "),
-                            _c("option", { attrs: { value: "4" } }, [
-                              _vm._v("4"),
-                            ]),
+                            _c(
+                              "select",
+                              {
+                                directives: [
+                                  {
+                                    name: "model",
+                                    rawName: "v-model",
+                                    value: _vm.tamu.jumlah,
+                                    expression: "tamu.jumlah",
+                                  },
+                                ],
+                                staticClass: "form-dropdown",
+                                attrs: { required: "" },
+                                on: {
+                                  change: function ($event) {
+                                    var $$selectedVal = Array.prototype.filter
+                                      .call(
+                                        $event.target.options,
+                                        function (o) {
+                                          return o.selected
+                                        }
+                                      )
+                                      .map(function (o) {
+                                        var val =
+                                          "_value" in o ? o._value : o.value
+                                        return val
+                                      })
+                                    _vm.$set(
+                                      _vm.tamu,
+                                      "jumlah",
+                                      $event.target.multiple
+                                        ? $$selectedVal
+                                        : $$selectedVal[0]
+                                    )
+                                  },
+                                },
+                              },
+                              [
+                                _c("option", { attrs: { value: "1" } }, [
+                                  _vm._v("1"),
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "2" } }, [
+                                  _vm._v("2"),
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "3" } }, [
+                                  _vm._v("3"),
+                                ]),
+                                _vm._v(" "),
+                                _c("option", { attrs: { value: "4" } }, [
+                                  _vm._v("4"),
+                                ]),
+                              ]
+                            ),
                           ]
                         ),
-                      ]
-                    ),
-                  ]),
-                  _vm._v(" "),
-                  _c("div", [
-                    _c(
-                      "button",
-                      { staticClass: "button", on: { click: _vm.submit } },
-                      [_vm._v("\n            Submit\n          ")]
-                    ),
-                  ]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", [
+                        _c(
+                          "button",
+                          { staticClass: "button", on: { click: _vm.submit } },
+                          [_vm._v("\n            Submit\n          ")]
+                        ),
+                      ]),
+                    ]
+                  ),
                 ]
               ),
             ]
-          ),
-        ]
-      ),
+          )
+        : _vm._e(),
       _vm._v(" "),
       _c(
         "div",
@@ -2360,7 +2545,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                         staticClass: "button",
                         attrs: {
                           href: _vm.$t(
-                            _vm.$route.meta.type + ".streaming.deskripsi"
+                            _vm.$route.meta.type + ".streaming.link"
                           ),
                         },
                       },
@@ -2506,86 +2691,92 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
         ]
       ),
       _vm._v(" "),
-      _c(
-        "div",
-        { staticClass: "has-bg-img padding-y-92 padding-y-60-sm text-grayest" },
-        [
-          _c("div", {
-            staticClass: "bg-img bg-img-no-repeat",
-            staticStyle: {
-              "background-image":
-                "url('https://groovepublic.com/wp-content/uploads/2022/03/shadow.png')",
-              opacity: "0.07",
-            },
-          }),
-          _vm._v(" "),
-          _c(
+      _vm.$route.params.lang === "en"
+        ? _c(
             "div",
             {
-              staticClass: "flex block-sm padding-x-24 margin-x-auto width-100",
-              staticStyle: { "max-width": "900px" },
+              staticClass:
+                "has-bg-img padding-y-92 padding-y-60-sm text-grayest",
             },
             [
+              _c("div", {
+                staticClass: "bg-img bg-img-no-repeat",
+                staticStyle: {
+                  "background-image":
+                    "url('https://groovepublic.com/wp-content/uploads/2022/03/shadow.png')",
+                  opacity: "0.07",
+                },
+              }),
+              _vm._v(" "),
               _c(
                 "div",
                 {
                   staticClass:
-                    "width-50 width-100-sm padding-right-24 padding-right-0-sm text-right text-center-sm",
+                    "flex block-sm padding-x-24 margin-x-auto width-100",
+                  staticStyle: { "max-width": "900px" },
                 },
                 [
                   _c(
                     "div",
                     {
-                      staticClass: "h2 fw-300 fs-italic",
-                      staticStyle: { "letter-spacing": "1.2px" },
+                      staticClass:
+                        "width-50 width-100-sm padding-right-24 padding-right-0-sm text-right text-center-sm",
                     },
                     [
-                      _c("span", {
-                        domProps: {
-                          innerHTML: _vm._s(
-                            _vm.$t(_vm.$route.meta.type + ".gift.judul")
-                          ),
+                      _c(
+                        "div",
+                        {
+                          staticClass: "h2 fw-300 fs-italic",
+                          staticStyle: { "letter-spacing": "1.2px" },
                         },
-                      }),
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "margin-top-36 fw-300" }, [
-                    _c("span", {
-                      domProps: {
-                        innerHTML: _vm._s(
-                          _vm.$t(_vm.$route.meta.type + ".gift.deskripsi")
-                        ),
-                      },
-                    }),
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "margin-top-28" }, [
-                    _c(
-                      "a",
-                      {
-                        staticClass: "button",
-                        on: { click: _vm.modalGiftOpen },
-                      },
-                      [
+                        [
+                          _c("span", {
+                            domProps: {
+                              innerHTML: _vm._s(
+                                _vm.$t(_vm.$route.meta.type + ".gift.judul")
+                              ),
+                            },
+                          }),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "margin-top-36 fw-300" }, [
                         _c("span", {
                           domProps: {
                             innerHTML: _vm._s(
-                              _vm.$t(_vm.$route.meta.type + ".gift.aksi")
+                              _vm.$t(_vm.$route.meta.type + ".gift.deskripsi")
                             ),
                           },
                         }),
-                      ]
-                    ),
-                  ]),
+                      ]),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "margin-top-28" }, [
+                        _c(
+                          "a",
+                          {
+                            staticClass: "button",
+                            on: { click: _vm.modalGiftOpen },
+                          },
+                          [
+                            _c("span", {
+                              domProps: {
+                                innerHTML: _vm._s(
+                                  _vm.$t(_vm.$route.meta.type + ".gift.aksi")
+                                ),
+                              },
+                            }),
+                          ]
+                        ),
+                      ]),
+                    ]
+                  ),
+                  _vm._v(" "),
+                  _vm._m(5),
                 ]
               ),
-              _vm._v(" "),
-              _vm._m(5),
             ]
-          ),
-        ]
-      ),
+          )
+        : _vm._e(),
       _vm._v(" "),
       _c(
         "div",
@@ -2624,15 +2815,22 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
             ]
           ),
           _vm._v(" "),
-          _c("div", { staticClass: "margin-top-36 fw-300" }, [
-            _c("span", {
-              domProps: {
-                innerHTML: _vm._s(
-                  _vm.$t(_vm.$route.meta.type + ".terimaKasih.deskripsi")
-                ),
-              },
-            }),
-          ]),
+          _c(
+            "div",
+            {
+              staticClass: "margin-top-36 fw-300 margin-x-auto width-100",
+              staticStyle: { "max-width": "480px" },
+            },
+            [
+              _c("span", {
+                domProps: {
+                  innerHTML: _vm._s(
+                    _vm.$t(_vm.$route.meta.type + ".terimaKasih.deskripsi")
+                  ),
+                },
+              }),
+            ]
+          ),
           _vm._v(" "),
           _c(
             "div",
@@ -2817,7 +3015,7 @@ var toast = function (toastr) {
   var options = {
     containerId: 'toast-container',
     toastClass: 'toast',
-    tapToDismiss: false,
+    tapToDismiss: true,
     debug: false,
     showMethod: 'fadeIn',
     //fadeIn, slideDown, and show are built into jQuery
@@ -2833,12 +3031,12 @@ var toast = function (toastr) {
     closeDuration: false,
     closeEasing: false,
     closeOnHover: true,
-    extendedTimeOut: 9000,
+    extendedTimeOut: 4000,
     iconClasses: {
       info: '_'
     },
     positionClass: 'toast-top-center',
-    timeOut: 9000,
+    timeOut: 4000,
     // Set timeOut and extendedTimeOut to 0 to make it sticky
     titleClass: null,
     messageClass: null,
@@ -3301,6 +3499,18 @@ function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return functio
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 
 
 
@@ -3379,7 +3589,7 @@ function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return functio
   },
   computed: {
     pengunjung: function pengunjung() {
-      return this.$route.params.tamu.replace(/-/g, ' ');
+      return this.$route.params.tamu && this.$route.params.tamu.replace(/-/g, ' ');
     },
     usedCover: function usedCover() {
       return this.cover[this.indexCover];
@@ -3406,6 +3616,7 @@ function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return functio
       bodyFormData.append("Nama", this.tamu.nama);
       bodyFormData.append("Kehadiran", this.tamu.kehadiran);
       bodyFormData.append("Jumlah", this.tamu.jumlah);
+      bodyFormData.append("Path", url(null));
 
       if (this.tamu.nama) {
         utils_toast.success(this.$t("".concat(this.$route.meta.type, ".reservasi.submitted")), this.$t("".concat(this.$route.meta.type, ".reservasi.submittedDescription")));
@@ -3503,13 +3714,28 @@ var router = new vue_router_esm/* default */.Z({
       children: [{
         path: '',
         beforeEnter: function beforeEnter(to, from, next) {
-          next(url('/resepsi'));
+          next(url('/resepsi-online/Dearest-Guest'));
         }
       }, {
-        path: 'resepsi/:tamu',
+        path: 'resepsi-online/:tamu',
+        component: BintanElla,
+        meta: {
+          type: "resepsiOnline"
+        }
+      }, {
+        path: 'resepsi-siang/:tamu',
         component: BintanElla,
         meta: {
           type: "resepsi"
+        }
+      }, {
+        path: 'resepsi-sore/:tamu',
+        component: BintanElla,
+        meta: {
+          type: "resepsi",
+          custom: {
+            waktu: "14:00-16:00 WIB"
+          }
         }
       }, {
         path: 'unduh-mantu/:tamu',
@@ -3537,7 +3763,7 @@ var router = new vue_router_esm/* default */.Z({
   }, {
     path: '',
     beforeEnter: function beforeEnter(to, from, next) {
-      next(url('/resepsi/Beloved-Guest'));
+      next(url('/resepsi-online/Dearest-Guest'));
     }
   }]
 });
@@ -3752,4 +3978,4 @@ module.exports = content.locals || {};
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.3fb123cb.js.map
+//# sourceMappingURL=main.d35930ff.js.map
