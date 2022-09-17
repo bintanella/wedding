@@ -308,6 +308,13 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
             mempelai2Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/"
           },
           resepsi: {
+            judul: "AKAD",
+            tanggal: "SUNDAY, 11 DECEMBER 2022",
+            jam: "12:00-14:00 WIB",
+            alamat: "Shangri-La Hotel<br>Jl. Jenderal Sudirman No.Kav. 1,<br>Tanah Abang, Jakarta",
+            google: "https://goo.gl/maps/FcpCyjUg3NavE7ak6"
+          },
+          resepsi2: {
             judul: "WEDDING RECEPTION",
             tanggal: "SUNDAY, 11 DECEMBER 2022",
             jam: "12:00-14:00 WIB",
@@ -327,76 +334,17 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
             notSubmitted: "Data gagal disubmit",
             notSubmittedDescription: "Harap lengkapi formulir terlebih dahulu"
           },
+          prokes: {
+            judul: "Prokes",
+            deskripsi: "Invited guests are welocomed to fill out the attendance confirmation below",
+            poin1: "Menggunakan masker",
+            poin2: "Menggunakan masker",
+            poin3: "Menggunakan masker",
+            poin4: "Menggunakan masker"
+          },
           streaming: {
             judul: "Live Streaming",
             deskripsi: "Our special occasion will also available virtually via zoom through the following link",
-            link: "https://zoom.us/"
-          },
-          gallery: {
-            judul: "Our Gallery"
-          },
-          gift: {
-            judul: "Wedding Love Gift",
-            deskripsi: "If guests want to send gifts to the bride and groom,<br>we would be very thankful",
-            link: "http://link.com",
-            aksi: "Click here"
-          },
-          terimaKasih: {
-            judul: "Thank you",
-            deskripsi: "We wish you all the very best,<br>We would be honored if you could attend our wedding"
-          }
-        },
-        resepsiOnline: {
-          sambutan: {
-            kepada: "Dear",
-            buka: "Open invitation"
-          },
-          cover: {
-            judul: "THE WEDDING OF",
-            tanggal: "11.12.2022",
-            pria: "Ella",
-            dan: "dan",
-            wanita: "Bintan"
-          },
-          alquran: {
-            judul: "Qs Ar-rum 21",
-            deskripsi: "Glory be to God who created spouses for you from yourselves for you to gain rest from them, and kept love and mercy between yourselves. By the Grace of Allah SWT, we intend to invite you to our wedding reception."
-          },
-          mempelai: {
-            mempelai1: "THE BRIDE",
-            mempelai1Nama: "Bintan<br>Pradika",
-            mempelai1Anak: "Second son of:",
-            mempelai1Ortu: "Mr. Suratno & Mrs. Yanti",
-            mempelai1Linkedin: "https://www.linkedin.com/in/bintanpradika/",
-            mempelai2: "THE GROOM",
-            mempelai2Nama: "Nabila Nur<br>Harindrastuti",
-            mempelai2Anak: "Third daughter of:",
-            mempelai2Ortu: "Mr. Haryanto WS & Mrs. Emmy Indrati",
-            mempelai2Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/"
-          },
-          resepsi: {
-            judul: "WEDDING RECEPTION",
-            tanggal: "SUNDAY, 11 DECEMBER 2022",
-            jam: "",
-            alamat: "",
-            google: ""
-          },
-          reservasi: {
-            judul: "RSVP",
-            deskripsi: "Invited guests are welocomed to<br>fill out the attendance confirmation below",
-            nama: "Name",
-            kehadiran: "Attendance",
-            jumlah: "Number of guests",
-            ya: "Yes",
-            tidak: "No",
-            submitted: "Data berhasil disubmit",
-            submittedDescription: "Terima kasih atas reservasinya, kami menantikan kehadirannya",
-            notSubmitted: "Data gagal disubmit",
-            notSubmittedDescription: "Harap lengkapi formulir terlebih dahulu"
-          },
-          streaming: {
-            judul: "Live Streaming",
-            deskripsi: "Our special occasion will also available on Sunday, 18th of December 2022 starting at 8 a.m. virtually via zoom through the following link",
             link: "https://zoom.us/"
           },
           gallery: {
@@ -460,6 +408,14 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
             submittedDescription: "Terima kasih atas reservasinya, kami menantikan kehadirannya",
             notSubmitted: "Data gagal disubmit",
             notSubmittedDescription: "Harap lengkapi formulir terlebih dahulu"
+          },
+          prokes: {
+            judul: "Prokes",
+            deskripsi: "Invited guests are welocomed to fill out the attendance confirmation below",
+            poin1: "Menggunakan masker",
+            poin2: "Menggunakan masker",
+            poin3: "Menggunakan masker",
+            poin4: "Menggunakan masker"
           },
           streaming: {
             judul: "Live Streaming",
@@ -537,6 +493,13 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
             alamat: "Shangri-La Hotel<br>Jl. Jenderal Sudirman No.Kav. 1,<br>Tanah Abang, Jakarta",
             google: "https://goo.gl/maps/FcpCyjUg3NavE7ak6"
           },
+          resepsi2: {
+            judul: "RESEPSI",
+            tanggal: "MINGGU, 11 DESEMBER 2022",
+            jam: "14:00-16:00 WIB",
+            alamat: "Shangri-La Hotel<br>Jl. Jenderal Sudirman No.Kav. 1,<br>Tanah Abang, Jakarta",
+            google: "https://goo.gl/maps/FcpCyjUg3NavE7ak6"
+          },
           reservasi: {
             judul: "Reservasi Kehadiran",
             deskripsi: "Diharapkan kepada tamu undangan untuk<br>mengisi formulir kehadiran dibawah ini",
@@ -549,77 +512,18 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
             submittedDescription: "Terima kasih atas reservasinya, kami menantikan kehadirannya",
             notSubmitted: "Data gagal disubmit",
             notSubmittedDescription: "Harap lengkapi formulir terlebih dahulu"
+          },
+          prokes: {
+            judul: "Prokes",
+            deskripsi: "Invited guests are welocomed to fill out the attendance confirmation below",
+            poin1: "Menggunakan masker",
+            poin2: "Menggunakan masker",
+            poin3: "Menggunakan masker",
+            poin4: "Menggunakan masker"
           },
           streaming: {
             judul: "Live Streaming",
             deskripsi: "Kami juga akan mempublikasikan pernikahan secara virtual melalui zoom link berikut",
-            link: "https://zoom.us/"
-          },
-          gallery: {
-            judul: "Our Gallery"
-          },
-          gift: {
-            judul: "Wedding Love Gift",
-            deskripsi: "Apabila tamu ingin mengirimkan hadiah ke pada kedua mempelai, kami akan sangat berterima kasih",
-            link: "http://link.com",
-            aksi: "Klik disini"
-          },
-          terimaKasih: {
-            judul: "Terima Kasih",
-            deskripsi: "Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan do’a restu kepada Kami."
-          }
-        },
-        resepsiOnline: {
-          sambutan: {
-            kepada: "Kepada Yth.",
-            buka: "Buka undangan"
-          },
-          cover: {
-            judul: "THE WEDDING OF",
-            tanggal: "11.12.2022",
-            pria: "Ella",
-            dan: "dan",
-            wanita: "Bintan"
-          },
-          alquran: {
-            judul: "Qs Ar-rum 21",
-            deskripsi: "Maha Suci Allah yang telah menciptakan manusia dengan berpasang-pasangan. Dengan memohon Rahmat dan Ridho Allah SWT, kami bermaksud mengundang Saudara/i dalam acara resepsi pernikahan kami."
-          },
-          mempelai: {
-            mempelai1: "MEMPELAI PRIA",
-            mempelai1Nama: "Bintan<br>Pradika",
-            mempelai1Anak: "Putra kedua dari:",
-            mempelai1Ortu: "Bapak Suratno & Ibu Yanti",
-            mempelai1Linkedin: "https://www.linkedin.com/in/bintanpradika/",
-            mempelai2: "MEMPELAI WANITA",
-            mempelai2Nama: "Nabila Nur<br>Harindrastuti",
-            mempelai2Anak: "Putri ketiga dari:",
-            mempelai2Ortu: "Bapak Haryanto WS & Ibu Emmy Indrati",
-            mempelai2Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/"
-          },
-          resepsi: {
-            judul: "RESEPSI",
-            tanggal: "MINGGU, 11 DESEMBER 2022",
-            jam: "",
-            alamat: "",
-            google: ""
-          },
-          reservasi: {
-            judul: "Reservasi Kehadiran",
-            deskripsi: "Diharapkan kepada tamu undangan untuk<br>mengisi formulir kehadiran dibawah ini",
-            nama: "Nama",
-            kehadiran: "Kehadiran",
-            jumlah: "Jumlah",
-            ya: "Ya",
-            tidak: "Tidak",
-            submitted: "Data berhasil disubmit",
-            submittedDescription: "Terima kasih atas reservasinya, kami menantikan kehadirannya",
-            notSubmitted: "Data gagal disubmit",
-            notSubmittedDescription: "Harap lengkapi formulir terlebih dahulu"
-          },
-          streaming: {
-            judul: "Live Streaming",
-            deskripsi: "Kami juga akan mempublikasikan pernikahan pada hari Minggu, 11 Desember 2022 mulai pukul 8 pagi secara virtual melalui zoom link berikut",
             link: "https://zoom.us/"
           },
           gallery: {
@@ -683,6 +587,14 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
             submittedDescription: "Terima kasih atas reservasinya, kami menantikan kehadirannya",
             notSubmitted: "Data gagal disubmit",
             notSubmittedDescription: "Harap lengkapi formulir terlebih dahulu"
+          },
+          prokes: {
+            judul: "Prokes",
+            deskripsi: "Invited guests are welocomed to fill out the attendance confirmation below",
+            poin1: "Menggunakan masker",
+            poin2: "Menggunakan masker",
+            poin3: "Menggunakan masker",
+            poin4: "Menggunakan masker"
           },
           streaming: {
             judul: "Live Streaming",
@@ -1338,7 +1250,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                         transition: "background-image 0.4s ease-in-out",
                       },
                       style: {
-                        backgroundImage: "url('" + _vm.cover[1] + "')",
+                        backgroundImage: "url('" + _vm.cover[0] + "')",
                       },
                     }),
                     _vm._v(" "),
@@ -1480,7 +1392,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                         transition: "background-image 0.4s ease-in-out",
                       },
                       style: {
-                        backgroundImage: "url('" + _vm.cover[1] + "')",
+                        backgroundImage: "url('" + _vm.gallery2[4] + "')",
                       },
                     }),
                     _vm._v(" "),
@@ -1575,6 +1487,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                     {
                       staticClass: "h5 fw-400",
                       staticStyle: { "letter-spacing": "4px" },
+                      attrs: { "data-aos": "fade-in", "data-aos-delay": "000" },
                     },
                     [
                       _vm._v(
@@ -1598,6 +1511,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                     "line-height": "120px",
                     "letter-spacing": "1px",
                   },
+                  attrs: { "data-aos": "fade-in", "data-aos-delay": "300" },
                 },
                 [
                   _vm._v(
@@ -1629,6 +1543,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                     "letter-spacing": "4.7px",
                     background: "rgb(0, 0, 0, .5)",
                   },
+                  attrs: { "data-aos": "fade-in", "data-aos-delay": "600" },
                 },
                 [
                   _c("span", {
@@ -1654,10 +1569,9 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
         [
           _c("div", {
             staticClass: "bg-img bg-img-no-repeat",
-            staticStyle: {
-              "background-image":
-                "url('https://groovepublic.com/wp-content/uploads/2022/03/shadow.png')",
-              opacity: "0.07",
+            staticStyle: { opacity: "0.1" },
+            style: {
+              backgroundImage: "url('" + _vm.bg + "')",
             },
           }),
           _vm._v(" "),
@@ -1673,6 +1587,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                 {
                   staticClass: "ff-vibes fw-500",
                   staticStyle: { "font-size": "44px", "letter-spacing": "2px" },
+                  attrs: { "data-aos": "fade-in", "data-aos-delay": "000" },
                 },
                 [
                   _vm._v(
@@ -1683,15 +1598,22 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                 ]
               ),
               _vm._v(" "),
-              _c("div", { staticClass: "margin-top-36 fw-300" }, [
-                _vm._v(
-                  "\n        " +
-                    _vm._s(
-                      _vm.$t(_vm.$route.meta.type + ".alquran.deskripsi")
-                    ) +
-                    "\n      "
-                ),
-              ]),
+              _c(
+                "div",
+                {
+                  staticClass: "margin-top-36 fw-300",
+                  attrs: { "data-aos": "fade-in", "data-aos-delay": "300" },
+                },
+                [
+                  _vm._v(
+                    "\n        " +
+                      _vm._s(
+                        _vm.$t(_vm.$route.meta.type + ".alquran.deskripsi")
+                      ) +
+                      "\n      "
+                  ),
+                ]
+              ),
             ]
           ),
         ]
@@ -1744,6 +1666,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                   {
                     staticClass:
                       "width-50 width-100-sm text-center flex flex-column flex-justify-center",
+                    attrs: { "data-aos": "fade-in", "data-aos-delay": "000" },
                   },
                   [
                     _c(
@@ -1891,6 +1814,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                     {
                       staticClass:
                         "width-50 width-100-sm text-center flex flex-column flex-justify-center",
+                      attrs: { "data-aos": "fade-in", "data-aos-delay": "000" },
                     },
                     [
                       _c(
@@ -2061,10 +1985,9 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
             [
               _c("div", {
                 staticClass: "bg-img bg-img-no-repeat",
-                staticStyle: {
-                  "background-image":
-                    "url('https://groovepublic.com/wp-content/uploads/2022/03/shadow.png')",
-                  opacity: "0.07",
+                staticStyle: { opacity: "0.1" },
+                style: {
+                  backgroundImage: "url('" + _vm.bg + "')",
                 },
               }),
               _vm._v(" "),
@@ -2077,108 +2000,322 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                 [
                   _c(
                     "div",
-                    {
-                      staticClass: "h2 fw-300 fs-italic",
-                      staticStyle: { "letter-spacing": "1.2px" },
-                    },
-                    [
-                      _c("span", {
-                        domProps: {
-                          innerHTML: _vm._s(
-                            _vm.$t(_vm.$route.meta.type + ".resepsi.judul")
-                          ),
-                        },
-                      }),
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c(
-                    "div",
-                    {
-                      staticClass: "fw-700 margin-top-24",
-                      staticStyle: { "letter-spacing": "2px" },
-                    },
+                    { staticClass: "flex flex-justify-center flex-wrap" },
                     [
                       _c(
-                        "span",
+                        "div",
                         {
-                          staticClass: "h4",
-                          staticStyle: { color: "#66686b" },
+                          staticClass:
+                            "width-50 width-100-sm padding-12 padding-x-0-sm",
                         },
                         [
-                          _c("span", {
-                            domProps: {
-                              innerHTML: _vm._s(
-                                _vm.$t(
-                                  _vm.$route.meta.type + ".resepsi.tanggal"
-                                )
-                              ),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "rounded-8 shadow-1 padding-x-16 padding-y-24",
                             },
-                          }),
+                            [
+                              _c(
+                                "div",
+                                {
+                                  staticClass: "h2 fw-300 fs-italic",
+                                  staticStyle: { "letter-spacing": "1.2px" },
+                                  attrs: {
+                                    "data-aos": "fade-in",
+                                    "data-aos-delay": "000",
+                                  },
+                                },
+                                [
+                                  _c("span", {
+                                    domProps: {
+                                      innerHTML: _vm._s(
+                                        _vm.$t(
+                                          _vm.$route.meta.type +
+                                            ".resepsi.judul"
+                                        )
+                                      ),
+                                    },
+                                  }),
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _c(
+                                "div",
+                                {
+                                  staticClass: "fw-700 margin-top-24",
+                                  staticStyle: { "letter-spacing": "2px" },
+                                  attrs: {
+                                    "data-aos": "fade-in",
+                                    "data-aos-delay": "300",
+                                  },
+                                },
+                                [
+                                  _c(
+                                    "span",
+                                    {
+                                      staticClass: "h4",
+                                      staticStyle: { color: "#66686b" },
+                                    },
+                                    [
+                                      _c("span", {
+                                        domProps: {
+                                          innerHTML: _vm._s(
+                                            _vm.$t(
+                                              _vm.$route.meta.type +
+                                                ".resepsi.tanggal"
+                                            )
+                                          ),
+                                        },
+                                      }),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c("br"),
+                                  _vm._v(" "),
+                                  _vm.$t(_vm.$route.meta.type + ".resepsi.jam")
+                                    ? _c("span", { staticClass: "h5" }, [
+                                        _vm.$route.meta.custom &&
+                                        _vm.$route.meta.custom.waktu
+                                          ? _c("span", {
+                                              domProps: {
+                                                innerHTML: _vm._s(
+                                                  _vm.$route.meta.custom.waktu
+                                                ),
+                                              },
+                                            })
+                                          : _c("span", {
+                                              domProps: {
+                                                innerHTML: _vm._s(
+                                                  _vm.$t(
+                                                    _vm.$route.meta.type +
+                                                      ".resepsi.jam"
+                                                  )
+                                                ),
+                                              },
+                                            }),
+                                      ])
+                                    : _vm._e(),
+                                ]
+                              ),
+                              _vm._v(" "),
+                              _vm.$t(_vm.$route.meta.type + ".resepsi.alamat")
+                                ? _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "margin-top-28 margin-x-auto width-100",
+                                      staticStyle: { "max-width": "546px" },
+                                      attrs: {
+                                        "data-aos": "fade-in",
+                                        "data-aos-delay": "600",
+                                      },
+                                    },
+                                    [
+                                      _c("span", {
+                                        domProps: {
+                                          innerHTML: _vm._s(
+                                            _vm.$t(
+                                              _vm.$route.meta.type +
+                                                ".resepsi.alamat"
+                                            )
+                                          ),
+                                        },
+                                      }),
+                                    ]
+                                  )
+                                : _vm._e(),
+                              _vm._v(" "),
+                              _vm.$t(_vm.$route.meta.type + ".resepsi.google")
+                                ? _c(
+                                    "a",
+                                    {
+                                      staticClass: "a block margin-top-8",
+                                      attrs: {
+                                        "data-aos": "fade-in",
+                                        "data-aos-delay": "600",
+                                        href: _vm.$t(
+                                          _vm.$route.meta.type +
+                                            ".resepsi.google"
+                                        ),
+                                        target: "_blank",
+                                      },
+                                    },
+                                    [
+                                      _vm._v(
+                                        "\n              Google maps\n            "
+                                      ),
+                                    ]
+                                  )
+                                : _vm._e(),
+                            ]
+                          ),
                         ]
                       ),
                       _vm._v(" "),
-                      _c("br"),
-                      _vm._v(" "),
-                      _vm.$t(_vm.$route.meta.type + ".resepsi.jam")
-                        ? _c("span", { staticClass: "h5" }, [
-                            _vm.$route.meta.custom &&
-                            _vm.$route.meta.custom.waktu
-                              ? _c("span", {
-                                  domProps: {
-                                    innerHTML: _vm._s(
-                                      _vm.$route.meta.custom.waktu
-                                    ),
-                                  },
-                                })
-                              : _c("span", {
-                                  domProps: {
-                                    innerHTML: _vm._s(
+                      _vm.$route.meta.type === "resepsi"
+                        ? _c(
+                            "div",
+                            {
+                              staticClass:
+                                "width-50 width-100-sm padding-12 padding-x-0-sm",
+                            },
+                            [
+                              _c(
+                                "div",
+                                {
+                                  staticClass:
+                                    "rounded-8 shadow-1 padding-x-16 padding-y-24",
+                                },
+                                [
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "h2 fw-300 fs-italic",
+                                      staticStyle: {
+                                        "letter-spacing": "1.2px",
+                                      },
+                                      attrs: {
+                                        "data-aos": "fade-in",
+                                        "data-aos-delay": "000",
+                                      },
+                                    },
+                                    [
+                                      _c("span", {
+                                        domProps: {
+                                          innerHTML: _vm._s(
+                                            _vm.$t(
+                                              _vm.$route.meta.type +
+                                                ".resepsi2.judul"
+                                            )
+                                          ),
+                                        },
+                                      }),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass: "fw-700 margin-top-24",
+                                      staticStyle: { "letter-spacing": "2px" },
+                                      attrs: {
+                                        "data-aos": "fade-in",
+                                        "data-aos-delay": "300",
+                                      },
+                                    },
+                                    [
+                                      _c(
+                                        "span",
+                                        {
+                                          staticClass: "h4",
+                                          staticStyle: { color: "#66686b" },
+                                        },
+                                        [
+                                          _c("span", {
+                                            domProps: {
+                                              innerHTML: _vm._s(
+                                                _vm.$t(
+                                                  _vm.$route.meta.type +
+                                                    ".resepsi2.tanggal"
+                                                )
+                                              ),
+                                            },
+                                          }),
+                                        ]
+                                      ),
+                                      _vm._v(" "),
+                                      _c("br"),
+                                      _vm._v(" "),
                                       _vm.$t(
-                                        _vm.$route.meta.type + ".resepsi.jam"
+                                        _vm.$route.meta.type + ".resepsi2.jam"
                                       )
-                                    ),
-                                  },
-                                }),
-                          ])
+                                        ? _c("span", { staticClass: "h5" }, [
+                                            _vm.$route.meta.custom &&
+                                            _vm.$route.meta.custom.waktu
+                                              ? _c("span", {
+                                                  domProps: {
+                                                    innerHTML: _vm._s(
+                                                      _vm.$route.meta.custom
+                                                        .waktu
+                                                    ),
+                                                  },
+                                                })
+                                              : _c("span", {
+                                                  domProps: {
+                                                    innerHTML: _vm._s(
+                                                      _vm.$t(
+                                                        _vm.$route.meta.type +
+                                                          ".resepsi2.jam"
+                                                      )
+                                                    ),
+                                                  },
+                                                }),
+                                          ])
+                                        : _vm._e(),
+                                    ]
+                                  ),
+                                  _vm._v(" "),
+                                  _vm.$t(
+                                    _vm.$route.meta.type + ".resepsi2.alamat"
+                                  )
+                                    ? _c(
+                                        "div",
+                                        {
+                                          staticClass:
+                                            "margin-top-28 margin-x-auto width-100",
+                                          staticStyle: { "max-width": "546px" },
+                                          attrs: {
+                                            "data-aos": "fade-in",
+                                            "data-aos-delay": "600",
+                                          },
+                                        },
+                                        [
+                                          _c("span", {
+                                            domProps: {
+                                              innerHTML: _vm._s(
+                                                _vm.$t(
+                                                  _vm.$route.meta.type +
+                                                    ".resepsi2.alamat"
+                                                )
+                                              ),
+                                            },
+                                          }),
+                                        ]
+                                      )
+                                    : _vm._e(),
+                                  _vm._v(" "),
+                                  _vm.$t(
+                                    _vm.$route.meta.type + ".resepsi2.google"
+                                  )
+                                    ? _c(
+                                        "a",
+                                        {
+                                          staticClass: "a block margin-top-8",
+                                          attrs: {
+                                            "data-aos": "fade-in",
+                                            "data-aos-delay": "600",
+                                            href: _vm.$t(
+                                              _vm.$route.meta.type +
+                                                ".resepsi2.google"
+                                            ),
+                                            target: "_blank",
+                                          },
+                                        },
+                                        [
+                                          _vm._v(
+                                            "\n              Google maps\n            "
+                                          ),
+                                        ]
+                                      )
+                                    : _vm._e(),
+                                ]
+                              ),
+                            ]
+                          )
                         : _vm._e(),
                     ]
                   ),
-                  _vm._v(" "),
-                  _vm.$t(_vm.$route.meta.type + ".resepsi.alamat")
-                    ? _c(
-                        "div",
-                        {
-                          staticClass: "margin-top-28 margin-x-auto width-100",
-                          staticStyle: { "max-width": "546px" },
-                        },
-                        [
-                          _c("span", {
-                            domProps: {
-                              innerHTML: _vm._s(
-                                _vm.$t(_vm.$route.meta.type + ".resepsi.alamat")
-                              ),
-                            },
-                          }),
-                        ]
-                      )
-                    : _vm._e(),
-                  _vm._v(" "),
-                  _vm.$t(_vm.$route.meta.type + ".resepsi.google")
-                    ? _c(
-                        "a",
-                        {
-                          staticClass: "a block margin-top-8",
-                          attrs: {
-                            href: _vm.$t(
-                              _vm.$route.meta.type + ".resepsi.google"
-                            ),
-                            target: "_blank",
-                          },
-                        },
-                        [_vm._v("\n        Google maps\n      ")]
-                      )
-                    : _vm._e(),
                 ]
               ),
             ]
@@ -2229,6 +2366,10 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                         {
                           staticClass: "h2 fw-300 fs-italic",
                           staticStyle: { "letter-spacing": "1.2px" },
+                          attrs: {
+                            "data-aos": "fade-in",
+                            "data-aos-delay": "000",
+                          },
                         },
                         [
                           _c("span", {
@@ -2243,239 +2384,275 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                         ]
                       ),
                       _vm._v(" "),
-                      _c("div", { staticClass: "margin-top-36 fw-300" }, [
-                        _c("span", {
-                          domProps: {
-                            innerHTML: _vm._s(
-                              _vm.$t(
-                                _vm.$route.meta.type + ".reservasi.deskripsi"
-                              )
-                            ),
+                      _c(
+                        "div",
+                        {
+                          staticClass: "margin-top-36 fw-300",
+                          attrs: {
+                            "data-aos": "fade-in",
+                            "data-aos-delay": "300",
                           },
-                        }),
-                      ]),
+                        },
+                        [
+                          _c("span", {
+                            domProps: {
+                              innerHTML: _vm._s(
+                                _vm.$t(
+                                  _vm.$route.meta.type + ".reservasi.deskripsi"
+                                )
+                              ),
+                            },
+                          }),
+                        ]
+                      ),
                       _vm._v(" "),
-                      _c("div", { staticClass: "margin-top-28" }, [
-                        _c(
-                          "div",
-                          { staticClass: "margin-bottom-24", class: {} },
-                          [
-                            _c("label", { staticClass: "form-label" }, [
-                              _c("span", {
-                                domProps: {
-                                  innerHTML: _vm._s(
-                                    _vm.$t(
-                                      _vm.$route.meta.type + ".reservasi.nama"
+                      _c(
+                        "div",
+                        {
+                          staticClass: "margin-top-28",
+                          attrs: {
+                            "data-aos": "fade-in",
+                            "data-aos-delay": "600",
+                          },
+                        },
+                        [
+                          _c(
+                            "div",
+                            { staticClass: "margin-bottom-24", class: {} },
+                            [
+                              _c("label", { staticClass: "form-label" }, [
+                                _c("span", {
+                                  domProps: {
+                                    innerHTML: _vm._s(
+                                      _vm.$t(
+                                        _vm.$route.meta.type + ".reservasi.nama"
+                                      )
+                                    ),
+                                  },
+                                }),
+                              ]),
+                              _vm._v(" "),
+                              _c("input", {
+                                directives: [
+                                  {
+                                    name: "model",
+                                    rawName: "v-model",
+                                    value: _vm.tamu.nama,
+                                    expression: "tamu.nama",
+                                  },
+                                ],
+                                staticClass: "form-text",
+                                attrs: { type: "text", required: "" },
+                                domProps: { value: _vm.tamu.nama },
+                                on: {
+                                  input: function ($event) {
+                                    if ($event.target.composing) {
+                                      return
+                                    }
+                                    _vm.$set(
+                                      _vm.tamu,
+                                      "nama",
+                                      $event.target.value
                                     )
-                                  ),
+                                  },
                                 },
                               }),
-                            ]),
-                            _vm._v(" "),
-                            _c("input", {
-                              directives: [
+                            ]
+                          ),
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "div",
+                        {
+                          staticClass: "flex block-sm",
+                          attrs: {
+                            "data-aos": "fade-in",
+                            "data-aos-delay": "600",
+                          },
+                        },
+                        [
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "width-50 width-100-sm padding-right-4 padding-right-0-sm margin-bottom-24",
+                              class: {},
+                            },
+                            [
+                              _c("label", { staticClass: "form-label" }, [
+                                _c("span", {
+                                  domProps: {
+                                    innerHTML: _vm._s(
+                                      _vm.$t(
+                                        _vm.$route.meta.type +
+                                          ".reservasi.kehadiran"
+                                      )
+                                    ),
+                                  },
+                                }),
+                              ]),
+                              _vm._v(" "),
+                              _c(
+                                "select",
                                 {
-                                  name: "model",
-                                  rawName: "v-model",
-                                  value: _vm.tamu.nama,
-                                  expression: "tamu.nama",
-                                },
-                              ],
-                              staticClass: "form-text",
-                              attrs: { type: "text", required: "" },
-                              domProps: { value: _vm.tamu.nama },
-                              on: {
-                                input: function ($event) {
-                                  if ($event.target.composing) {
-                                    return
-                                  }
-                                  _vm.$set(
-                                    _vm.tamu,
-                                    "nama",
-                                    $event.target.value
-                                  )
-                                },
-                              },
-                            }),
-                          ]
-                        ),
-                      ]),
-                      _vm._v(" "),
-                      _c("div", { staticClass: "flex block-sm" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "width-50 width-100-sm padding-right-4 padding-right-0-sm margin-bottom-24",
-                            class: {},
-                          },
-                          [
-                            _c("label", { staticClass: "form-label" }, [
-                              _c("span", {
-                                domProps: {
-                                  innerHTML: _vm._s(
-                                    _vm.$t(
-                                      _vm.$route.meta.type +
-                                        ".reservasi.kehadiran"
-                                    )
-                                  ),
-                                },
-                              }),
-                            ]),
-                            _vm._v(" "),
-                            _c(
-                              "select",
-                              {
-                                directives: [
-                                  {
-                                    name: "model",
-                                    rawName: "v-model",
-                                    value: _vm.tamu.kehadiran,
-                                    expression: "tamu.kehadiran",
-                                  },
-                                ],
-                                staticClass: "form-dropdown",
-                                attrs: { required: "" },
-                                on: {
-                                  change: function ($event) {
-                                    var $$selectedVal = Array.prototype.filter
-                                      .call(
-                                        $event.target.options,
-                                        function (o) {
-                                          return o.selected
-                                        }
-                                      )
-                                      .map(function (o) {
-                                        var val =
-                                          "_value" in o ? o._value : o.value
-                                        return val
-                                      })
-                                    _vm.$set(
-                                      _vm.tamu,
-                                      "kehadiran",
-                                      $event.target.multiple
-                                        ? $$selectedVal
-                                        : $$selectedVal[0]
-                                    )
-                                  },
-                                },
-                              },
-                              [
-                                _c("option", { attrs: { value: "Ya" } }, [
-                                  _c("span", {
-                                    domProps: {
-                                      innerHTML: _vm._s(
-                                        _vm.$t(
-                                          _vm.$route.meta.type + ".reservasi.ya"
-                                        )
-                                      ),
+                                  directives: [
+                                    {
+                                      name: "model",
+                                      rawName: "v-model",
+                                      value: _vm.tamu.kehadiran,
+                                      expression: "tamu.kehadiran",
                                     },
-                                  }),
-                                ]),
-                                _vm._v(" "),
-                                _c("option", { attrs: { value: "Tidak" } }, [
-                                  _c("span", {
-                                    domProps: {
-                                      innerHTML: _vm._s(
-                                        _vm.$t(
-                                          _vm.$route.meta.type +
-                                            ".reservasi.tidak"
+                                  ],
+                                  staticClass: "form-dropdown",
+                                  attrs: { required: "" },
+                                  on: {
+                                    change: function ($event) {
+                                      var $$selectedVal = Array.prototype.filter
+                                        .call(
+                                          $event.target.options,
+                                          function (o) {
+                                            return o.selected
+                                          }
                                         )
-                                      ),
-                                    },
-                                  }),
-                                ]),
-                              ]
-                            ),
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "width-50 width-100-sm padding-left-4 padding-left-0-sm margin-bottom-24",
-                            class: {},
-                          },
-                          [
-                            _c("label", { staticClass: "form-label" }, [
-                              _c("span", {
-                                domProps: {
-                                  innerHTML: _vm._s(
-                                    _vm.$t(
-                                      _vm.$route.meta.type + ".reservasi.jumlah"
-                                    )
-                                  ),
-                                },
-                              }),
-                            ]),
-                            _vm._v(" "),
-                            _c(
-                              "select",
-                              {
-                                directives: [
-                                  {
-                                    name: "model",
-                                    rawName: "v-model",
-                                    value: _vm.tamu.jumlah,
-                                    expression: "tamu.jumlah",
-                                  },
-                                ],
-                                staticClass: "form-dropdown",
-                                attrs: { required: "" },
-                                on: {
-                                  change: function ($event) {
-                                    var $$selectedVal = Array.prototype.filter
-                                      .call(
-                                        $event.target.options,
-                                        function (o) {
-                                          return o.selected
-                                        }
+                                        .map(function (o) {
+                                          var val =
+                                            "_value" in o ? o._value : o.value
+                                          return val
+                                        })
+                                      _vm.$set(
+                                        _vm.tamu,
+                                        "kehadiran",
+                                        $event.target.multiple
+                                          ? $$selectedVal
+                                          : $$selectedVal[0]
                                       )
-                                      .map(function (o) {
-                                        var val =
-                                          "_value" in o ? o._value : o.value
-                                        return val
-                                      })
-                                    _vm.$set(
-                                      _vm.tamu,
-                                      "jumlah",
-                                      $event.target.multiple
-                                        ? $$selectedVal
-                                        : $$selectedVal[0]
-                                    )
+                                    },
                                   },
                                 },
-                              },
-                              [
-                                _c("option", { attrs: { value: "1" } }, [
-                                  _vm._v("1"),
-                                ]),
-                                _vm._v(" "),
-                                _c("option", { attrs: { value: "2" } }, [
-                                  _vm._v("2"),
-                                ]),
-                                _vm._v(" "),
-                                _c("option", { attrs: { value: "3" } }, [
-                                  _vm._v("3"),
-                                ]),
-                                _vm._v(" "),
-                                _c("option", { attrs: { value: "4" } }, [
-                                  _vm._v("4"),
-                                ]),
-                              ]
-                            ),
-                          ]
-                        ),
-                      ]),
+                                [
+                                  _c("option", { attrs: { value: "Ya" } }, [
+                                    _c("span", {
+                                      domProps: {
+                                        innerHTML: _vm._s(
+                                          _vm.$t(
+                                            _vm.$route.meta.type +
+                                              ".reservasi.ya"
+                                          )
+                                        ),
+                                      },
+                                    }),
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("option", { attrs: { value: "Tidak" } }, [
+                                    _c("span", {
+                                      domProps: {
+                                        innerHTML: _vm._s(
+                                          _vm.$t(
+                                            _vm.$route.meta.type +
+                                              ".reservasi.tidak"
+                                          )
+                                        ),
+                                      },
+                                    }),
+                                  ]),
+                                ]
+                              ),
+                            ]
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "div",
+                            {
+                              staticClass:
+                                "width-50 width-100-sm padding-left-4 padding-left-0-sm margin-bottom-24",
+                              class: {},
+                            },
+                            [
+                              _c("label", { staticClass: "form-label" }, [
+                                _c("span", {
+                                  domProps: {
+                                    innerHTML: _vm._s(
+                                      _vm.$t(
+                                        _vm.$route.meta.type +
+                                          ".reservasi.jumlah"
+                                      )
+                                    ),
+                                  },
+                                }),
+                              ]),
+                              _vm._v(" "),
+                              _c(
+                                "select",
+                                {
+                                  directives: [
+                                    {
+                                      name: "model",
+                                      rawName: "v-model",
+                                      value: _vm.tamu.jumlah,
+                                      expression: "tamu.jumlah",
+                                    },
+                                  ],
+                                  staticClass: "form-dropdown",
+                                  attrs: { required: "" },
+                                  on: {
+                                    change: function ($event) {
+                                      var $$selectedVal = Array.prototype.filter
+                                        .call(
+                                          $event.target.options,
+                                          function (o) {
+                                            return o.selected
+                                          }
+                                        )
+                                        .map(function (o) {
+                                          var val =
+                                            "_value" in o ? o._value : o.value
+                                          return val
+                                        })
+                                      _vm.$set(
+                                        _vm.tamu,
+                                        "jumlah",
+                                        $event.target.multiple
+                                          ? $$selectedVal
+                                          : $$selectedVal[0]
+                                      )
+                                    },
+                                  },
+                                },
+                                [
+                                  _c("option", { attrs: { value: "1" } }, [
+                                    _vm._v("1"),
+                                  ]),
+                                  _vm._v(" "),
+                                  _c("option", { attrs: { value: "2" } }, [
+                                    _vm._v("2"),
+                                  ]),
+                                ]
+                              ),
+                            ]
+                          ),
+                        ]
+                      ),
                       _vm._v(" "),
-                      _c("div", [
-                        _c(
-                          "button",
-                          { staticClass: "button", on: { click: _vm.submit } },
-                          [_vm._v("\n            Submit\n          ")]
-                        ),
-                      ]),
+                      _c(
+                        "div",
+                        {
+                          attrs: {
+                            "data-aos": "fade-in",
+                            "data-aos-delay": "600",
+                          },
+                        },
+                        [
+                          _c(
+                            "button",
+                            {
+                              staticClass: "button",
+                              on: { click: _vm.submit },
+                            },
+                            [_vm._v("\n            Submit\n          ")]
+                          ),
+                        ]
+                      ),
                     ]
                   ),
                 ]
@@ -2490,76 +2667,191 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
         [
           _c("div", {
             staticClass: "bg-img bg-img-no-repeat",
-            staticStyle: {
-              "background-image":
-                "url('https://groovepublic.com/wp-content/uploads/2022/03/shadow.png')",
-              opacity: "0.07",
+            staticStyle: { opacity: "0.1" },
+            style: {
+              backgroundImage: "url('" + _vm.bg + "')",
             },
           }),
           _vm._v(" "),
           _c(
             "div",
             {
-              staticClass: "flex padding-x-24 margin-x-auto width-100",
+              staticClass: "text-center padding-x-24 margin-x-auto width-100",
               staticStyle: { "max-width": "900px" },
             },
             [
               _c(
                 "div",
                 {
-                  staticClass:
-                    "width-50 width-100-sm padding-right-24 padding-right-0-sm text-right text-center-sm",
+                  staticClass: "h2 fw-300 fs-italic",
+                  staticStyle: { "letter-spacing": "1.2px" },
                 },
                 [
-                  _c(
-                    "div",
-                    {
-                      staticClass: "h2 fw-300 fs-italic",
-                      staticStyle: { "letter-spacing": "1.2px" },
+                  _c("span", {
+                    domProps: {
+                      innerHTML: _vm._s(
+                        _vm.$t(_vm.$route.meta.type + ".prokes.judul")
+                      ),
                     },
-                    [
-                      _c("span", {
-                        domProps: {
-                          innerHTML: _vm._s(
-                            _vm.$t(_vm.$route.meta.type + ".streaming.judul")
-                          ),
-                        },
-                      }),
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "margin-top-36 fw-300" }, [
-                    _c("span", {
-                      domProps: {
-                        innerHTML: _vm._s(
-                          _vm.$t(_vm.$route.meta.type + ".streaming.deskripsi")
-                        ),
-                      },
-                    }),
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "margin-top-28" }, [
-                    _c(
-                      "a",
-                      {
-                        staticClass: "button",
-                        attrs: {
-                          href: _vm.$t(
-                            _vm.$route.meta.type + ".streaming.link"
-                          ),
-                        },
-                      },
-                      [_vm._v("\n            Streaming\n          ")]
-                    ),
-                  ]),
+                  }),
                 ]
               ),
               _vm._v(" "),
-              _vm._m(4),
+              _c("div", { staticClass: "margin-top-36 fw-300" }, [
+                _c("span", {
+                  domProps: {
+                    innerHTML: _vm._s(
+                      _vm.$t(_vm.$route.meta.type + ".prokes.deskripsi")
+                    ),
+                  },
+                }),
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "flex flex-wrap margin-top-40" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "width-25 width-50-sm margin-bottom-24 padding-8",
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "rounded-8 shadow-1 padding-x-16 padding-y-24",
+                        attrs: {
+                          "data-aos": "fade-in",
+                          "data-aos-delay": "000",
+                        },
+                      },
+                      [
+                        _vm._m(4),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "fw-300 margin-top-8" }, [
+                          _c("span", {
+                            domProps: {
+                              innerHTML: _vm._s(
+                                _vm.$t(_vm.$route.meta.type + ".prokes.poin1")
+                              ),
+                            },
+                          }),
+                        ]),
+                      ]
+                    ),
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "width-25 width-50-sm margin-bottom-24 padding-8",
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "rounded-8 shadow-1 padding-x-16 padding-y-24",
+                        attrs: {
+                          "data-aos": "fade-in",
+                          "data-aos-delay": "200",
+                        },
+                      },
+                      [
+                        _vm._m(5),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "fw-300 margin-top-8" }, [
+                          _c("span", {
+                            domProps: {
+                              innerHTML: _vm._s(
+                                _vm.$t(_vm.$route.meta.type + ".prokes.poin2")
+                              ),
+                            },
+                          }),
+                        ]),
+                      ]
+                    ),
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "width-25 width-50-sm margin-bottom-24 padding-8",
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "rounded-8 shadow-1 padding-x-16 padding-y-24",
+                        attrs: {
+                          "data-aos": "fade-in",
+                          "data-aos-delay": "400",
+                        },
+                      },
+                      [
+                        _vm._m(6),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "fw-300 margin-top-8" }, [
+                          _c("span", {
+                            domProps: {
+                              innerHTML: _vm._s(
+                                _vm.$t(_vm.$route.meta.type + ".prokes.poin3")
+                              ),
+                            },
+                          }),
+                        ]),
+                      ]
+                    ),
+                  ]
+                ),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "width-25 width-50-sm margin-bottom-24 padding-8",
+                  },
+                  [
+                    _c(
+                      "div",
+                      {
+                        staticClass:
+                          "rounded-8 shadow-1 padding-x-16 padding-y-24",
+                        attrs: {
+                          "data-aos": "fade-in",
+                          "data-aos-delay": "600",
+                        },
+                      },
+                      [
+                        _vm._m(7),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "fw-300 margin-top-8" }, [
+                          _c("span", {
+                            domProps: {
+                              innerHTML: _vm._s(
+                                _vm.$t(_vm.$route.meta.type + ".prokes.poin4")
+                              ),
+                            },
+                          }),
+                        ]),
+                      ]
+                    ),
+                  ]
+                ),
+              ]),
             ]
           ),
         ]
       ),
+      _vm._v(" "),
+       false
+        ? 0
+        : _vm._e(),
       _vm._v(" "),
       _c(
         "div",
@@ -2636,6 +2928,10 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                                     style: {
                                       backgroundImage: "url('" + gallery + "')",
                                     },
+                                    attrs: {
+                                      "data-aos": "fade-in",
+                                      "data-aos-delay": _vm.sample([0]),
+                                    },
                                   }),
                                 ]
                               ),
@@ -2674,6 +2970,10 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                                     style: {
                                       backgroundImage: "url('" + gallery + "')",
                                     },
+                                    attrs: {
+                                      "data-aos": "fade-in",
+                                      "data-aos-delay": _vm.sample([0]),
+                                    },
                                   }),
                                 ]
                               ),
@@ -2701,10 +3001,9 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
             [
               _c("div", {
                 staticClass: "bg-img bg-img-no-repeat",
-                staticStyle: {
-                  "background-image":
-                    "url('https://groovepublic.com/wp-content/uploads/2022/03/shadow.png')",
-                  opacity: "0.07",
+                staticStyle: { opacity: "0.1" },
+                style: {
+                  backgroundImage: "url('" + _vm.bg + "')",
                 },
               }),
               _vm._v(" "),
@@ -2728,6 +3027,10 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                         {
                           staticClass: "h2 fw-300 fs-italic",
                           staticStyle: { "letter-spacing": "1.2px" },
+                          attrs: {
+                            "data-aos": "fade-in",
+                            "data-aos-delay": "000",
+                          },
                         },
                         [
                           _c("span", {
@@ -2740,38 +3043,58 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                         ]
                       ),
                       _vm._v(" "),
-                      _c("div", { staticClass: "margin-top-36 fw-300" }, [
-                        _c("span", {
-                          domProps: {
-                            innerHTML: _vm._s(
-                              _vm.$t(_vm.$route.meta.type + ".gift.deskripsi")
-                            ),
+                      _c(
+                        "div",
+                        {
+                          staticClass: "margin-top-36 fw-300",
+                          attrs: {
+                            "data-aos": "fade-in",
+                            "data-aos-delay": "300",
                           },
-                        }),
-                      ]),
+                        },
+                        [
+                          _c("span", {
+                            domProps: {
+                              innerHTML: _vm._s(
+                                _vm.$t(_vm.$route.meta.type + ".gift.deskripsi")
+                              ),
+                            },
+                          }),
+                        ]
+                      ),
                       _vm._v(" "),
-                      _c("div", { staticClass: "margin-top-28" }, [
-                        _c(
-                          "a",
-                          {
-                            staticClass: "button",
-                            on: { click: _vm.modalGiftOpen },
+                      _c(
+                        "div",
+                        {
+                          staticClass: "margin-top-28",
+                          attrs: {
+                            "data-aos": "fade-in",
+                            "data-aos-delay": "600",
                           },
-                          [
-                            _c("span", {
-                              domProps: {
-                                innerHTML: _vm._s(
-                                  _vm.$t(_vm.$route.meta.type + ".gift.aksi")
-                                ),
-                              },
-                            }),
-                          ]
-                        ),
-                      ]),
+                        },
+                        [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "button",
+                              on: { click: _vm.modalGiftOpen },
+                            },
+                            [
+                              _c("span", {
+                                domProps: {
+                                  innerHTML: _vm._s(
+                                    _vm.$t(_vm.$route.meta.type + ".gift.aksi")
+                                  ),
+                                },
+                              }),
+                            ]
+                          ),
+                        ]
+                      ),
                     ]
                   ),
                   _vm._v(" "),
-                  _vm._m(5),
+                  _vm._m(9),
                 ]
               ),
             ]
@@ -2787,9 +3110,8 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
         [
           _c("div", {
             staticClass: "bg-img bg-img-no-repeat",
-            staticStyle: {
-              "background-image":
-                "url('https://www.diktatphotography.com/wp-content/uploads/2020/08/1-Tamblingan-a-1.jpg')",
+            style: {
+              backgroundImage: "url('" + _vm.footer + "')",
             },
           }),
           _vm._v(" "),
@@ -2803,6 +3125,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
             {
               staticClass: "h2 fw-300 fs-italic",
               staticStyle: { "letter-spacing": "1.2px" },
+              attrs: { "data-aos": "fade-in", "data-aos-delay": "000" },
             },
             [
               _c("span", {
@@ -2820,6 +3143,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
             {
               staticClass: "margin-top-36 fw-300 margin-x-auto width-100",
               staticStyle: { "max-width": "480px" },
+              attrs: { "data-aos": "fade-in", "data-aos-delay": "000" },
             },
             [
               _c("span", {
@@ -2847,6 +3171,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                     "letter-spacing": "4.7px",
                     background: "rgb(0, 0, 0, .5)",
                   },
+                  attrs: { "data-aos": "fade-in", "data-aos-delay": "300" },
                 },
                 [
                   _c("span", {
@@ -2865,6 +3190,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                   staticClass:
                     "h1 fw-200 margin-top-32 ff-vibes fs-tk-mempelai",
                   staticStyle: { "font-size": "80px", "letter-spacing": "1px" },
+                  attrs: { "data-aos": "fade-in", "data-aos-delay": "600" },
                 },
                 [
                   _vm._v(
@@ -2904,6 +3230,18 @@ var BintanEllavue_type_template_id_17e87cfe_staticRenderFns = [
       _c("img", {
         staticClass: "margin-x-auto width-100 shadow-1 circle",
         staticStyle: { "max-width": "400px" },
+        attrs: { src: __webpack_require__(5045) },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("img", {
+        staticClass: "margin-x-auto width-100 shadow-1 circle",
+        staticStyle: { "max-width": "400px" },
         attrs: { src: __webpack_require__(6056) },
       }),
     ])
@@ -2916,19 +3254,7 @@ var BintanEllavue_type_template_id_17e87cfe_staticRenderFns = [
       _c("img", {
         staticClass: "margin-x-auto width-100 shadow-1 circle",
         staticStyle: { "max-width": "400px" },
-        attrs: { src: __webpack_require__(5045) },
-      }),
-    ])
-  },
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", [
-      _c("img", {
-        staticClass: "margin-x-auto width-100 shadow-1 circle",
-        staticStyle: { "max-width": "400px" },
-        attrs: { src: __webpack_require__(5045) },
+        attrs: { src: __webpack_require__(6056) },
       }),
     ])
   },
@@ -2950,6 +3276,58 @@ var BintanEllavue_type_template_id_17e87cfe_staticRenderFns = [
         }),
       ]
     )
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("img", {
+        staticClass: "margin-x-auto rounded-8 width-80",
+        attrs: {
+          src: "https://ngantenstory.co/wp-content/uploads/2022/03/Covid-Masker-300x220-1-300x220.png",
+        },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("img", {
+        staticClass: "margin-x-auto rounded-8 width-80",
+        attrs: {
+          src: "https://ngantenstory.co/wp-content/uploads/2022/03/Covid-WashHand-300x220-1-300x220.png",
+        },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("img", {
+        staticClass: "margin-x-auto rounded-8 width-80",
+        attrs: {
+          src: "https://ngantenstory.co/wp-content/uploads/2022/03/Covid-Distancing-300x220-1-300x220.png",
+        },
+      }),
+    ])
+  },
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", [
+      _c("img", {
+        staticClass: "margin-x-auto rounded-8 width-80",
+        attrs: {
+          src: "https://ngantenstory.co/wp-content/uploads/2022/03/Covid-Washing-300x220-1-300x220.png",
+        },
+      }),
+    ])
   },
   function () {
     var _vm = this
@@ -3000,6 +3378,9 @@ var es_string_replace = __webpack_require__(5306);
 // EXTERNAL MODULE: ./node_modules/lodash/lodash.js
 var lodash = __webpack_require__(6486);
 var lodash_default = /*#__PURE__*/__webpack_require__.n(lodash);
+// EXTERNAL MODULE: ./node_modules/aos/dist/aos.js
+var aos = __webpack_require__(2711);
+var aos_default = /*#__PURE__*/__webpack_require__.n(aos);
 // EXTERNAL MODULE: ./node_modules/toastr/toastr.js
 var toastr = __webpack_require__(8901);
 var toastr_default = /*#__PURE__*/__webpack_require__.n(toastr);
@@ -3510,6 +3891,115 @@ function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return functio
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
 
 
 
@@ -3523,10 +4013,12 @@ function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return functio
     return {
       indexCover: 0,
       modal: {
-        sambutan: true,
+        sambutan: false,
         gift: false
       },
-      cover: [__webpack_require__(9926), __webpack_require__(2804), __webpack_require__(5000)],
+      bg: __webpack_require__(9169),
+      footer: __webpack_require__(4268),
+      cover: [__webpack_require__(9926), __webpack_require__(2804), __webpack_require__(5000), __webpack_require__(6677), __webpack_require__(2874)],
       gallery1: [__webpack_require__(6713), __webpack_require__(1273), __webpack_require__(4559), __webpack_require__(7397)],
       gallery2: [__webpack_require__(6713), __webpack_require__(1273), __webpack_require__(4559), __webpack_require__(7397), __webpack_require__(6078), __webpack_require__(1273)],
       tamu: {
@@ -3579,7 +4071,15 @@ function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return functio
               _this.$refs["iframe"].click(); // this.video.play = true;
 
 
-            case 6:
+              console.log((aos_default()));
+              aos_default().init({
+                easing: 'ease-in-out',
+                once: true,
+                duration: 500,
+                offset: 100
+              });
+
+            case 8:
             case "end":
               return _context2.stop();
           }
@@ -3609,7 +4109,10 @@ function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return functio
       this.modal.gift = false;
     },
     updateCover: function updateCover() {
-      this.indexCover = lodash_default().random(0, 2);
+      this.indexCover = lodash_default().sample([0, 1, 2, 3, 4]);
+    },
+    sample: function sample(options) {
+      return lodash_default().sample(options);
     },
     submit: function submit() {
       var bodyFormData = new FormData();
@@ -3714,28 +4217,13 @@ var router = new vue_router_esm/* default */.Z({
       children: [{
         path: '',
         beforeEnter: function beforeEnter(to, from, next) {
-          next(url('/resepsi-online/Dearest-Guest'));
+          next(url('/unduh-mantu/Dearest-Guest'));
         }
       }, {
-        path: 'resepsi-online/:tamu',
-        component: BintanElla,
-        meta: {
-          type: "resepsiOnline"
-        }
-      }, {
-        path: 'resepsi-siang/:tamu',
+        path: 'resepsi/:tamu',
         component: BintanElla,
         meta: {
           type: "resepsi"
-        }
-      }, {
-        path: 'resepsi-sore/:tamu',
-        component: BintanElla,
-        meta: {
-          type: "resepsi",
-          custom: {
-            waktu: "14:00-16:00 WIB"
-          }
         }
       }, {
         path: 'unduh-mantu/:tamu',
@@ -3763,7 +4251,7 @@ var router = new vue_router_esm/* default */.Z({
   }, {
     path: '',
     beforeEnter: function beforeEnter(to, from, next) {
-      next(url('/resepsi-online/Dearest-Guest'));
+      next(url('/unduh-mantu/Dearest-Guest'));
     }
   }]
 });
@@ -3830,80 +4318,108 @@ new vue_runtime_esm/* default */.Z({
 
 /***/ }),
 
+/***/ 9169:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/bg622e1c68.png";
+
+/***/ }),
+
 /***/ 9926:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/cover13a670bc5.jpg";
+module.exports = __webpack_require__.p + "assets/img/cover1b95b3cbd.jpg";
 
 /***/ }),
 
 /***/ 2804:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/cover25eba5b8c.jpg";
+module.exports = __webpack_require__.p + "assets/img/cover20f16549f.jpg";
 
 /***/ }),
 
 /***/ 5000:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/cover344fee9af.jpg";
+module.exports = __webpack_require__.p + "assets/img/cover37f2e8adb.jpg";
+
+/***/ }),
+
+/***/ 6677:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/cover4144ec4e5.jpg";
+
+/***/ }),
+
+/***/ 2874:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/cover59d303d20.jpg";
+
+/***/ }),
+
+/***/ 4268:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/footer7cf7e66d.jpg";
 
 /***/ }),
 
 /***/ 6713:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/gallery_1fd7a1e5d.jpg";
+module.exports = __webpack_require__.p + "assets/img/gallery_1aefadf10.jpg";
 
 /***/ }),
 
 /***/ 1273:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/gallery_267d459e7.jpg";
+module.exports = __webpack_require__.p + "assets/img/gallery_2227bd135.jpg";
 
 /***/ }),
 
 /***/ 4559:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/gallery_384a7175e.jpg";
+module.exports = __webpack_require__.p + "assets/img/gallery_32f7d5fa2.jpg";
 
 /***/ }),
 
 /***/ 7397:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/gallery_4746aafd6.jpg";
+module.exports = __webpack_require__.p + "assets/img/gallery_410a978bb.jpg";
 
 /***/ }),
 
 /***/ 6078:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/gallery_5246e7474.jpg";
+module.exports = __webpack_require__.p + "assets/img/gallery_5aeefc7b3.jpg";
 
 /***/ }),
 
 /***/ 6056:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/mempelai_pria66a218c9.jpg";
+module.exports = __webpack_require__.p + "assets/img/mempelai_pria8b530c4b.jpg";
 
 /***/ }),
 
 /***/ 5045:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/mempelai_wanita0aaca9c4.jpg";
+module.exports = __webpack_require__.p + "assets/img/mempelai_wanita9117ac98.jpg";
 
 /***/ }),
 
 /***/ 2666:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/reservasib181f2dc.jpg";
+module.exports = __webpack_require__.p + "assets/img/reservasi52b04124.jpg";
 
 /***/ }),
 
@@ -3978,4 +4494,4 @@ module.exports = content.locals || {};
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.d35930ff.js.map
+//# sourceMappingURL=main.0f99eb5e.js.map
