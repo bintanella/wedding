@@ -1250,7 +1250,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                         transition: "background-image 0.4s ease-in-out",
                       },
                       style: {
-                        backgroundImage: "url('" + _vm.cover[0] + "')",
+                        backgroundImage: "url('" + _vm.cover[1] + "')",
                       },
                     }),
                     _vm._v(" "),
@@ -4494,4 +4494,4 @@ module.exports = content.locals || {};
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.ea7a5637.js.map
+//# sourceMappingURL=main.184aab8f.js.map
