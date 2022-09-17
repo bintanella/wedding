@@ -4013,7 +4013,7 @@ function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return functio
     return {
       indexCover: 0,
       modal: {
-        sambutan: false,
+        sambutan: true,
         gift: false
       },
       bg: __webpack_require__(9169),
@@ -4494,4 +4494,4 @@ module.exports = content.locals || {};
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.0f99eb5e.js.map
+//# sourceMappingURL=main.ea7a5637.js.map
