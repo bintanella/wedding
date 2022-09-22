@@ -282,65 +282,68 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
         resepsi: {
           sambutan: {
             kepada: "Dear",
-            buka: "Open invitation"
+            buka: "Open invitation",
+            deskripsi: "You are invited to the wedding of"
           },
           cover: {
             judul: "THE WEDDING OF",
-            tanggal: "11.12.2022",
+            tanggal: "11.12.22",
             pria: "Ella",
-            dan: "dan",
+            dan: "and",
             wanita: "Bintan"
           },
           alquran: {
-            judul: "Qs Ar-rum 21",
-            deskripsi: "Glory be to God who created spouses for you from yourselves for you to gain rest from them, and kept love and mercy between yourselves. By the Grace of Allah SWT, we intend to invite you to our wedding reception."
+            judul: "We've Found Love",
+            deskripsi: "“And of His signs is that He created for you from yourselves mates that you may find tranquility in them, and He placed between you affection and mercy. Indeed in that are signs for a people who give thought.”<br>(QS. Ar-Rum: 21)<br><br>Together with the blessing of Allah Subhanahu wa Ta’ala, we joyfully invite you to share in our happiness as we unite in marriage"
           },
           mempelai: {
             mempelai1: "THE BRIDE",
-            mempelai1Nama: "Bintan<br>Pradika",
-            mempelai1Anak: "Second son of:",
-            mempelai1Ortu: "Mr. Suratno & Mrs. Yanti",
-            mempelai1Linkedin: "https://www.linkedin.com/in/bintanpradika/",
+            mempelai1Nama: "Nabila Nur<br>Harindrastuti",
+            mempelai1Anak: "Third daughter of:",
+            mempelai1Ortu: "Mr. Haryanto WS &<br>Mrs. Emmy Indrati",
+            mempelai1Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/",
             mempelai2: "THE GROOM",
-            mempelai2Nama: "Nabila Nur<br>Harindrastuti",
-            mempelai2Anak: "Third daughter of:",
-            mempelai2Ortu: "Mr. Haryanto WS & Mrs. Emmy Indrati",
-            mempelai2Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/"
+            mempelai2Nama: "Bintan<br>Pradika",
+            mempelai2Anak: "Second son of:",
+            mempelai2Ortu: "Mr. Suratno &<br>Mrs. Yanti",
+            mempelai2Linkedin: "https://www.linkedin.com/in/bintanpradika/"
           },
           resepsi: {
             judul: "AKAD",
-            tanggal: "SUNDAY, 11 DECEMBER 2022",
-            jam: "12:00-14:00 WIB",
+            tanggal: "SUNDAY,<br>11 DECEMBER 2022",
+            jam: "08:00-10:00 WIB",
             alamat: "Shangri-La Hotel<br>Jl. Jenderal Sudirman No.Kav. 1,<br>Tanah Abang, Jakarta",
+            lokasi: "View Location",
             google: "https://goo.gl/maps/FcpCyjUg3NavE7ak6"
           },
           resepsi2: {
             judul: "WEDDING RECEPTION",
-            tanggal: "SUNDAY, 11 DECEMBER 2022",
-            jam: "12:00-14:00 WIB",
+            tanggal: "SUNDAY,<br>11 DECEMBER 2022",
+            jam: "12:00-16:00 WIB",
             alamat: "Shangri-La Hotel<br>Jl. Jenderal Sudirman No.Kav. 1,<br>Tanah Abang, Jakarta",
+            lokasi: "View Location",
             google: "https://goo.gl/maps/FcpCyjUg3NavE7ak6"
           },
           reservasi: {
             judul: "RSVP",
-            deskripsi: "Invited guests are welocomed to<br>fill out the attendance confirmation below",
+            deskripsi: "Please help us prepare everything better by confirming your attendance with the following form",
             nama: "Name",
-            kehadiran: "Attendance",
-            jumlah: "Number of guests",
+            kehadiran: "Will you be attending our wedding?",
+            jumlah: "How many person(s) will attend (including you)?",
             ya: "Yes",
             tidak: "No",
-            submitted: "Data berhasil disubmit",
-            submittedDescription: "Terima kasih atas reservasinya, kami menantikan kehadirannya",
-            notSubmitted: "Data gagal disubmit",
-            notSubmittedDescription: "Harap lengkapi formulir terlebih dahulu"
+            submitted: "Data submitted successfully",
+            submittedDescription: "We sincerely thank you for your reservation",
+            notSubmitted: "Data failed to submit",
+            notSubmittedDescription: "Please complete the form"
           },
           prokes: {
-            judul: "Prokes",
-            deskripsi: "Invited guests are welocomed to fill out the attendance confirmation below",
-            poin1: "Menggunakan masker",
-            poin2: "Menggunakan masker",
-            poin3: "Menggunakan masker",
-            poin4: "Menggunakan masker"
+            judul: "Health Protocol",
+            deskripsi: "It’s important to us that everyone stays safe, please read carefully our Wedding Day Covid-19 Guidance before attending the event",
+            poin1: "Waering masker",
+            poin2: "Stay healthy",
+            poin3: "Social distancing",
+            poin4: "Stay clean"
           },
           streaming: {
             judul: "Live Streaming",
@@ -351,71 +354,76 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
             judul: "Our Gallery"
           },
           gift: {
-            judul: "Wedding Love Gift",
-            deskripsi: "If guests want to send gifts to the bride and groom,<br>we would be very thankful",
+            judul: "Wedding Gift",
+            deskripsi: "Your presence is a present in itself. If you wish to give us something else, please tap the button down below for further information.",
+            copied: "Copied account number: ",
+            rekening: "2370348882",
+            modal: "\n                Thank you for adding to the joyful spirit of our wedding with your presence and lovely gift. You may use details below.\n                <br>\n                <br>\n                Bank Central Asia (BCA)\n                <br>\n                Account Name: Nabila Nur Harindrastuti\n                <br>\n                Account Number: 2370348882\n                <br>\n                SWIFT Code (for non-indonesian colleague): CENAIDJA\n              ",
             link: "http://link.com",
             aksi: "Click here"
           },
           terimaKasih: {
             judul: "Thank you",
-            deskripsi: "We wish you all the very best,<br>We would be honored if you could attend our wedding"
+            deskripsi: "We sincerely thank you for your company and good wishes and for helping us make our wedding day an occasion we will always remember."
           }
         },
         unduhMantu: {
           sambutan: {
             kepada: "Dear",
-            buka: "Open invitation"
+            buka: "Open invitation",
+            deskripsi: "You are invited to the wedding of"
           },
           cover: {
             judul: "THE WEDDING OF",
-            tanggal: "17.12.2022",
+            tanggal: "17.12.22",
             pria: "Ella",
-            dan: "dan",
+            dan: "and",
             wanita: "Bintan"
           },
           alquran: {
-            judul: "Qs Ar-rum 21",
-            deskripsi: "Glory be to God who created spouses for you from yourselves for you to gain rest from them, and kept love and mercy between yourselves. By the Grace of Allah SWT, we intend to invite you to our wedding reception."
+            judul: "We've Found Love",
+            deskripsi: "“And of His signs is that He created for you from yourselves mates that you may find tranquility in them, and He placed between you affection and mercy. Indeed in that are signs for a people who give thought.”<br>(QS. Ar-Rum: 21)<br><br>Together with the blessing of Allah Subhanahu wa Ta’ala, we joyfully invite you to share in our happiness as we unite in marriage"
           },
           mempelai: {
             mempelai1: "THE BRIDE",
-            mempelai1Nama: "Bintan<br>Pradika",
-            mempelai1Anak: "Second son of:",
-            mempelai1Ortu: "Mr. Suratno & Mrs. Yanti",
-            mempelai1Linkedin: "https://www.linkedin.com/in/bintanpradika/",
+            mempelai1Nama: "Nabila Nur<br>Harindrastuti",
+            mempelai1Anak: "Third daughter of:",
+            mempelai1Ortu: "Mr. Haryanto WS &<br>Mrs. Emmy Indrati",
+            mempelai1Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/",
             mempelai2: "THE GROOM",
-            mempelai2Nama: "Nabila Nur<br>Harindrastuti",
-            mempelai2Anak: "Third daughter of:",
-            mempelai2Ortu: "Mr. Haryanto WS & Mrs. Emmy Indrati",
-            mempelai2Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/"
+            mempelai2Nama: "Bintan<br>Pradika",
+            mempelai2Anak: "Second son of:",
+            mempelai2Ortu: "Mr. Suratno &<br>Mrs. Yanti",
+            mempelai2Linkedin: "https://www.linkedin.com/in/bintanpradika/"
           },
           resepsi: {
             judul: "NGUNDUH MANTU",
-            tanggal: "SATURDAY, 17 DECEMBER 2023",
+            tanggal: "SATURDAY,<br>17 DECEMBER 2022",
             jam: "12:30-17:00 WIB",
             alamat: "Planet Holiday Hotel<br>Jl. Raja Ali H., Sei Jodoh,<br>Batam",
+            lokasi: "View Location",
             google: "https://maps.app.goo.gl/P6pggUdoGgHs9WCG6"
           },
           reservasi: {
             judul: "RSVP",
-            deskripsi: "Invited guests are welocomed to<br>fill out the attendance confirmation below",
+            deskripsi: "Please help us prepare everything better by confirming your attendance with the following form",
             nama: "Name",
-            kehadiran: "Attendance",
-            jumlah: "Number of guests",
+            kehadiran: "Will you be attending our wedding?",
+            jumlah: "How many person(s) will attend (including you)?",
             ya: "Yes",
             tidak: "No",
-            submitted: "Data berhasil disubmit",
-            submittedDescription: "Terima kasih atas reservasinya, kami menantikan kehadirannya",
-            notSubmitted: "Data gagal disubmit",
-            notSubmittedDescription: "Harap lengkapi formulir terlebih dahulu"
+            submitted: "Data submitted successfully",
+            submittedDescription: "We sincerely thank you for your reservation",
+            notSubmitted: "Data failed to submit",
+            notSubmittedDescription: "Please complete the form"
           },
           prokes: {
-            judul: "Prokes",
-            deskripsi: "Invited guests are welocomed to fill out the attendance confirmation below",
-            poin1: "Menggunakan masker",
-            poin2: "Menggunakan masker",
-            poin3: "Menggunakan masker",
-            poin4: "Menggunakan masker"
+            judul: "Health Protocol",
+            deskripsi: "It’s important to us that everyone stays safe, please read carefully our Wedding Day Covid-19 Guidance before attending the event",
+            poin1: "Waering masker",
+            poin2: "Stay healthy",
+            poin3: "Social distancing",
+            poin4: "Stay clean"
           },
           streaming: {
             judul: "Live Streaming",
@@ -426,14 +434,17 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
             judul: "Our Gallery"
           },
           gift: {
-            judul: "Wedding Love Gift",
-            deskripsi: "If guests want to send gifts to the bride and groom,<br>we would be very thankful",
+            judul: "Wedding Gift",
+            deskripsi: "Your presence is a present in itself. If you wish to give us something else, please tap the button down below for further information.",
+            copied: "Copied account number: ",
+            rekening: "5725858466",
+            modal: "\n                Thank you for adding to the joyful spirit of our wedding with your presence and lovely gift. You may use details below.\n                <br>\n                <br>\n                Bank Central Asia (BCA)\n                <br>\n                Account Name: Bintan Pradika\n                <br>\n                Account Number: 5725858466\n                <br>\n                SWIFT Code (for non-indonesian colleague): CENAIDJA\n              ",
             link: "http://link.com",
             aksi: "Click here"
           },
           terimaKasih: {
             judul: "Thank you",
-            deskripsi: "We wish you all the very best,<br>We would be honored if you could attend our wedding"
+            deskripsi: "We sincerely thank you for your company and good wishes and for helping us make our wedding day an occasion we will always remember."
           }
         }
       }
@@ -443,83 +454,86 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
         components: {
           errors: {
             networkError: {
-              title: "Jaringan bermasalah",
-              message: "There seems to be an issue with the network. Please try again later.",
-              retryingMessage: "We are attempting to reload this feature"
+              title: "Jaringan terputus",
+              message: "Pastikan Anda terkoneksi pada jaringan internet.",
+              retryingMessage: "Kami mencoba memuat ulang fitur ini."
             },
             serverTimeout: {
-              title: "Koneksi ke server terputus",
-              message: "Our servers are taking too long to respond to this request. Please try again later.",
-              retryingMessage: "We are attempting to reload this feature"
+              title: "Koneksi server terputus",
+              message: "Server kami membutuhkan waktu. Silakan coba lagi nanti.",
+              retryingMessage: "Kami mencoba memuat ulang fitur ini."
             },
             unexpectedError: {
               title: "Masalah tidak teridentifikasi",
-              message: "Our team has been informed and will be looking into this shortly."
+              message: "Tim kami akan memperbaiki permasalahan ini."
             }
           }
         },
         resepsi: {
           sambutan: {
             kepada: "Kepada Yth.",
-            buka: "Buka undangan"
+            buka: "Buka undangan",
+            deskripsi: "Kami bermaksud mengundang Saudara/i dalam acara pernikahan"
           },
           cover: {
             judul: "THE WEDDING OF",
-            tanggal: "11.12.2022",
+            tanggal: "11.12.22",
             pria: "Ella",
             dan: "dan",
             wanita: "Bintan"
           },
           alquran: {
             judul: "Qs Ar-rum 21",
-            deskripsi: "Maha Suci Allah yang telah menciptakan manusia dengan berpasang-pasangan. Dengan memohon Rahmat dan Ridho Allah SWT, kami bermaksud mengundang Saudara/i dalam acara resepsi pernikahan kami."
+            deskripsi: "“Maha Suci Allah yang telah menciptakan manusia dengan berpasang-pasangan.”<br><br>Dengan memohon Rahmat dan Ridho Allah SWT, kami bermaksud mengundang Saudara/i dalam acara resepsi pernikahan kami."
           },
           mempelai: {
-            mempelai1: "MEMPELAI PRIA",
-            mempelai1Nama: "Bintan<br>Pradika",
-            mempelai1Anak: "Putra kedua dari:",
-            mempelai1Ortu: "Bapak Suratno & Ibu Yanti",
-            mempelai1Linkedin: "https://www.linkedin.com/in/bintanpradika/",
-            mempelai2: "MEMPELAI WANITA",
-            mempelai2Nama: "Nabila Nur<br>Harindrastuti",
-            mempelai2Anak: "Putri ketiga dari:",
-            mempelai2Ortu: "Bapak Haryanto WS & Ibu Emmy Indrati",
-            mempelai2Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/"
+            mempelai1: "THE BRIDE",
+            mempelai1Nama: "Nabila Nur<br>Harindrastuti",
+            mempelai1Anak: "Putri ketiga dari:",
+            mempelai1Ortu: "Bapak Haryanto WS &<br>Ibu Emmy Indrati",
+            mempelai1Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/",
+            mempelai2: "THE GROOM",
+            mempelai2Nama: "Bintan<br>Pradika",
+            mempelai2Anak: "Putra kedua dari:",
+            mempelai2Ortu: "Bapak Suratno &<br>Ibu Yanti",
+            mempelai2Linkedin: "https://www.linkedin.com/in/bintanpradika/"
           },
           resepsi: {
-            judul: "RESEPSI",
-            tanggal: "MINGGU, 11 DESEMBER 2022",
-            jam: "14:00-16:00 WIB",
+            judul: "AKAD",
+            tanggal: "MINGGU,<br>11 DESEMBER 2022",
+            jam: "08:00-10:00 WIB",
             alamat: "Shangri-La Hotel<br>Jl. Jenderal Sudirman No.Kav. 1,<br>Tanah Abang, Jakarta",
+            lokasi: "Lihat Lokasi",
             google: "https://goo.gl/maps/FcpCyjUg3NavE7ak6"
           },
           resepsi2: {
-            judul: "RESEPSI",
-            tanggal: "MINGGU, 11 DESEMBER 2022",
-            jam: "14:00-16:00 WIB",
+            judul: "RESEPSI PERNIKAHAN",
+            tanggal: "MINGGU,<br>11 DESEMBER 2022",
+            jam: "12:00-16:00 WIB",
             alamat: "Shangri-La Hotel<br>Jl. Jenderal Sudirman No.Kav. 1,<br>Tanah Abang, Jakarta",
+            lokasi: "Lihat Lokasi",
             google: "https://goo.gl/maps/FcpCyjUg3NavE7ak6"
           },
           reservasi: {
             judul: "Reservasi Kehadiran",
-            deskripsi: "Diharapkan kepada tamu undangan untuk<br>mengisi formulir kehadiran dibawah ini",
+            deskripsi: "Diharapkan kepada tamu undangan untuk mengisi formulir kehadiran dibawah ini agar kami dapat mempersiapkan semuanya dengan lebih baik",
             nama: "Nama",
-            kehadiran: "Kehadiran",
-            jumlah: "Jumlah",
+            kehadiran: "Apakah Anda akan menghadiri acara kami?",
+            jumlah: "Berapa orang yang akan hadir (termasuk Anda)?",
             ya: "Ya",
             tidak: "Tidak",
             submitted: "Data berhasil disubmit",
-            submittedDescription: "Terima kasih atas reservasinya, kami menantikan kehadirannya",
+            submittedDescription: "Kami dengan tulus berterima kasih atas reservasi Anda",
             notSubmitted: "Data gagal disubmit",
             notSubmittedDescription: "Harap lengkapi formulir terlebih dahulu"
           },
           prokes: {
-            judul: "Prokes",
-            deskripsi: "Invited guests are welocomed to fill out the attendance confirmation below",
-            poin1: "Menggunakan masker",
-            poin2: "Menggunakan masker",
-            poin3: "Menggunakan masker",
-            poin4: "Menggunakan masker"
+            judul: "Protokol Kesehatan",
+            deskripsi: "Kami berterima kasih jika Anda dapat mengikuti protokol kesehatan Covid-19 berikut",
+            poin1: "Menggunakan<br>masker",
+            poin2: "Menjaga<br>kesehatan",
+            poin3: "Menjaga<br>jarak",
+            poin4: "Menjaga<br>kebersihan"
           },
           streaming: {
             judul: "Live Streaming",
@@ -530,8 +544,11 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
             judul: "Our Gallery"
           },
           gift: {
-            judul: "Wedding Love Gift",
-            deskripsi: "Apabila tamu ingin mengirimkan hadiah ke pada kedua mempelai, kami akan sangat berterima kasih",
+            judul: "Wedding Gift",
+            deskripsi: "Kehadiran Anda adalah sebuah hadiah bagi kami. Namun, jika Anda ingin memberi kami sesuatu yang lain, silakan ketuk tombol di bawah untuk informasi lebih lanjut.",
+            copied: "Berhasil disalin: ",
+            rekening: "2370348882",
+            modal: "\n                Terima kasih telah menambah kemeriahan pernikahan kami dengan kehadiran dan hadiah Anda.\n                <br>\n                <br>\n                Bank Central Asia (BCA)\n                <br>\n                Account Name: Nabila Nur Harindrastuti\n                <br>\n                Account Number: 2370348882\n                <br>\n                SWIFT Code (for non-indonesian colleague): CENAIDJA\n              ",
             link: "http://link.com",
             aksi: "Klik disini"
           },
@@ -543,58 +560,60 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
         unduhMantu: {
           sambutan: {
             kepada: "Kepada Yth.",
-            buka: "Buka undangan"
+            buka: "Buka undangan",
+            deskripsi: "Kami bermaksud mengundang Saudara/i dalam acara pernikahan"
           },
           cover: {
             judul: "THE WEDDING OF",
-            tanggal: "17.12.2022",
+            tanggal: "17.12.22",
             pria: "Ella",
             dan: "dan",
             wanita: "Bintan"
           },
           alquran: {
             judul: "Qs Ar-rum 21",
-            deskripsi: "Maha Suci Allah yang telah menciptakan manusia dengan berpasang-pasangan. Dengan memohon Rahmat dan Ridho Allah SWT, kami bermaksud mengundang Saudara/i dalam acara resepsi pernikahan kami."
+            deskripsi: "“Maha Suci Allah yang telah menciptakan manusia dengan berpasang-pasangan.”<br><br>Dengan memohon Rahmat dan Ridho Allah SWT, kami bermaksud mengundang Saudara/i dalam acara syukuran Ngunduh-mantu kami."
           },
           mempelai: {
             mempelai1: "THE BRIDE",
-            mempelai1Nama: "Bintan<br>Pradika",
-            mempelai1Anak: "Putra kedua dari:",
-            mempelai1Ortu: "Bapak Suratno & Ibu Yanti",
-            mempelai1Linkedin: "https://www.linkedin.com/in/bintanpradika/",
+            mempelai1Nama: "Nabila Nur<br>Harindrastuti",
+            mempelai1Anak: "Putri ketiga dari:",
+            mempelai1Ortu: "Bapak Haryanto WS &<br>Ibu Emmy Indrati",
+            mempelai1Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/",
             mempelai2: "THE GROOM",
-            mempelai2Nama: "Nabila Nur<br>Harindrastuti",
-            mempelai2Anak: "Putri ketiga dari:",
-            mempelai2Ortu: "Bapak Haryanto WS & Ibu Emmy Indrati",
-            mempelai2Linkedin: "https://www.linkedin.com/in/nabila-nur-harindrastuti-5bb932104/"
+            mempelai2Nama: "Bintan<br>Pradika",
+            mempelai2Anak: "Putra kedua dari:",
+            mempelai2Ortu: "Bapak Suratno &<br>Ibu Yanti",
+            mempelai2Linkedin: "https://www.linkedin.com/in/bintanpradika/"
           },
           resepsi: {
             judul: "NGUNDUH MANTU",
-            tanggal: "SABTU, 17 DESEMBER 2022",
+            tanggal: "SABTU,<br>17 DESEMBER 2022",
             jam: "12:30-17:00 WIB",
             alamat: "Planet Holiday Hotel<br>Jl. Raja Ali H., Sei Jodoh,<br>Batam",
+            lokasi: "Lihat Lokasi",
             google: "https://maps.app.goo.gl/P6pggUdoGgHs9WCG6"
           },
           reservasi: {
             judul: "Reservasi Kehadiran",
-            deskripsi: "Diharapkan kepada tamu undangan untuk<br>mengisi formulir kehadiran dibawah ini",
+            deskripsi: "Diharapkan kepada tamu undangan untuk mengisi formulir kehadiran dibawah ini agar kami dapat mempersiapkan semuanya dengan lebih baik",
             nama: "Nama",
-            kehadiran: "Kehadiran",
-            jumlah: "Jumlah",
+            kehadiran: "Apakah Anda akan menghadiri acara kami?",
+            jumlah: "Berapa orang yang akan hadir (termasuk Anda)?",
             ya: "Ya",
             tidak: "Tidak",
             submitted: "Data berhasil disubmit",
-            submittedDescription: "Terima kasih atas reservasinya, kami menantikan kehadirannya",
+            submittedDescription: "Kami dengan tulus berterima kasih atas reservasi Anda",
             notSubmitted: "Data gagal disubmit",
             notSubmittedDescription: "Harap lengkapi formulir terlebih dahulu"
           },
           prokes: {
             judul: "Prokes",
-            deskripsi: "Invited guests are welocomed to fill out the attendance confirmation below",
-            poin1: "Menggunakan masker",
-            poin2: "Menggunakan masker",
-            poin3: "Menggunakan masker",
-            poin4: "Menggunakan masker"
+            deskripsi: "Kami berterima kasih jika Anda dapat mengikuti protokol kesehatan Covid-19 berikut",
+            poin1: "Menggunakan<br>masker",
+            poin2: "Menjaga<br>kesehatan",
+            poin3: "Menjaga<br>jarak",
+            poin4: "Menjaga<br>kebersihan"
           },
           streaming: {
             judul: "Live Streaming",
@@ -605,8 +624,11 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
             judul: "Our Gallery"
           },
           gift: {
-            judul: "Wedding Love Gift",
-            deskripsi: "Apabila tamu ingin mengirimkan hadiah ke pada kedua mempelai, kami akan sangat berterima kasih",
+            judul: "Wedding Gift",
+            deskripsi: "Kehadiran Anda adalah sebuah hadiah bagi kami. Namun, jika Anda ingin memberi kami sesuatu yang lain, silakan ketuk tombol di bawah untuk informasi lebih lanjut.",
+            copied: "Berhasil disalin: ",
+            rekening: "2370348882",
+            modal: "\n                Terima kasih telah menambah kemeriahan pernikahan kami dengan kehadiran dan hadiah Anda.\n                <br>\n                <br>\n                Bank Central Asia (BCA)\n                <br>\n                Account Name: Bintan Pradika\n                <br>\n                Account Number: 5725858466\n                <br>\n                SWIFT Code (for non-indonesian colleague): CENAIDJA\n                <br>\n              ",
             link: "http://link.com",
             aksi: "Klik disini"
           },
@@ -1266,11 +1288,55 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                           "flex flex-column flex-items-center flex-justify-center text-center height-100 text-black padding-y-96-sm",
                       },
                       [
+                        _vm.$t(_vm.$route.meta.type + ".cover.judul")
+                          ? _c("div", { staticClass: "fw-400 text-dark" }, [
+                              _c("span", {
+                                domProps: {
+                                  innerHTML: _vm._s(
+                                    _vm.$t(
+                                      _vm.$route.meta.type + ".sambutan.kepada"
+                                    )
+                                  ),
+                                },
+                              }),
+                            ])
+                          : _vm._e(),
+                        _vm._v(" "),
                         _c(
                           "div",
                           {
                             staticClass:
-                              "h1 fw-200 margin-top-40 margin-bottom-24-sm ff-vibes fs-cover-mempelai",
+                              "fw-400 h2 h4-sm margin-top-8 text-darkest fs-italic",
+                            staticStyle: { "letter-spacing": "2.2px" },
+                          },
+                          [
+                            _c("span", {
+                              domProps: { innerHTML: _vm._s(_vm.pengunjung) },
+                            }),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          { staticClass: "margin-top-8 fw-200 text-dark" },
+                          [
+                            _c("span", {
+                              domProps: {
+                                innerHTML: _vm._s(
+                                  _vm.$t(
+                                    _vm.$route.meta.type + ".sambutan.deskripsi"
+                                  )
+                                ),
+                              },
+                            }),
+                          ]
+                        ),
+                        _vm._v(" "),
+                        _c(
+                          "div",
+                          {
+                            staticClass:
+                              "h1 fw-200 margin-top-60 margin-bottom-24-sm ff-vibes fs-cover-mempelai",
                             staticStyle: {
                               "font-size": "120px",
                               "line-height": "120px",
@@ -1301,33 +1367,6 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                                 ) +
                                 "\n          "
                             ),
-                          ]
-                        ),
-                        _vm._v(" "),
-                        _vm.$t(_vm.$route.meta.type + ".cover.judul")
-                          ? _c("div", { staticClass: "fw-400 text-dark" }, [
-                              _c("span", {
-                                domProps: {
-                                  innerHTML: _vm._s(
-                                    _vm.$t(
-                                      _vm.$route.meta.type + ".sambutan.kepada"
-                                    )
-                                  ),
-                                },
-                              }),
-                            ])
-                          : _vm._e(),
-                        _vm._v(" "),
-                        _c(
-                          "div",
-                          {
-                            staticClass: "fw-400 h3 margin-top-4 text-darkest",
-                            staticStyle: { "letter-spacing": "2px" },
-                          },
-                          [
-                            _c("span", {
-                              domProps: { innerHTML: _vm._s(_vm.pengunjung) },
-                            }),
                           ]
                         ),
                         _vm._v(" "),
@@ -1392,7 +1431,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                         transition: "background-image 0.4s ease-in-out",
                       },
                       style: {
-                        backgroundImage: "url('" + _vm.gallery2[4] + "')",
+                        backgroundImage: "url('" + _vm.cover[1] + "')",
                       },
                     }),
                     _vm._v(" "),
@@ -1429,13 +1468,34 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                           _c("span", {
                             domProps: {
                               innerHTML: _vm._s(
-                                _vm.$t(_vm.$route.meta.type + ".gift.deskripsi")
+                                _vm.$t(_vm.$route.meta.type + ".gift.modal")
                               ),
                             },
                           }),
                         ]),
                         _vm._v(" "),
-                        _c("div", { staticClass: "margin-top-36" }, [
+                        _c("div", { staticClass: "margin-top-24" }, [
+                          _c(
+                            "a",
+                            {
+                              staticClass: "a cursor-pointer",
+                              on: { click: _vm.copy },
+                            },
+                            [
+                              _c("img", {
+                                staticClass: "width-28px margin-right-4",
+                                attrs: {
+                                  src: "https://icons.veryicon.com/png/o/miscellaneous/simple-icon/copy-65.png",
+                                },
+                              }),
+                              _vm._v(
+                                "\n              copy account number\n            "
+                              ),
+                            ]
+                          ),
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "margin-top-60" }, [
                           _c(
                             "a",
                             {
@@ -1461,6 +1521,14 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
             "has-bg-img height-100vh height-auto-sm padding-y-96-sm padding-x-24",
         },
         [
+          _c("div", {
+            staticClass: "bg-img bg-img-no-repeat",
+            staticStyle: { transition: "background-image 0.4s ease-in-out" },
+            style: {
+              backgroundImage: "url('" + _vm.cover[0] + "')",
+            },
+          }),
+          _vm._v(" "),
           _c("div", {
             staticClass: "bg-img bg-img-no-repeat",
             staticStyle: { transition: "background-image 0.4s ease-in-out" },
@@ -1605,13 +1673,13 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                   attrs: { "data-aos": "fade-in", "data-aos-delay": "300" },
                 },
                 [
-                  _vm._v(
-                    "\n        " +
-                      _vm._s(
+                  _c("span", {
+                    domProps: {
+                      innerHTML: _vm._s(
                         _vm.$t(_vm.$route.meta.type + ".alquran.deskripsi")
-                      ) +
-                      "\n      "
-                  ),
+                      ),
+                    },
+                  }),
                 ]
               ),
             ]
@@ -1957,22 +2025,30 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
         ]
       ),
       _vm._v(" "),
-      _c("div", { staticClass: "has-bg-img text-center text-grayer" }, [
-        _c("iframe", {
-          ref: "iframe",
-          staticClass: "absolute width-100 left-0",
-          staticStyle: { top: "-80px", height: "140%" },
-          style: { "pointer-events": _vm.video.play && "none" },
-          attrs: {
-            frameborder: "0",
-            allowfullscreen: "1",
-            allow: "autoplay",
-            title: "Bintan Ella",
-            src: "https://www.youtube.com/embed/kH7wlLOQMNM?&autoplay=1&controls=0&rel=0&playsinline=1&enablejsapi=1",
+      _c("div", { staticStyle: { "max-height": "700px" } }, [
+        _c(
+          "div",
+          {
+            staticClass: "relative height-0 max-height-100 margin-x-auto",
+            staticStyle: { padding: "25px 0 56.25%" },
           },
-        }),
-        _vm._v(" "),
-        _c("div", { staticStyle: { height: "400px" } }),
+          [
+            _c("iframe", {
+              ref: "iframe",
+              staticClass: "absolute top-0 left-0 width-100 height-100",
+              staticStyle: { "max-height": "700px" },
+              style: { "pointer-events": _vm.video.play && "none" },
+              attrs: {
+                frameborder: "0",
+                allowfullscreen: "1",
+                allow: "autoplay",
+                title: "Bintan Ella",
+                asrc: "https://www.youtube.com/embed/kH7wlLOQMNM?autoplay=1&controls=0&rel=0&playsinline=1&enablejsapi=1",
+                src: "https://www.youtube.com/embed/vxJZcBeBcfs?autoplay=1&loop=1&list=PLYSJIb1ahQFnbd5CQ-yUWOe9a1_eavK9j&controls=0&rel=0&playsinline=0&enablejsapi=1",
+              },
+            }),
+          ]
+        ),
       ]),
       _vm._v(" "),
       _vm.$route.meta.type !== "resepsiOnline"
@@ -2142,9 +2218,16 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                                       },
                                     },
                                     [
-                                      _vm._v(
-                                        "\n              Google maps\n            "
-                                      ),
+                                      _c("span", {
+                                        domProps: {
+                                          innerHTML: _vm._s(
+                                            _vm.$t(
+                                              _vm.$route.meta.type +
+                                                ".resepsi.lokasi"
+                                            )
+                                          ),
+                                        },
+                                      }),
                                     ]
                                   )
                                 : _vm._e(),
@@ -2303,9 +2386,16 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                                           },
                                         },
                                         [
-                                          _vm._v(
-                                            "\n              Google maps\n            "
-                                          ),
+                                          _c("span", {
+                                            domProps: {
+                                              innerHTML: _vm._s(
+                                                _vm.$t(
+                                                  _vm.$route.meta.type +
+                                                    ".resepsi.lokasi"
+                                                )
+                                              ),
+                                            },
+                                          }),
                                         ]
                                       )
                                     : _vm._e(),
@@ -3284,9 +3374,7 @@ var BintanEllavue_type_template_id_17e87cfe_staticRenderFns = [
     return _c("div", [
       _c("img", {
         staticClass: "margin-x-auto rounded-8 width-80",
-        attrs: {
-          src: "https://ngantenstory.co/wp-content/uploads/2022/03/Covid-Masker-300x220-1-300x220.png",
-        },
+        attrs: { src: __webpack_require__(253) },
       }),
     ])
   },
@@ -3297,9 +3385,7 @@ var BintanEllavue_type_template_id_17e87cfe_staticRenderFns = [
     return _c("div", [
       _c("img", {
         staticClass: "margin-x-auto rounded-8 width-80",
-        attrs: {
-          src: "https://ngantenstory.co/wp-content/uploads/2022/03/Covid-WashHand-300x220-1-300x220.png",
-        },
+        attrs: { src: __webpack_require__(5145) },
       }),
     ])
   },
@@ -3310,9 +3396,7 @@ var BintanEllavue_type_template_id_17e87cfe_staticRenderFns = [
     return _c("div", [
       _c("img", {
         staticClass: "margin-x-auto rounded-8 width-80",
-        attrs: {
-          src: "https://ngantenstory.co/wp-content/uploads/2022/03/Covid-Distancing-300x220-1-300x220.png",
-        },
+        attrs: { src: __webpack_require__(4924) },
       }),
     ])
   },
@@ -3323,9 +3407,7 @@ var BintanEllavue_type_template_id_17e87cfe_staticRenderFns = [
     return _c("div", [
       _c("img", {
         staticClass: "margin-x-auto rounded-8 width-80",
-        attrs: {
-          src: "https://ngantenstory.co/wp-content/uploads/2022/03/Covid-Washing-300x220-1-300x220.png",
-        },
+        attrs: { src: __webpack_require__(7218) },
       }),
     ])
   },
@@ -3395,7 +3477,7 @@ var toast = function (toastr) {
 
   var options = {
     containerId: 'toast-container',
-    toastClass: 'toast',
+    toastClass: 'toast text-wrap',
     tapToDismiss: true,
     debug: false,
     showMethod: 'fadeIn',
@@ -3999,6 +4081,25 @@ function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return functio
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 
 
@@ -4019,8 +4120,8 @@ function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return functio
       bg: __webpack_require__(9169),
       footer: __webpack_require__(4268),
       cover: [__webpack_require__(9926), __webpack_require__(2804), __webpack_require__(5000), __webpack_require__(6677), __webpack_require__(2874)],
-      gallery1: [__webpack_require__(6713), __webpack_require__(1273), __webpack_require__(4559), __webpack_require__(7397)],
-      gallery2: [__webpack_require__(6713), __webpack_require__(1273), __webpack_require__(4559), __webpack_require__(7397), __webpack_require__(6078), __webpack_require__(1273)],
+      gallery1: [__webpack_require__(6100), __webpack_require__(5748), __webpack_require__(1853), __webpack_require__(4702), __webpack_require__(6023), __webpack_require__(6069), __webpack_require__(9473), __webpack_require__(1660), __webpack_require__(7314), __webpack_require__(5654), __webpack_require__(2165), __webpack_require__(4776), __webpack_require__(3392)],
+      gallery2: [__webpack_require__(3283), __webpack_require__(7478), __webpack_require__(1375), __webpack_require__(1889), __webpack_require__(1020)],
       tamu: {
         nama: "",
         kehadiran: "Ya",
@@ -4096,6 +4197,11 @@ function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return functio
     }
   },
   methods: {
+    copy: function copy() {
+      var copiedValue = this.$t("".concat(this.$route.meta.type, ".gift.rekening"));
+      navigator.clipboard.writeText(copiedValue);
+      alert(this.$t("".concat(this.$route.meta.type, ".gift.copied")) + copiedValue);
+    },
     modalSambutanOpen: function modalSambutanOpen() {
       this.modal.sambutan = true;
     },
@@ -4217,7 +4323,7 @@ var router = new vue_router_esm/* default */.Z({
       children: [{
         path: '',
         beforeEnter: function beforeEnter(to, from, next) {
-          next(url('/unduh-mantu/Dearest-Guest'));
+          next(url('/unduh-mantu/Guest'));
         }
       }, {
         path: 'resepsi/:tamu',
@@ -4251,7 +4357,7 @@ var router = new vue_router_esm/* default */.Z({
   }, {
     path: '',
     beforeEnter: function beforeEnter(to, from, next) {
-      next(url('/unduh-mantu/Dearest-Guest'));
+      next(url('/unduh-mantu/Guest'));
     }
   }]
 });
@@ -4356,63 +4462,182 @@ module.exports = __webpack_require__.p + "assets/img/cover4144ec4e5.jpg";
 /***/ 2874:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/cover59d303d20.jpg";
+module.exports = __webpack_require__.p + "assets/img/cover5b7233d5a.jpg";
 
 /***/ }),
 
 /***/ 4268:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/footer7cf7e66d.jpg";
+module.exports = __webpack_require__.p + "assets/img/footer5d16548c.jpg";
 
 /***/ }),
 
-/***/ 6713:
+/***/ 6100:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/gallery_1aefadf10.jpg";
+module.exports = __webpack_require__.p + "assets/img/gallery_a1a09ca010.jpg";
 
 /***/ }),
 
-/***/ 1273:
+/***/ 5654:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/gallery_2227bd135.jpg";
+module.exports = __webpack_require__.p + "assets/img/gallery_a1021a42c5b.jpg";
 
 /***/ }),
 
-/***/ 4559:
+/***/ 2165:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/gallery_32f7d5fa2.jpg";
+module.exports = __webpack_require__.p + "assets/img/gallery_a11c78b4d16.jpg";
 
 /***/ }),
 
-/***/ 7397:
+/***/ 4776:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/gallery_410a978bb.jpg";
+module.exports = __webpack_require__.p + "assets/img/gallery_a120de54a89.jpg";
 
 /***/ }),
 
-/***/ 6078:
+/***/ 3392:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/gallery_5aeefc7b3.jpg";
+module.exports = __webpack_require__.p + "assets/img/gallery_a136eb6c91a.jpg";
+
+/***/ }),
+
+/***/ 5748:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/gallery_a2a9b707a1.jpg";
+
+/***/ }),
+
+/***/ 1853:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/gallery_a3b8b7bbd1.jpg";
+
+/***/ }),
+
+/***/ 4702:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/gallery_a4662d1b86.jpg";
+
+/***/ }),
+
+/***/ 6023:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/gallery_a516d34611.jpg";
+
+/***/ }),
+
+/***/ 6069:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/gallery_a66dafdf6c.jpg";
+
+/***/ }),
+
+/***/ 9473:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/gallery_a7f97ac395.jpg";
+
+/***/ }),
+
+/***/ 1660:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/gallery_a8823a1cfc.jpg";
+
+/***/ }),
+
+/***/ 7314:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/gallery_a99006f437.jpg";
+
+/***/ }),
+
+/***/ 3283:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/gallery_b1aefadf10.jpg";
+
+/***/ }),
+
+/***/ 7478:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/gallery_b2227bd135.jpg";
+
+/***/ }),
+
+/***/ 1375:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/gallery_b32f7d5fa2.jpg";
+
+/***/ }),
+
+/***/ 1889:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/gallery_b410a978bb.jpg";
+
+/***/ }),
+
+/***/ 1020:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/gallery_b5aeefc7b3.jpg";
 
 /***/ }),
 
 /***/ 6056:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/mempelai_pria8b530c4b.jpg";
+module.exports = __webpack_require__.p + "assets/img/mempelai_pria3d625cc4.jpg";
 
 /***/ }),
 
 /***/ 5045:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "assets/img/mempelai_wanita9117ac98.jpg";
+module.exports = __webpack_require__.p + "assets/img/mempelai_wanita00719457.jpg";
+
+/***/ }),
+
+/***/ 253:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/prokes143db6212.png";
+
+/***/ }),
+
+/***/ 5145:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/prokes2cd48e765.png";
+
+/***/ }),
+
+/***/ 4924:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/prokes36e0b7f87.png";
+
+/***/ }),
+
+/***/ 7218:
+/***/ (function(module, __unused_webpack_exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "assets/img/prokes4b72e4c95.png";
 
 /***/ }),
 
@@ -4494,4 +4719,4 @@ module.exports = content.locals || {};
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.184aab8f.js.map
+//# sourceMappingURL=main.8f08fc62.js.map
