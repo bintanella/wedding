@@ -25,7 +25,6 @@ Vue.prototype.$url = url;
 const router = new VueRouter({
   mode: 'history',
   base: __dirname,
-  // base: '/wedding',
   scrollBehavior: (to, from, savedPosition) => savedPosition || { x: 0, y: 0 },
   routes: [
     {
@@ -39,18 +38,18 @@ const router = new VueRouter({
             {
               path: '',
               beforeEnter: (to, from, next) => {
-                next(url('/resepsi'));
+                next(url('/unduh-mantu/Guest'));
               },
             },
             {
-              path: 'resepsi',
+              path: 'resepsi/:tamu',
               component: BintanElla,
               meta: {
                 type: "resepsi",
               },
             },
             {
-              path: 'unduh-mantu',
+              path: 'unduh-mantu/:tamu',
               component: BintanElla,
               meta: {
                 type: "unduhMantu",
@@ -80,7 +79,7 @@ const router = new VueRouter({
     {
       path: '',
       beforeEnter: (to, from, next) => {
-        next(url('/resepsi'));
+        next(url('/unduh-mantu/Guest'));
       },
     },
   ]

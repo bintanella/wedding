@@ -24,7 +24,7 @@ module.exports = function(_env, argv) {
       filename: "[name].[contenthash:8].js",
       chunkFilename: "[name].[contenthash:8].js",
       sourceMapFilename: "[name].[contenthash:8].js.map",
-      publicPath: isProduction ? "/wedding/" : "/",
+      publicPath: "/",
     },
     module: {
       rules: [

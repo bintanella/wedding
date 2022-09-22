@@ -3,16 +3,16 @@
   z-index: 1;
 }
 .toast-top-left {
-  top: 12px;
+  top: 96px;
   left: 12px;
 }
 .toast-top-center {
-  top: 12px;
+  top: 96px;
   right: 0;
   width: 100%;
 }
 .toast-top-right {
-  top: 12px;
+  top: 96px;
   right: 12px;
 }
 .toast-bottom-left {
@@ -29,7 +29,7 @@
   bottom: 12px;
 }
 .toast-top-full-width {
-  top: 12px;
+  top: 96px;
   right: 0;
   width: 100%;
 }
@@ -42,7 +42,7 @@
 .toast {
   position: relative;
   margin: 0 0 16px;
-  width: 300px;
+  width: 400px;
 }
 .toast:hover {
   cursor: pointer;

@@ -14,25 +14,4 @@ body { font-family: lato, sans-serif }
 @import "@/assets/scss/plugin/pagination";
 @import "@/assets/scss/plugin/toastr";
 
-// demo styling
-.container-compact {
-  margin: 0 auto;
-  padding: 0 24px;
-  max-width: 100%;
-  width: 960px;
-}
-$container-max-widths: (
-  "xl": 960px,
-  "lg": 960px,
-  "md": 960px,
-  "sm": 720px,
-  "xs": 540px,
-  "xxs": 100%
-);
-@each $breakpoint, $value in $breakpoints {
-  @media (max-width: $value) {
-    .container-compact {
-      width: map-get($container-max-widths, $breakpoint);
-    }
-  }
-}
+@import "aos/dist/aos.css";
