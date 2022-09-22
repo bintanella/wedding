@@ -340,10 +340,10 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           prokes: {
             judul: "Health Protocol",
             deskripsi: "It’s important to us that everyone stays safe, please read carefully our Wedding Day Covid-19 Guidance before attending the event",
-            poin1: "Waering masker",
-            poin2: "Stay healthy",
-            poin3: "Social distancing",
-            poin4: "Stay clean"
+            poin1: "Waering<br>masker",
+            poin2: "Stay<br>healthy",
+            poin3: "Social<br>distancing",
+            poin4: "Stay<br>clean"
           },
           streaming: {
             judul: "Live Streaming",
@@ -420,10 +420,10 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           prokes: {
             judul: "Health Protocol",
             deskripsi: "It’s important to us that everyone stays safe, please read carefully our Wedding Day Covid-19 Guidance before attending the event",
-            poin1: "Waering masker",
-            poin2: "Stay healthy",
-            poin3: "Social distancing",
-            poin4: "Stay clean"
+            poin1: "Waering<br>masker",
+            poin2: "Stay<br>healthy",
+            poin3: "Social<br>distancing",
+            poin4: "Stay<br>clean"
           },
           streaming: {
             judul: "Live Streaming",
@@ -4719,4 +4719,4 @@ module.exports = content.locals || {};
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.8f08fc62.js.map
+//# sourceMappingURL=main.d6d349f5.js.map
