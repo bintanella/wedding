@@ -340,7 +340,7 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           prokes: {
             judul: "Health Protocol",
             deskripsi: "It’s important to us that everyone stays safe, please read carefully our Wedding Day Covid-19 Guidance before attending the event",
-            poin1: "Waering<br>masker",
+            poin1: "Waering<br>mask",
             poin2: "Stay<br>healthy",
             poin3: "Social<br>distancing",
             poin4: "Stay<br>clean"
@@ -420,7 +420,7 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           prokes: {
             judul: "Health Protocol",
             deskripsi: "It’s important to us that everyone stays safe, please read carefully our Wedding Day Covid-19 Guidance before attending the event",
-            poin1: "Waering<br>masker",
+            poin1: "Waering<br>mask",
             poin2: "Stay<br>healthy",
             poin3: "Social<br>distancing",
             poin4: "Stay<br>clean"
@@ -608,7 +608,7 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
             notSubmittedDescription: "Harap lengkapi formulir terlebih dahulu"
           },
           prokes: {
-            judul: "Prokes",
+            judul: "Protokol Kesehatan",
             deskripsi: "Kami berterima kasih jika Anda dapat mengikuti protokol kesehatan Covid-19 berikut",
             poin1: "Menggunakan<br>masker",
             poin2: "Menjaga<br>kesehatan",
@@ -2043,8 +2043,7 @@ var BintanEllavue_type_template_id_17e87cfe_render = function () {
                 allowfullscreen: "1",
                 allow: "autoplay",
                 title: "Bintan Ella",
-                asrc: "https://www.youtube.com/embed/kH7wlLOQMNM?autoplay=1&controls=0&rel=0&playsinline=1&enablejsapi=1",
-                src: "https://www.youtube.com/embed/vxJZcBeBcfs?autoplay=1&loop=1&list=PLYSJIb1ahQFnbd5CQ-yUWOe9a1_eavK9j&controls=0&rel=0&playsinline=0&enablejsapi=1",
+                src: "https://www.youtube.com/embed/3Iwpe_8zj7Q?autoplay=1&loop=1&list=PLYSJIb1ahQFnX942Tx8aTxT-J8AIc-3FU&controls=0&rel=0&playsinline=0&enablejsapi=1",
               },
             }),
           ]
@@ -4099,7 +4098,6 @@ function BintanEllavue_type_script_lang_js_asyncToGenerator(fn) { return functio
 //
 //
 //
-//
 
 
 
@@ -4719,4 +4717,4 @@ module.exports = content.locals || {};
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.d6d349f5.js.map
+//# sourceMappingURL=main.b734868d.js.map
