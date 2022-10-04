@@ -340,7 +340,7 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           prokes: {
             judul: "Health Protocol",
             deskripsi: "It’s important to us that everyone stays safe, please read carefully our Wedding Day Covid-19 Guidance before attending the event",
-            poin1: "Waering<br>mask",
+            poin1: "Wearing<br>mask",
             poin2: "Stay<br>healthy",
             poin3: "Social<br>distancing",
             poin4: "Stay<br>clean"
@@ -420,7 +420,7 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           prokes: {
             judul: "Health Protocol",
             deskripsi: "It’s important to us that everyone stays safe, please read carefully our Wedding Day Covid-19 Guidance before attending the event",
-            poin1: "Waering<br>mask",
+            poin1: "Wearing<br>mask",
             poin2: "Stay<br>healthy",
             poin3: "Social<br>distancing",
             poin4: "Stay<br>clean"
@@ -4717,4 +4717,4 @@ module.exports = content.locals || {};
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.b734868d.js.map
+//# sourceMappingURL=main.4089e605.js.map
