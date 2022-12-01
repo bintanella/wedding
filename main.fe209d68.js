@@ -319,7 +319,7 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           resepsi2: {
             judul: "WEDDING RECEPTION",
             tanggal: "SUNDAY,<br>11 DECEMBER 2022",
-            jam: "12:00-16:00 WIB",
+            jam: "12:00-15:00 WIB",
             alamat: "Shangri-La Hotel<br>Jl. Jenderal Sudirman No.Kav. 1,<br>Tanah Abang, Jakarta",
             lokasi: "View Location",
             google: "https://goo.gl/maps/FcpCyjUg3NavE7ak6"
@@ -509,7 +509,7 @@ i18next/* default.use */.ZP.use(i18nextBrowserLanguageDetector/* default */.Z).i
           resepsi2: {
             judul: "RESEPSI PERNIKAHAN",
             tanggal: "MINGGU,<br>11 DESEMBER 2022",
-            jam: "12:00-16:00 WIB",
+            jam: "12:00-15:00 WIB",
             alamat: "Shangri-La Hotel<br>Jl. Jenderal Sudirman No.Kav. 1,<br>Tanah Abang, Jakarta",
             lokasi: "Lihat Lokasi",
             google: "https://goo.gl/maps/FcpCyjUg3NavE7ak6"
@@ -4717,4 +4717,4 @@ module.exports = content.locals || {};
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ }
 ]);
-//# sourceMappingURL=main.4089e605.js.map
+//# sourceMappingURL=main.db77ba27.js.map
